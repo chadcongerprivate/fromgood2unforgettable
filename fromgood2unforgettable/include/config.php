@@ -23,8 +23,8 @@ $videoLengthSec    = 25; // if this is over even by 1 decimal point, the event w
 $calRunTimeMin     = 90; // number of minutes to use as end time for calender
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
-$domainName        = 'pageactions.com';
-$domainPrefix      = 'http://www.';
+$domainName        = 'motivatingthemasses.com';
+$domainPrefix      = 'http://webinars.';
 $ctaLink           = $domainPrefix.$domainName.$path.'order/';
 $dateCookieName    = 'sfuipDate';
 
