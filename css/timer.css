@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.timer-black {
+	text-align: center;
+}
+.timer-black .time-box {
+	display: inline-block;
+	color: #FFF;
+	line-height: 1;
+}
+.timer-black .time-no {
+	background-color: #1a1a1a;
+	margin: 0px 5px;
+}
+.timer-black .time-no span {
+	display: inline-block;
+	text-align: center;
+	width: 35px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 36px;
+}
+.timer-black .time-no span:first-child {
+	border-right: 1px solid #FFF;
+}
+.timer-black .time-no span:last-child {
+	border-left: 1px solid #FFF;
+}
+.timer-black .time-desc {
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	color: #5c5c60;
+	font-weight: 600;
+}
