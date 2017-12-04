@@ -24,7 +24,7 @@ $calRunTimeMin     = 90; // number of minutes to use as end time for calender
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';
-$domainPrefix      = 'http://webinars.';
+$domainPrefix      = 'https://webinars.';
 $ctaLink           = $domainPrefix.$domainName.$path.'order/';
 $dateCookieName    = 'sfuipDate';
 
