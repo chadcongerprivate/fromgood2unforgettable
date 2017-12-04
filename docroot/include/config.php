@@ -45,7 +45,7 @@ $timeTags          = array( // this is required only if using date above (this i
 );
 
 // event information
-$webinarName       = 'Speak For Ultimate Impact & Profit';
+$webinarName       = 'From Good To Unforgettable';
 $autoChat          = true;
 $shareTitle        = 'Speak For Ultimate Impact & Profit';
 $shareImage        = $domainPrefix.$domainName.$path.'images/share.jpg';

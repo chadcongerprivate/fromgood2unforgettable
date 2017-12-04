@@ -1,7 +1,7 @@
 <?php
 
-$path              = '/fromgood2unforgettable/'; // (/ = root)
-$localPath         = '/mtm/fromgood2unforgettable/'; // leave blank if root
+$path              = '/docroot/'; // (/ = root)
+$localPath         = '/mtm/docroot/'; // leave blank if root
 $localHttpHost     = 'localhost:8888'; // use $_SERVER['HTTP_HOST'] on your local testing server if you're not sure
 
 // don't edit anything past this line
