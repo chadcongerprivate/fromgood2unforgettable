@@ -1,7 +1,7 @@
 <?php
 
 $includePath = '/include/';
-$path  = '';
+$path  = '/';
 // functions
 include($includePath.'functions.php');
 
