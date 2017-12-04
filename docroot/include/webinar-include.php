@@ -1,6 +1,6 @@
 <?php
 
-$includePath = 'include/';
+$includePath = $_SERVER['DOCUMENT_ROOT'] .'/include/';
 $path  = '/';
 // functions
 include($includePath.'functions.php');
