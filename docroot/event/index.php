@@ -53,14 +53,29 @@ if($now < $unixStartTime){
 		<div id="video-container">
 			<div id="event-stream">
 			</div>
+			
+		<div id="info-area">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+		<div class="pre-cta">
+			<p>If you would like to learn more about MTM products/services <a href="<?=$ctaLink?>" target="_blank">click here</a> or call (760)-931-9400.</p><p>
+
+If you require support or have a question please email <a href="mailto:support@motivatingthemasses.com" target="_blank">support@motivatingthemasses.com</a></p>
+	</div>
+		<div class="post-cta hidden">
+			<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta cta">Add to Cart</a>
+			<p style="margin-top: 10px;"><a href="<?=$ctaLink?>" target="_blank">YES! YES! Lisa! I’m ready to become an <span class="word-wrap">unforgettable speaker!</span></a></p>
+			
+		</div></div>
+		</div>
+		</div>
+		</div>
 		</div>
 	</div>
 	<div class="right-col">
 		<div id="chat-header" class="hidden-xs hidden-sm">
 			<img src="../images/logo.png" class="img-responsive img-responsive-center">
-		</div>
-		<div class="post-cta hidden cta-mobile hidden-lg hidden-md">
-			<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta cta">Yes, I Want This!</a>
 		</div>
 		<?php
 	if(!$autoChat){
@@ -76,9 +91,8 @@ if($now < $unixStartTime){
 				<div class="cta-tab">Learn More</div>
 				<div class="cta-toggle"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 				<div class="cta-content">
-					<h2>Click Here To Save $1,000!</h2>
-					<img class="img-responsive img-responsive-center" src="../images/presenter.jpg">
-					<p>This $1,000 Discount is Extremely Limited</p>
+					<h2>YES! YES! Lisa! I’m ready to become an unforgettable speaker!</h2>
+					<a href="<?=$ctaLink?>" target="_blank"><img class="img-responsive img-responsive-center" src="../images/presenter.jpg"></a><br>
 				</div>
 				<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta">Add to Cart</a>
 			</div>
@@ -97,6 +111,7 @@ $(function () {
 	$( window ).resize( function () {
 		containVideo();
 	} );
+	
 
 });
 </script>
