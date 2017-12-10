@@ -13,14 +13,20 @@ $videoType         = 'vimeo'; // youTube, vimeo or html5
 $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
-$videoId           = '215547436'; // youTube or vimeo video id, leave blank if using html5
-$preRollVidStart   = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
-$eventVidStart     = 0; // seconds in video where event starts (where it should be at the start time)
-$ctaVidShow        = 60 * 60; // seconds in video where main CTA should show (set false if you aren't using a main cta)
-$videoLengthHours  = 1;
-$videoLengthMin    = 45;
-$videoLengthSec    = 25; // if this is over even by 1 decimal point, the event will not end
-$calRunTimeMin     = 90; // number of minutes to use as end time for calender
+$videoId             = '215547436'; // youTube or vimeo video id, leave blank if using html5
+$videoIdReplay       = '244923795';
+$videoIdSummary      = '216225543';
+$preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
+$eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
+$ctaVidShow          = 60 * 60; // seconds in video where main CTA should show (set false if you aren't using a main cta)
+$ctaVidShowSummary   = 30 * 60; // seconds in video where main CTA should show (set false if you aren't using a main cta)
+$videoLengthHours    = 1;
+$videoLengthMin      = 45;
+$videoLengthSec      = 25; // if this is over even by 1 decimal point, the event will not end
+$calRunTimeMin       = 90; // number of minutes to use as end time for calender
+$summaryLengthHours  = 0;
+$summaryLengthMin    = 56;
+$summaryLengthSec    = 31; // if this is over even by 1 decimal point, the event will not end
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';
@@ -82,12 +88,14 @@ $visualElements    = array(
 /* event tags (use the line below to create in Infusionsoft)
 Registered,SMS Reminders,Attended,Saw CTA,Clicked CTA
 */
-$groupCategoryId   = 169;
-$tagRegistered     = 4907;
-$tagSMSReminder    = 4909;
-$tagAttended       = 4911;
-$tagSawCta         = 4913;
-$tagClickedCta     = 4915;
+$groupCategoryId    = 169;
+$tagRegistered      = 4907;
+$tagSMSReminder     = 4909;
+$tagAttended        = 4911;
+$tagAttendedReplay  = 0;
+$tagAttendedSummary = 0;
+$tagSawCta          = 4913;
+$tagClickedCta      = 4915;
 
 /* timing tags (use the line below to create in Infusionsoft - delete any that you don't want first)
 Stayed 10min,Stayed 15min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 45min,Stayed 50min,Stayed 60min,Stayed 70min,Stayed 80min,Stayed 90min,Stayed 120min,Stayed 180min,Stayed 240min,Stayed 300min,Stayed 360min,Stayed 420min,Stayed 480min
@@ -96,6 +104,32 @@ Stayed 10min,Stayed 15min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 45min,St
 Stayed 10min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 50min,Stayed 60min,Stayed 70min,Stayed 80min,Stayed 90min,Stayed 100min,Stayed 120min,Stayed 180min,Stayed 240min,Stayed 300min,Stayed 360min,Stayed 420min,Stayed 480min
 */
 $tagsTiming        = array( // minutes stayed => tagId
+						10   => 4917,
+						20   => 4919,
+						30   => 4921,
+						40   => 4923,
+						50   => 4925,
+						60   => 4927,
+						70   => 4929,
+						80   => 4931,
+						90   => 4933,
+						100  => 4935,
+						110  => 4937,
+						);
+$tagsTimingReplay  = array( // minutes stayed => tagId
+						10   => 4917,
+						20   => 4919,
+						30   => 4921,
+						40   => 4923,
+						50   => 4925,
+						60   => 4927,
+						70   => 4929,
+						80   => 4931,
+						90   => 4933,
+						100  => 4935,
+						110  => 4937,
+						);
+$tagsTimingSummary = array( // minutes stayed => tagId
 						10   => 4917,
 						20   => 4919,
 						30   => 4921,

@@ -545,6 +545,7 @@ function videoBasedActions(){
 
 function timedTagActions(){
 	global $contactId;
+	global $summary;
 	global $tagsTiming;
 	global $secTilEndEvent;
 	

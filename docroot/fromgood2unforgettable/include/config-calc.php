@@ -18,6 +18,28 @@ if($dateTimeType == 'text'){
 	$infQs = '?contactId=~Contact.Id~&tz=~Contact.'.$tzMergeField.'~';
 }
 
+// check for replay or summary
+if(isset($replay)){
+	if($replay){
+		$videoId     = $videoIdReplay;
+		$tagAttended = $tagAttendedReplay;
+		$tagsTiming  = $tagsTimingReplay;
+	}
+}
+if(isset($summary)){
+	if($summary){
+		$videoId     = $videoIdSummary;
+		$tagsTiming  = $tagsTimingSummary;
+		$tagAttended = $tagAttendedSummary;
+		
+		// summary has new cta time and video length
+		$ctaVidShow       = $ctaVidShowSummary;
+		$videoLengthHours = $summaryLengthHours;
+		$videoLengthMin   = $summaryLengthMin;
+		$videoLengthSec   = $summaryLengthSec;
+	}
+}
+
 // generate calendar links
 $calLinkGoogle  = $shareLink.'add-to-calendar/?contactId='.$contactId.'&tz='.urlencode($timezone).'&cal=google'.$addToQsWebLink;
 $calLinkOutlook = $shareLink.'add-to-calendar/?contactId='.$contactId.'&tz='.urlencode($timezone).'&cal=outlook'.$addToQsWebLink;
@@ -47,4 +69,6 @@ $linkedinShareLink = 'https://www.linkedin.com/shareArticle?mini=true&url='.urle
 $subject           = $shareTitle;
 $body              = htmlentities($shareDescription.' Register here: '.$shareLink);
 $emailShareLink    = 'mailto:?subject='.$subject.'&body='.$body;
+
+
 
