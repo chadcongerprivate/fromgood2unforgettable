@@ -71,6 +71,7 @@ if($secTilRedirectCon <= 0){
 				<div class="col-md-8">
 					<div id="confirmationBox">
 						<h2>Congratulations, Your Seat Is Reserved!</h2>
+						<p><?=$fullDate1?> <?=$timezoneAbr?></p>
 						<p><em>(All details are in an email coming to your inbox right now. If you don’t receive your message in the next 10 minutes, please check your spam folder.)</em>
 						</p>
 						<h1>From Good to UNFORGETTABLE						</h1>
