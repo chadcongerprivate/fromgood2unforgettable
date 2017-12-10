@@ -146,7 +146,7 @@ videoBasedActions();
 timedTagActions();
 clickTagActions();
 
-$playerPath = '../js/player';
+$playerPath = '../../js/player';
 switch($videoType){
 	case 'html5':
 		$playerPath .= 'HTML5.js';
