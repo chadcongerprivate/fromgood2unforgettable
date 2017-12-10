@@ -1,12 +1,12 @@
 // tag to infusionsoft
 function infTag(tagId, contactId){
-        var url = 'https://webinars.motivatingthemasses.com/ajax/int-tag/?contactId=' + contactId + '&tagId=' + tagId;
+        var url = 'https://webinars.motivatingthemasses.com/fromgood2unforgettable/ajax/int-tag/?contactId=' + contactId + '&tagId=' + tagId;
         $.get(url);
 }
 
 // tag to database
 function dbTag(tagId, contactId){
-        var url = 'https://webinars.motivatingthemasses.com/ajax/tag-to-db/?contactId=' + contactId + '&tagId=' + tagId;
+        var url = 'https://webinars.motivatingthemasses.com/fromgood2unforgettable/ajax/tag-to-db/?contactId=' + contactId + '&tagId=' + tagId;
         $.get(url);
 }
 

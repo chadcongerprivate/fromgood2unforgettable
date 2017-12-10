@@ -425,6 +425,8 @@ if($app->cfgCon($infApp, $infKey)){
 		<tr>
 			<th>Event Tags</th>
 			<th>Timed Tags</th>
+			<th>Timed Tags Replay</th>
+			<th>Timed Tags Summary</th>
 			<th>Segment Tags</th>
 			<th>Click Tags</th>
 		</tr>
@@ -435,10 +437,26 @@ if($app->cfgCon($infApp, $infKey)){
 			<p><strong>Attended</strong><br><?=tagInfo($tagAttended)?></p>
 			<p><strong>Saw CTA</strong><br><?=tagInfo($tagSawCta)?></p>
 			<p><strong>Clicked CTA</strong><br><?=tagInfo($tagClickedCta)?></p>
+			<p><strong>Attended Replay</strong><br><?=tagInfo($tagAttendedReplay)?></p>
+			<p><strong>Attended Summary</strong><br><?=tagInfo($tagAttendedSummary)?></p>
 			</td>
 			<td>
 	<?php
 	foreach($tagsTiming as $minutes => $tagId){
+		echo '<p><strong>'.$minutes.'min</strong><br>'.tagInfo($tagId).'<br></p>';
+	}
+	?>
+	</td>
+			<td>
+	<?php
+	foreach($tagsTimingReplay as $minutes => $tagId){
+		echo '<p><strong>'.$minutes.'min</strong><br>'.tagInfo($tagId).'<br></p>';
+	}
+	?>
+	</td>
+			<td>
+	<?php
+	foreach($tagsTimingSummary as $minutes => $tagId){
 		echo '<p><strong>'.$minutes.'min</strong><br>'.tagInfo($tagId).'<br></p>';
 	}
 	?>
