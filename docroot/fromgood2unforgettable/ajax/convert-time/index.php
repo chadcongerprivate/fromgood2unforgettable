@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *"); // allows cross orgin ajax
+
 // get tz
 if(!empty($_GET['tz'])){
 	$timezone = $_GET['tz'];

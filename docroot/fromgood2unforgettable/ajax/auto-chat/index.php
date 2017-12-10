@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *"); // allows cross orgin ajax
+
 include('../included/webinar-include.php');
 $chatSeconds = $now - $unixStartTime;
 $comments    = array_map('str_getcsv', file('auto-chat-comments.csv'));
@@ -45,7 +47,7 @@ foreach($comments as $key => $comment){
 		$username = 'Comment From '.$comment[1];
 		
 		if($comment[1] == 'admin'){
-			$username = '<div class="ng-chat-logo"><img src="http://www.myneurogym.com/brain-a-thon/images/neurogym-chat-logo.jpg"></div><span class="ng-chat-comment">Team Frank Kern</span>';
+			$username = '<span class="ng-chat-comment">MTM</span>';
 		}
 		
 		$class = '';

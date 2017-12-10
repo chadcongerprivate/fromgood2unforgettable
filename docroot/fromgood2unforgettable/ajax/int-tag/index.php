@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *"); // allows cross orgin ajax
+
 include('../../include/config.php');
 
 $contactId = false;

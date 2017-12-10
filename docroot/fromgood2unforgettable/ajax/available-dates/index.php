@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *"); // allows cross orgin ajax
+
 include( '../../include/webinar-include.php' );
 echo '<option value="" selected>Select a time...</option>';
 
