@@ -58,14 +58,14 @@ include('../include/webinar-include.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<div id="infoBox" class="black-trans-bg">
+					<div id="infoBox" class="white-trans-bg">
 						<h1>
       			<span class="orange"><i style="font-size: 30px;" class="fa fa-check orange" aria-hidden="true"></i>
 Yes, Lisa!</span> I’m ready to become an unforgettable speaker. Please give me instant access to the Speak for Ultimate Impact and Profit Program.</h1>
 					
 
 
-						<div class="dark-grey-bg">
+						<div class="white-text-box">
 							Speak for Ultimate Impact and Profit is a step-by-step system for transforming yourself from a good speaker to an unforgettable speaker – and building the CEO muscle needed to create a thriving, growing, profitable speaking business.
 						</div>
 						<p class="orange"><strong>You’ll discover how to:</strong>

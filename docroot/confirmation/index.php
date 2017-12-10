@@ -99,9 +99,9 @@ if($secTilRedirectCon <= 0){
 					<h2 class="text-center purple">SPREAD THE WORD!</h2>
 					<p class="text-center">Have a friend who would be interested? Invite them to join you for this FREE webinar training:</p>
 					<ul class="platform text-center">
-						<li><a href="<?=$twitterShareLink?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<li><a href="<?=$twitterShareLink?>" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 						</li>
-						<li><a href="<?=$facebookShareLink?>"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<li><a href="<?=$facebookShareLink?>" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						</li>
 					</ul>
 				</div>

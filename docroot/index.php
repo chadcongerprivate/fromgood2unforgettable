@@ -68,7 +68,7 @@ include( 'include/webinar-include.php' );
 						</div>
 						<p>Join Lisa Nichols for This FREE Speaker Training … and Discover How to Soar Past Being a Good Speaker … to Being UNFORGETTABLE!
 						</p>
-						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg">Learn More</button>
+						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">

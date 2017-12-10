@@ -1,7 +1,19 @@
 <?php
 
-$includePath = $_SERVER['DOCUMENT_ROOT'] .'/include/';
-$path  = '/';
+$path              = '/docroot/'; // (/ = root)
+$localPath         = '/mtm/docroot/'; // leave blank if root
+$localHttpHost     = 'localhost:8888'; // use $_SERVER['HTTP_HOST'] on your local testing server if you're not sure
+
+// don't edit anything past this line
+if($_SERVER['HTTP_HOST'] == $localHttpHost){
+	$local       = true;
+	$includePath = $_SERVER['DOCUMENT_ROOT'].$localPath.'include/';
+}else{
+	$local       = false;
+	$includePath = $_SERVER['DOCUMENT_ROOT'].$path.'include/';
+}
+
+
 // functions
 include($includePath.'functions.php');
 

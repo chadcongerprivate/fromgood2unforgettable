@@ -26,6 +26,7 @@ function playVideo() {
 
 		if ( currentTime >= ctaTime && !ctaShowing && ctaTime ) {
 			$( '.post-cta' ).removeClass( 'hidden' );
+			$( '.pre-cta' ).addClass( 'hidden' );
 			ctaToggle();
 			ctaShowing = true;
 
