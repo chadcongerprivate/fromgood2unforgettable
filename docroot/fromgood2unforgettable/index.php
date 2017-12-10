@@ -395,9 +395,10 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 	<script src="./js/timezone-detect-jstz.js"></script>
 	<script>
 		$( document ).ready( function () {
-
 			var tzInfo = jstz.determine();
 			var tz     = encodeURI(tzInfo.name());
+			// update tz on form
+			$('input[name=inf_custom_Timezone0]').val(tz);
     		
 			$.get('./ajax/available-dates/?tz='+tz,
 				 	function(options){
