@@ -63,7 +63,7 @@ include('../include/webinar-include.php');
       			<span class="orange"><i style="font-size: 30px;" class="fa fa-check orange" aria-hidden="true"></i>
 Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					
-<h4><a href="#" class=" btn-scroll">Please give me instant access</a> to you <em><strong>Speak for Ultimate Impact and Profit.</strong></em></h4>
+
 
 						<div class="white-text-box">
 							Speak for Ultimate Impact and Profit is a step-by-step system for transforming yourself from a good speaker to an unforgettable speaker – and building the CEO muscle needed to create a thriving, growing, profitable speaking business.

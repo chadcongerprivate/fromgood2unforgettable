@@ -100,7 +100,7 @@ header img{
 #hero h1{
 	color: white;
     text-shadow: 3px 3px #000;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     font-size: 23px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -195,13 +195,6 @@ header img{
 }
 #hero .dark-grey-bg{
     border-radius: 6px;
-}
-#hero h4{
-	margin-top: 0px;
-	margin-bottom: 30px;
-	line-height: 1.4;
-	color: #000;
-	font-size: 20px;
 }
 .white-text-box{
 	color: #000;

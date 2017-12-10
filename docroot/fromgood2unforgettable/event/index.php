@@ -48,7 +48,7 @@ if($now < $unixStartTime){
 
 <body>
 	<div class="left-col">
-		<header><?=$webinarName?> <img src="../images/presenter.jpg">
+		<header><?=$webinarName?>
 		</header>
 		<div id="video-container">
 			<div id="event-stream">
@@ -59,13 +59,13 @@ if($now < $unixStartTime){
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-3">
 		<div class="pre-cta">
-			<p>If you would like to learn more about MTM products/services <a href="<?=$ctaLink?>" target="_blank">click here</a> or call (760)-931-9400.</p><p>
+			<p>If you would like to learn more about MTM products/services <a href="<?=$ctaLink?>" target="_blank"><strong>click here</strong></a> or call (760)-931-9400.</p><p>
 
-If you require support or have a question please email <a href="mailto:support@motivatingthemasses.com" target="_blank">support@motivatingthemasses.com</a></p>
+If you require support or have a question please email <a href="mailto:support@motivatingthemasses.com" target="_blank"><strong>support@motivatingthemasses.com</strong></a></p>
 	</div>
 		<div class="post-cta hidden">
 			<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta cta">Add to Cart</a>
-			<p style="margin-top: 10px;"><a href="<?=$ctaLink?>" target="_blank">YES! YES! Lisa! I’m ready to become an <span class="word-wrap">unforgettable speaker!</span></a></p>
+			<p style="margin-top: 10px;"><strong><a href="<?=$ctaLink?>" target="_blank">YES! YES! Lisa! I’m ready to become an <span class="word-wrap">unforgettable speaker!</span></a></strong></p>
 			
 		</div></div>
 		</div>

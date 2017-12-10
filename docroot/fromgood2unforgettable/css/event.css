@@ -35,7 +35,7 @@ header{
 	font-family: 'Open Sans', sans-serif;
 	text-shadow: 2px 2px #000;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding: 10px 20px;
 	position: relative;
 	font-size: 20px;
