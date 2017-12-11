@@ -268,8 +268,8 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 		</div>
 	</div>
 	<!-- End Section -->
-
-	<form id="orderForm" action="https://wqy87770.infusionsoft.com/AddForms/processFormSecure.jsp" method='Post'>
+<h1><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131">PayPal</a></h1>
+<form id="orderForm" action="https://wqy87770.infusionsoft.com/AddForms/processFormSecure.jsp" method='Post'>
 		<input id="infusion_xid" value="405e123e1b0dcac499aaa1602116e04c" name="infusion_xid" type="hidden" />
 <input id="infusion_type" value="CustomFormSale" name="infusion_type" type="hidden" />
 <input id="infusion_name" value="Speak for Ultimate Impact and Profit" name="infusion_name" type="hidden" />
