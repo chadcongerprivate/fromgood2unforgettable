@@ -21,6 +21,7 @@ if($dateTimeType == 'text'){
 // check for replay or summary
 if(isset($replay)){
 	if($replay){
+		$unixStartTime = $now;
 		$videoId     = $videoIdReplay;
 		$tagAttended = $tagAttendedReplay;
 		$tagsTiming  = $tagsTimingReplay;
@@ -28,6 +29,7 @@ if(isset($replay)){
 }
 if(isset($summary)){
 	if($summary){
+		$unixStartTime = $now;
 		$videoId     = $videoIdSummary;
 		$tagsTiming  = $tagsTimingSummary;
 		$tagAttended = $tagAttendedSummary;

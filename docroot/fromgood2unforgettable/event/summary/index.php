@@ -112,7 +112,7 @@ if($autoChat){
 <!-- Start Auto Chat Functions -->
 <?php
 $chatSeconds = $now - $unixStartTime;
-$autoChatUrl = '../../ajax/auto-chat/?tz='.urlencode($tz).'&t='.urlencode($_GET['t']);
+$autoChatUrl = '../../ajax/auto-chat/?tz='.urlencode($tz).'&t='.urlencode($_GET['t']).'&webId='.strtotime('-1 day', $now);
 ?>
 <script>
 chatSeconds = <?=$chatSeconds?>;
@@ -132,7 +132,7 @@ var tagSawCta     = <?=$tagSawCta?>;
 var secTilEnd     = <?=$secTilEndEvent?>;
 var starttime     = <?=$secSinceStart?>;
 var endtime       = <?=$runTimeSeconds?>;
-var ctaTime       = <?php if($ctaVidShow){echo $ctaVidShow;}else{echo 'false';} ?>;
+var ctaTime       = 1;
 var posterPlay    = '<?=$domainPrefix.$domainName.$path.'images/poster-play.gif'?>';
 var posterloading = '<?=$domainPrefix.$domainName.$path.'images/poster-loading.gif'?>';
 var videoId       = '<?=$videoId?>';
