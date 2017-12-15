@@ -24,7 +24,7 @@ include('../include/webinar-include.php');
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="style.css?v=1" rel="stylesheet">
 	<link href="order-form.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
