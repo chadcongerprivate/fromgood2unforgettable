@@ -272,7 +272,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					<br>
 				</p>
 				<p><strong>IMPORTANT NOTE:</strong></p>
-				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="#">See Help Demo Video Here</a> or</p>
+				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
 				<p>Need Assistance? Call us at (XXX) XXX-XXXX</p>
 				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
 					</div>
@@ -833,6 +833,35 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 	<!-- End Section -->
 
 
+<!-- Exit Modal -->
+<div id="modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h2 class="text-lg text-center margin-30-t">Don't go</h2>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Exit Modal -->
+
+<!-- Video Modal -->
+<div id="paypalVid" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content"><div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">How to apply for and use PayPal Credit</h4>
+      </div>
+      <div class="modal-body">
+        <div id="paypalVideo" class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wX_juZhwQqw?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      	</div>
+    </div>
+  </div>
+</div>
+<!-- End Video Modal -->
+	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -921,6 +950,43 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 	</script>
 
 
+<!-- Exit Modal 
+<script>
+var firstExit = true;
+$(function() {
+	$('body').mouseleave(
+		function(){
+			if(firstExit){
+				firstExit = false;
+				$('#modal').modal({show:true});
+			}
+		}
+	);
+	
+});	
+</script>
+<!-- End Exit Modal -->
+
+<!-- Video Modal -->
+<script>
+var firstExit = true;
+$(function() {
+	$('.show-video').click(
+		function(){
+			$('#paypalVid').modal({show:true});
+			// auto play
+			$('#paypalVideo').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/wX_juZhwQqw?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+		}
+	);
+	
+	// reset video on close
+	$('#paypalVid').on('hidden.bs.modal', function (e) {
+  		$('#paypalVideo').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/wX_juZhwQqw?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	});
+	
+});	
+</script>
+<!-- End Vidio Modal -->
 </body>
 
 </html>
