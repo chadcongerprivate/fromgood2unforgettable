@@ -58,9 +58,23 @@ include('../../include/webinar-include.php');
 			<div class="row">
 				<div class="col-md-8">
 					<div id="confirmationBox">
-						<h2>Congratulations, Your Order<br>
-						Was Successful!</h2>
-						<p><em>(All details are in an email coming to your inbox right now. If you don’t receive your message in the next 10 minutes, please check your spam folder.)</em></p>
+						<h2 class="text-center">Congratulations!</h2>
+						<p>I’m thrilled that you’re saying “YES!” to learning how to craft an unforgettable message and earn more money with your speaking. </p>
+						<p>So many people struggle to turn their passion for speaking and creating an impact into a profitable business that harmonizes with their desired lifestyle.</p>
+						<p>But you’ve just jumped quite a bit closer by making the savvy decision to invest in <em>Speak for Ultimate Impact and Profit.</em></p>
+						<p>I’ve worked hard – really hard – for more than 20 years to build the systems and resources you’ll discover in this program.</p>
+						<p>Open your heart and mind, follow along and complete the simple assignments I give you – and I promise …</p>
+						<p>Your life will transform.</p>
+						<p>In just a moment, I’ll begin walking you through the 13-week <em>Speak for Ultimate Impact and Profit</em> program… where you’ll discover my step-by-step formula for transforming yourself into an unforgettable speaker – and building a rock-solid foundation for your speaking business.</p>
+						<p><strong>Do these two easy things right now so you can get started:</strong></p>
+						<ol>
+							<li>Check your email now for access instructions and your personalized log-in information. </li>
+							<li>Please add lisa@motivatingthemasses.com to your list of approved addresses so you don't miss any important updates from me about the course.</li>
+						</ol>
+						<p>I'm really looking forward to helping you create the life you love – and deserve!</p>
+						<p>Your sister in prosperity and possibility,</p>
+						<p>Lisa</p>
+						<p>P.S. If you have any questions about accessing the training modules or other resources, please email my team at lisa@motivatingthemasses.com.</p>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">

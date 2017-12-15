@@ -82,7 +82,7 @@ header img{
 	font-size: 18px;
 }
 #hero #confirmationBox h1{
-	text-align: center;
+	text-align: left;
 	color: #ff8606;
 	text-shadow: none;
 	font-weight: 700;
@@ -99,23 +99,24 @@ header img{
 	color: #333;
 	font-size: 25px;
 }
-#confirmationBox p{
+#confirmationBox p, #confirmationBox li{
 	color: #666;
 	text-shadow: 0 0 0 none;
-	text-align: center;
+	text-align: left;
+}
+#confirmationBox li{
+	margin-bottom: 10px;
 }
 @media (min-width: 992px) {
 	
 
 	#confirmationBox{
 		padding:40px 60px;
-		text-align: center;
 	}
 		#confirmationBox h1{
 		text-align: center;
 	}
 	#hero #confirmationBox p{
-		text-align: center;
 	}
 }
 .dark-grey-bg{

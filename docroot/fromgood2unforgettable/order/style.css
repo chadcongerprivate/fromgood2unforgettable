@@ -228,7 +228,9 @@ header img{
 	margin-top: 20px;
 	margin-right: 15px;
 }
-
+.btn-orange-lg.btn-orange-lg-big-text{
+	font-size: 23px !important;
+}
 .spacer-40{
 	height: 40px;
 }
@@ -691,6 +693,24 @@ ul.num-list2 li::before{
 	margin-bottom: 25px;
 	color: #5c5c60;
 	font-weight: 600;
+}
+.paypalInfo{
+	background-color: rgba(255,255,255,1);
+	padding: 30px;
+	margin-top: 20px;
+	color: #000;
+	border-radius: 15px;
+	padding-bottom: 40px;
+	
+}
+.paypalInfo img.btn-paypal {
+	width: 300px;
+	height: auto;
+	}
+.btn-paypal-form{
+	width: 200px;
+	height: auto;
+	margin: 15px 0px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -46,7 +46,7 @@ include('../include/webinar-include.php');
 					<img src="../images/registration/logo.png">
 				</div>
 				<div class="col-md-6 text-right hidden-sm hidden-xs">
-					<button class="btn btn-orange margin-15-tb btn-scroll">Sign Up Now!</button>
+					<button class="btn btn-orange margin-15-tb btn-scroll">Enroll Now >></button>
 				</div>
 			</div>
 		</div>
@@ -63,7 +63,7 @@ include('../include/webinar-include.php');
       			<span class="orange"><i style="font-size: 30px;" class="fa fa-check orange" aria-hidden="true"></i>
 Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					
-<h4><a href="#" class=" btn-scroll">Please give me instant access</a> to you <em><strong>Speak for Ultimate Impact and Profit.</strong></em></h4>
+<h4><a href="#" class=" btn-scroll">Please give me instant access</a> to your <em><strong>Speak for Ultimate Impact and Profit.</strong></em></h4>
 
 						<div class="white-text-box">
 							Speak for Ultimate Impact and Profit is a step-by-step system for transforming yourself from a good speaker to an unforgettable speaker – and building the CEO muscle needed to create a thriving, growing, profitable speaking business.
@@ -92,7 +92,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 							<li>And much more!
 							</li>
 						</ul>
-						<button class="btn btn-orange btn-orange-lg btn-scroll">Sign Up Now!</button>
+						<button class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block">Enroll Now >></button>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
@@ -223,14 +223,14 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 </h2>
 					<p>I wholeheartedly believe that <strong>Speak for Ultimate Impact and Profit</strong> will work for you. It’s the process that I used to transform myself from a good speaker to an unforgettable speaker … and to build a solid foundation on which I built a multi-million-dollar business as a speaker and author.
 					</p>
-					<p>If, after 30 full days of working with the material in <strong>Speak for Ultimate Impact and Profit:</strong>
+					<p>After 30 full days of working with the material in <strong>Speak for Ultimate Impact and Profit:</strong>
 					</p>
 					<ul>
-						<li>You don’t discover how to create a more impactful message in these 30 short days
+						<li>If you don’t discover how to create a more impactful message in these 30 short days
 						</li>
-						<li>You don’t learn practical ways to grow your database, win more referrals and book more speaking gigs
+						<li>If you don’t learn practical ways to grow your database, win more referrals and book more speaking gigs
 						</li>
-						<li>You’re dissatisfied for any reason (even the way the course is designed)
+						<li>If you’re dissatisfied for any reason (even the way the course is designed)
 						</li>
 					</ul>
 					<p>... let me know, and I'll happily refund 100% of your financial investment into the program – no questions asked.
@@ -256,19 +256,31 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				<div class="col-md-12">
 					<h2>Total Value: $8,797
 </h2>
-					<p><strong>Your Investment:
-			</strong>
-					</p>
-					<p>Get started today for <span class="orange">3 easy payments of just $197</span>
-					</p>
-					<p>or <span class="orange">one quick payment of just $497</span>, saving you an additional $94
-					</p>
+					<h3><strong>Your Investment:
+						</strong>
+					</h3>
+					<h3>Get started today for <span class="orange">3 easy payments of just $197</span>
+					</h3>
+					<h3>or <span class="orange">one quick payment of just $497</span>, saving you an additional $94</h3>
+					<div class="paypalInfo">
+					<h3>or Pay ZERO today with a BILL-ME-LATER Option,<br>
+						powered by PayPal Credit.</h3><br>
+					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
+						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
+</p>
+				<p>With this $497 PayPal Credit option, you get complete and full access to Speak for Ultimate Impact and Profit plus the bonus ticket to Lisa’s Speak and Write to Make Millions live 3-day event. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
+					<br>
+				</p>
+				<p><strong>IMPORTANT NOTE:</strong></p>
+				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="#">See Help Demo Video Here</a> or</p>
+				<p>Need Assistance? Call us at (XXX) XXX-XXXX</p>
+				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Section -->
-<h1><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131">PayPal</a></h1>
 <form id="orderForm" action="https://wqy87770.infusionsoft.com/AddForms/processFormSecure.jsp" method='Post'>
 		<input id="infusion_xid" value="405e123e1b0dcac499aaa1602116e04c" name="infusion_xid" type="hidden" />
 <input id="infusion_type" value="CustomFormSale" name="infusion_type" type="hidden" />
@@ -305,6 +317,9 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 <input id="PlanCount_B" value="3" name="PlanCount_B" type="hidden" />
                     <strong>Three Monthly Payments of $197</strong></label></div>
 								</div>
+								
+				If you would like to use PayPal of PayPal Credit, click the button below:<br>
+<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
 								
 								<div class="row">
 									<div class="col-md-12 padding-10-t"><img class="lock" src="../images/order/lock.svg"><em>Secure Checkout System</em>
@@ -738,7 +753,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 								</div>
 								<div class="row">
 									<div class="col-sm-12">
-										<button class="btn btn-block btn-order">ORDER NOW!</button>
+										<button class="btn btn-block btn-order">Enroll Now >></button>
 									</div>
 								</div>
 								<div class="row row-no-gutters">
@@ -763,7 +778,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 							<ul class="num-list2">
 								<li>Immediate access to the “What You Need to Succeed” introductory video <span class="val">$297 Value</span>
 								</li>
-								<li>13 additional video training modules <span class="val">$2,700 Value </span>
+								<li>13 video training modules <span class="val">$2,700 Value </span>
 								</li>
 								<li>Downloadable worksheets for each module <span class="val">$1,000 Value </span>
 								</li>
