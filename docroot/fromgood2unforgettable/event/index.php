@@ -123,7 +123,7 @@ if($autoChat){
 <!-- Start Auto Chat Functions -->
 <?php
 $chatSeconds = $now - $unixStartTime;
-$autoChatUrl = '../ajax/auto-chat/?tz='.urlencode($tz).'&t='.urlencode($_GET['t']);
+$autoChatUrl = '../ajax/auto-chat/?tz='.urlencode($tz).'&t='.urlencode($_GET['t']).'&webId='.$unixStartTime;
 ?>
 <script>
 chatSeconds = <?=$chatSeconds?>;

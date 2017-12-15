@@ -1,8 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: *"); // allows cross orgin ajax
 
-include('../included/webinar-include.php');
+include('../../include/webinar-include.php');
 $chatSeconds = $now - $unixStartTime;
+//echo date('l, F jS \a\t g:ia Y', $unixStartTime);
 $comments    = array_map('str_getcsv', file('auto-chat-comments.csv'));
 ?>
 <div id="chat-container">
