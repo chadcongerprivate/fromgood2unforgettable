@@ -273,7 +273,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				</p>
 				<p><strong>IMPORTANT NOTE:</strong></p>
 				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
-				<p>Need Assistance? Call us at (XXX) XXX-XXXX</p>
+				<p>Need Assistance? Call us at (760) 931-9400</p>
 				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
 					</div>
 				</div>
@@ -318,7 +318,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
                     <strong>Three Monthly Payments of $197</strong></label></div>
 								</div>
 								
-				If you would like to use PayPal of PayPal Credit, click the button below:<br>
+				If you would like to use PayPal or PayPal Credit, click the button below:<br>
 <a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
 								
 								<div class="row">
@@ -773,7 +773,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					<div class="col-md-5 col-lg-4">
 						<h1>&nbsp;</h1>
 						<div class="order-summary">
-							<h2 class="purple">Your'e Getting</h2>
+							<h2 class="purple">You're Getting</h2>
 
 							<ul class="num-list2">
 								<li>Immediate access to the “What You Need to Succeed” introductory video <span class="val">$297 Value</span>
@@ -825,7 +825,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					<div class="copyright">
 						Copyright © 2010-2017 Motivating The Masses. All Rights Reserved.
 					</div>
-					<a class="privacy" href="https://www.motivatingthemasses.com/privacy-terms-of-use">Privacy &amp; Terms of Use</a>
+					<a href="https://www.motivatingthemasses.com/privacy-terms-of-use" target="_blank" class="privacy">Privacy &amp; Terms of Use</a>
 				</div>
 			</div>
 		</div>
