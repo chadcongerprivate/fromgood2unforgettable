@@ -74,6 +74,24 @@ if($secTilRedirectCon <= 0){
 						<p><?=$fullDate1?> <?=$timezoneAbr?></p>
 						<p><em>(All details are in an email coming to your inbox right now. If you don’t receive your message in the next 10 minutes, please check your spam folder.)</em>
 						</p>
+						
+      	<div id="sms-register">
+     		<h2>Enter Your Mobile Number Below To Get Text Reminders About This Event</h2>
+      		<?php
+			if($email !== '' || $contactId != ''){
+				$class   = ' hidden';
+			}else{
+				$class   = '';
+			}
+			?>
+      		<div class="form-group form-group-lg<?=$class?>">
+                <input class="form-control" name="inf_field_Email" id="inf_field_Email" type="text" placeholder="Email..." value="<?=$email?>" />
+              </div>
+              <div class="form-group form-group-lg">
+                <input class="form-control" name="inf_field_Phone1" id="inf_field_Phone1" type="text" placeholder="Enter Your Mobile Number..." />
+              </div>
+      <button id="sms-submit" class="btn btn-orange btn-orange-lg btn-block">Send Me Text Reminders!</button>
+      </div>
 						<h1>From Good to UNFORGETTABLE						</h1>
 						<h3>How to Create Impact and Profit as a Professional Speaker </h3>
 						<p>Featuring in-demand motivational speaker and <span class="nyt">New York Times</span> best-selling author <span class="purple">Lisa Nichols</span>
@@ -281,6 +299,41 @@ if($secTilRedirectCon <= 0){
 			} );
 		} );
 	</script>
+	
+	
+<!-- Show SMS disclaimer -->
+<script>
+$(function() {
+	
+	$('#sms-submit').click(
+		function(){
+			var phone = $('#inf_field_Phone1').val();
+			var email = $('#inf_field_Email').val();
+			var url   = '../ajax/sms-reminders/?contactId=<?=$contactId?>';
+
+			if(typeof email != undefined && email != ''){
+				url += '&email='+email;
+			}else{
+				email = false;
+			}
+
+			if(typeof phone != undefined && phone != ''){
+				$(this).html('<i style="font-size:20px" id="sms-loading" class="fa fa-spinner fa-spin fa-3x fa-fw"></i>');
+				url   += '&phone='+phone;
+				$.get(url,
+						function(){
+							$('#sms-register').html('<div style="padding:20px; text-align:center; color:white;">Thank you. You are now registered for text reminders.</div>');
+						}
+					 );
+			}else{
+				alert(email+' <?=$contactId?> You must enter a valid phone number.');
+			}
+		}
+		
+	);
+});
+</script>
+<!-- End Show SMS disclaimer -->
 </body>
 
 </html>
