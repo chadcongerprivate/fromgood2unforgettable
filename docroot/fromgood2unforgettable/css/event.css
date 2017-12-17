@@ -133,9 +133,11 @@ header img{
 #event-ended{
 	background: #FFF;
 }
-#chat-header{
-	background-color: #FFF;
-	padding: 10px;
+
+#logo-header{
+	background-color:#f1f5f8;
+	border-bottom:2px solid #10bbda;
+	padding:10px;
 }
 #chat-disabled{
 	background: none repeat scroll 0 0 #edffb5;
@@ -150,7 +152,7 @@ header img{
 }
 #chat-box{
 	background-color: #FFF;
-	margin: 10px 0px;
+	margin:0px;
 	padding: 0px;
 	overflow: hidden;
 	position: relative;

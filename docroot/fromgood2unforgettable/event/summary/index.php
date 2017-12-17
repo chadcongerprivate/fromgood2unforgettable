@@ -24,8 +24,8 @@ include( '../../include/webinar-include.php' );
 
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="../../css/event.css" rel="stylesheet">
-	<link href="../../css/auto-chat.css" rel="stylesheet">
+	<link href="../../css/event.css?v=1" rel="stylesheet">
+	<link href="../../css/auto-chat.css?v=1" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,7 +63,7 @@ If you require support or have a question please email <a href="mailto:support@m
 		</div>
 	</div>
 	<div class="right-col">
-		<div id="chat-header" class="hidden-xs hidden-sm">
+		<div id="logo-header" class="hidden-xs hidden-sm">
 			<img src="../../images/logo.png" class="img-responsive img-responsive-center">
 		</div>
 		<?php
@@ -96,9 +96,11 @@ If you require support or have a question please email <a href="mailto:support@m
 <script>
 $(function () {
 	containVideo();
+	stretchChat();
 
 	$( window ).resize( function () {
 		containVideo();
+		stretchChat();
 	} );
 	
 
@@ -140,7 +142,7 @@ var videoSources  = '<?=generateVideoSrc()?>';
 </script>
 
 <!-- Include Event Actions -->
-<script src="../../js/event-actions.js?v=3"></script>
+<script src="../../js/event-actions.js?v=4"></script>
 <?php
 videoBasedActions();
 timedTagActions();

@@ -18,7 +18,10 @@ function setUserName(){
 	// show comment textarea
 	$('#post-comment').removeClass('hide');
 	// set username
-	$('#chosen-username').html($('#choose-username-field').val());
+	$('#chosen-username').html('Commenting as ' + $('#choose-username-field').val());
+	
+	// resize chat
+	stretchChat();
 }
 
 function postUserComment(){
@@ -32,10 +35,18 @@ function postUserComment(){
 	$('#comment-text').val('');
 }
 
+function stretchChat(){
+	var logoHeaderH = $('#logo-header').height();
+	var chatHeaderH = $('#chat-header').height();
+	var windowH     = $(window).height();
+	var chatH = windowH - logoHeaderH - chatHeaderH - 45;
+	$('#comment-container').css('height', chatH + 'px');
+}
 function loadAutoChat(url){
     $.get(url, function(chatCode){
 		$('#main-chat-container').html(chatCode);
 		showComments();
+		stretchChat();
 	
 		$('#set-username').bind('click', function(){
 			var username = $('#choose-username-field').val();
