@@ -6,7 +6,7 @@ header("Access-Control-Allow-Origin: *");
 include('../../include/webinar-include.php');
 
 if(($contactId != '' || $email != '') AND !empty($_GET['phone'])){
-	include('../../../infusionsoft-sdk/src/isdk.php');
+	include('../../infusionsoft-sdk/src/isdk.php');
 	$app = new iSDK;
 	$app->cfgCon($infApp, $infKey);
 }else{

@@ -38,7 +38,7 @@ if($secTilRedirectCon <= 0){
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="../style.css" rel="stylesheet">
+	<link href="../style.css?v=1" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -322,7 +322,7 @@ $(function() {
 				url   += '&phone='+phone;
 				$.get(url,
 						function(){
-							$('#sms-register').html('<div style="padding:20px; text-align:center; color:white;">Thank you. You are now registered for text reminders.</div>');
+							$('#sms-register').html('<h2">Thank you. You are now registered for text reminders.</h2>');
 						}
 					 );
 			}else{
