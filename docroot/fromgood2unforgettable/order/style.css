@@ -8,6 +8,9 @@ body,html{
 	color: #898989;
 	font-size: 18px;
 }
+.red{
+	color: darkred;
+}
 .img-responsive{
 	margin: 0px auto;
 }

@@ -24,7 +24,7 @@ include('../include/webinar-include.php');
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="style.css?v=1" rel="stylesheet">
+	<link href="style.css?v=2" rel="stylesheet">
 	<link href="order-form.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -839,7 +839,36 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
     <div class="modal-content">
       <div class="modal-body">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-<h2 class="text-lg text-center margin-30-t">Don't go</h2>
+   <div class="paypalInfo">
+	<div class="row">
+		<div class="col-md-2"><img src="../images/order/WAIT.jpg" alt="Wait" class="img-responsive"></div>
+		<div class="col-md-10"><h3 class="red text-center">Get Speak for Ultimate Impact and Profit with <u>ZERO Money Out of Your Pocket</u>, <span class="word-wrap">Right Now!</span></h3><br>
+
+</div>
+	</div>
+   
+   <p>I’ve just partnered with PayPal to bring you a brand-new option to get access to my program today at no cost to you today.
+</p>
+   <p>Plus, with this option, you have <strong>no payments</strong> and 6 months to pay off your purchase, <strong>interest free.</strong>
+</p>
+   <p>When you invest in <em>Speak for Ultimate Impact and Profit</em> today, using PayPal Credit's bill-me-later option, you get complete and full access to the entire program, including all of the bonuses.
+</p>
+   
+		  <p class="text-center"><a class="btn btn-orange btn-orange-lg" href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">YES! I Want to Get Started With This Option</a></p><br>
+		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with Speak for Ultimate Impact and Profit today, with nothing out-of-pocket</a> 
+by choosing PayPal’s Credit option.
+</p><br>
+					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
+						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
+</p>
+				<p>With this $497 PayPal Credit option, you get complete and full access to Speak for Ultimate Impact and Profit plus the bonus ticket to Lisa’s Speak and Write to Make Millions live 3-day event. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
+					<br>
+				</p>
+				<p><strong>IMPORTANT NOTE:</strong></p>
+				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
+				<p>Need Assistance? Call us at (760) 931-9400</p>
+				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
+					</div>
     </div>
   </div>
 </div>
@@ -950,7 +979,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 	</script>
 
 
-<!-- Exit Modal 
+<!-- Exit Modal -->
 <script>
 var firstExit = true;
 $(function() {
