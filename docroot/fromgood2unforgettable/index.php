@@ -274,11 +274,12 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 						<input name="inf_form_xid" type="hidden" value="184467a5691a628784d832071524d1ab"/>
 						<input name="inf_form_name" type="hidden" value="Speak For Ultimate Impact & Profit - Registration"/>
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.154"/>
-						<input type="hidden" name="inf_custom_SFUIPDateTime" value="<?=$availableDates[0]?>">
+						<input id="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input id="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select" data-error="Date is required." required>
+							<select id="selectedDateTime" name="inf_custom_SFUIPUnixDate" class="form-control time-select" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -304,7 +305,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 							<input name="inf_field_Email" type="email" class="form-control" id="inf_field_Email" placeholder="Enter Your Email Address Here..." data-error="Valid email is required." required>
 							<div class="help-block with-errors"></div>
 						</div>
-						<button class="btn btn-block btn-register">Yes! REserve my spot in this free event!</button>
+						<button class="btn btn-block btn-register">Yes! Reserve my spot in this free event!</button>
 						<p class="text-center">We guarantee 100% privacy. Your Information will not be shared.
 						</p>
 					</form>
@@ -373,7 +374,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 		} );
 	</script>
 
-	<!-- Form Validation -->
+	<!-- Form  -->
 	<script src="./js/validator.js"></script>
 	<script>
 		$( document ).ready( function () {
@@ -386,10 +387,22 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 
 				}
 			} );
+			
+			// select date and time
+			$('#selectedDateTime').change(
+				function(){
+					var sDate = $(this).find('option:selected').attr('data-date');
+					var sTime = $(this).find('option:selected').attr('data-time');
+					
+					$('#selectedDate').val(sDate);
+					$('#selectedTime').val(sTime);
+					console.log(sDate + ' ' + sTime);
+				}
+			);
 
 		} );
 	</script>
-	<!-- End Form Validation -->
+	<!-- End Form -->
 	
 	<!-- Timezone Detect -->
 	<script src="./js/timezone-detect-jstz.js"></script>

@@ -46,9 +46,10 @@ if(!isset($timezone) || !isValidTimezone($timezone)){
 $expire =  time()+60*60*24*90; // 90 days
 setcookie("timezone", $timezone, $expire, '/', '.'.$domainName);
 
-// set timezone
-if(in_array($timezone, $playInUserTZ)){
-	date_default_timezone_set($timezone);
-}else{
-	date_default_timezone_set($defaultTimeZone);
+// validate timezone
+if(!in_array($timezone, $playInUserTZ)){
+	$timezone = $defaultTimeZone;
 }
+
+// set timezone
+date_default_timezone_set($timezone);
