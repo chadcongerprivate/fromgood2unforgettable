@@ -148,11 +148,9 @@ include( 'include/webinar-include.php' );
 								foreach ( $availableDates as $unix ) {
 									$text = date( 'l, F jS \a\t g:ia', $unix );
 									$tzAbr = date('T', $unix);
-									?>
-								<option value="<?=$unix?>">
-									<?php echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';?>
-								</option>
-								<?php
+									
+									echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';
+									
 								}
 								?>
 							</select>
@@ -285,11 +283,9 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 								foreach ( $availableDates as $unix ) {
 									$text = date( 'l, F jS \a\t g:ia', $unix );
 									$tzAbr = date('T', $unix);
-									?>
-								<option value="<?=$unix?>">
-									<?php echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';?>
-								</option>
-								<?php
+									
+									echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';
+									
 								}
 								?>
 							</select>
