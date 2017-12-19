@@ -138,8 +138,8 @@ include( 'include/webinar-include.php' );
 						<input name="inf_form_xid" type="hidden" value="184467a5691a628784d832071524d1ab"/>
 						<input name="inf_form_name" type="hidden" value="Speak For Ultimate Impact & Profit - Registration"/>
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.154"/>
-						<input type="hidden" name="inf_custom_SFUIPDateTime" value="<?=$availableDates[0]?>">
-						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
 							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select" data-error="Date is required." required>
@@ -274,8 +274,8 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 						<input name="inf_form_xid" type="hidden" value="184467a5691a628784d832071524d1ab"/>
 						<input name="inf_form_name" type="hidden" value="Speak For Ultimate Impact & Profit - Registration"/>
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.154"/>
-						<input id="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
-						<input id="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
@@ -394,8 +394,8 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 					var sDate = $(this).find('option:selected').attr('data-date');
 					var sTime = $(this).find('option:selected').attr('data-time');
 					
-					$('#selectedDate').val(sDate);
-					$('#selectedTime').val(sTime);
+					$('.selectedDate').val(sDate);
+					$('.selectedTime').val(sTime);
 					console.log(sDate + ' ' + sTime);
 				}
 			);
