@@ -142,7 +142,7 @@ include( 'include/webinar-include.php' );
 						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select" data-error="Date is required." required>
+							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -279,7 +279,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select id="selectedDateTime" name="inf_custom_SFUIPUnixDate" class="form-control time-select" data-error="Date is required." required>
+							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -389,13 +389,22 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 			} );
 			
 			// select date and time
-			$('#selectedDateTime').change(
+			$('.selectedDateTime').change(
 				function(){
 					var sDate = $(this).find('option:selected').attr('data-date');
 					var sTime = $(this).find('option:selected').attr('data-time');
 					
-					$('.selectedDate').val(sDate);
-					$('.selectedTime').val(sTime);
+					$('.selectedDate').each(
+						function(){
+							$(this).val(sDate);
+						}
+					);
+					
+					$('.selectedTime').each(
+						function(){
+							$(this).val(sTime);
+						}
+					);
 					console.log(sDate + ' ' + sTime);
 				}
 			);
