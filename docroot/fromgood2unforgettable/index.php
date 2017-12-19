@@ -150,7 +150,7 @@ include( 'include/webinar-include.php' );
 									$tzAbr = date('T', $unix);
 									?>
 								<option value="<?=$unix?>">
-									<?=$text?> (<?=$tzAbr?>)
+									<?php echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';?>
 								</option>
 								<?php
 								}
@@ -287,7 +287,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 									$tzAbr = date('T', $unix);
 									?>
 								<option value="<?=$unix?>">
-									<?=$text?> (<?=$tzAbr?>)
+									<?php echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';?>
 								</option>
 								<?php
 								}
