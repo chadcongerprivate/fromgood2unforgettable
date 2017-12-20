@@ -46,6 +46,10 @@ if($secTilRedirectCon <= 0){
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<?php
+// include tracking code
+include($includePath.'tracking-code.php');
+?>
 </head>
 
 <body>
@@ -334,6 +338,10 @@ $(function() {
 });
 </script>
 <!-- End Show SMS disclaimer -->
+<?php
+// include tracking code
+include($includePath.'share-plugin.php');
+?>
 </body>
 
 </html>
