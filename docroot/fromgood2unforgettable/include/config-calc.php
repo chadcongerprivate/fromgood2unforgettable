@@ -12,6 +12,7 @@ if($unixStartTime){
 }
 
 // do the same for the merge link in the emails
+$tzMergeField      = str_replace('inf_custom', '', $infTimezoneField );
 if($dateTimeType == 'text'){
 	$infQs = '?contactId=~Contact.Id~&tz=~Contact.'.$tzMergeField.'~&webId=~Contact._'.$infApiDateField.'~';
 }else{
@@ -53,7 +54,6 @@ $mergeLinkICal    = $shareLink.'add-to-calendar/'.$infQs.'&cal=ical';
 // create links
 $ctaLink           = $ctaLink;
 $shareLink         = $domainPrefix.$domainName.$path;
-$tzMergeField      = str_replace('inf_custom', $infTimezoneField );
 $webinarLink       = $domainPrefix.$domainName.$path.'attend/?contactId='.$contactId.'&tz='.urlencode($timezone).$addToQsWebLink;
 $InfMergeLink      = $domainPrefix.$domainName.$path.'attend/'.$infQs;
 $InfMergeConfirm   = $domainPrefix.$domainName.$path.'confirmation/'.$infQs;

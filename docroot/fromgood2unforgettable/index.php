@@ -138,10 +138,11 @@ include($includePath.'tracking-code.php');
 					<p>If you want to join the top 10% of speakers who break the six-figure mark (or the 1% who earn $1 million or more) ... <u>register now</u> for <em><strong>From Good to Unforgettable.</strong></em><strong></strong>
 					</p>
 					<p>During this 90-minute online training, you’ll discover my “behind the black curtain” secrets for creating a high-impact message, booking more paid speaking engagements and earning a great living as a professional speaker.</p>
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/184467a5691a628784d832071524d1ab" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="184467a5691a628784d832071524d1ab"/>
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate Impact & Profit - Registration"/>
-						<input name="infusionsoft_version" type="hidden" value="1.68.0.154"/>
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
+						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
+						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
 						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
 						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
@@ -272,10 +273,11 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-push-6">
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/184467a5691a628784d832071524d1ab" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="184467a5691a628784d832071524d1ab"/>
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate Impact & Profit - Registration"/>
-						<input name="infusionsoft_version" type="hidden" value="1.68.0.154"/>
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
+						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
+						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
 						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
 						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
@@ -393,6 +395,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 				function(){
 					var sDate = $(this).find('option:selected').attr('data-date');
 					var sTime = $(this).find('option:selected').attr('data-time');
+					var merge = $(this).find('option:selected').html();
 					
 					$('.selectedDate').each(
 						function(){
@@ -403,6 +406,12 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 					$('.selectedTime').each(
 						function(){
 							$(this).val(sTime);
+						}
+					);
+					
+					$('.mergeDate').each(
+						function(){
+							$(this).val(merge);
 						}
 					);
 					console.log(sDate + ' ' + sTime);
