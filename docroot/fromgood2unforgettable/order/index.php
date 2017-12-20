@@ -24,7 +24,7 @@ include('../include/webinar-include.php');
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="style.css?v=2" rel="stylesheet">
+	<link href="style.css?v=3" rel="stylesheet">
 	<link href="order-form.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,10 +47,40 @@ include($includePath.'tracking-code.php');
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4 col-xs-6">
 					<img src="../images/registration/logo.png">
 				</div>
-				<div class="col-md-6 text-right hidden-sm hidden-xs">
+				<div class="col-md-4 col-sm-6 hidden-xs">
+					<div id="timerContainer" class="row hidden">
+						  <p class="text-center">This Offer Expires In:</p>
+							<!-- Start Timer -->
+							<div class="timer-black" id="timer">
+							  <div class="time-box time-box-days hidden-sm hidden-xs">
+								  <div class="time-no days"><span>0</span><span>0</span></div>
+								<div class="time-desc"> days </div>
+							  </div>
+							  <div class="time-box time-box-hours">
+								<div class="time-no hours"><span>0</span><span>0</span></div>
+								<div class="time-desc"> hours </div>
+							  </div>
+							  <div class="time-box time-box-min">
+								<div class="time-no min"><span>0</span><span>0</span></div>
+								<div class="time-desc"> mins </div>
+							  </div>
+							  <div class="time-box time-box-sec">
+								<div class="time-no sec"><span>0</span><span>0</span></div>
+								<div class="time-desc"> sec </div>
+							  </div>
+							</div>
+							<!-- End Timer -->
+							</div>
+				</div>
+				<div class="col-md-4 col-xs-6 visible-xs">
+					  <div class="timer-simple">
+						  This Offer Expires In:<br><span class="hours"><span>0</span><span>0</span> </span> hours, <span class="min"><span>0</span><span>0</span>  </span> min, <span class="sec"><span>0</span><span>0</span>  </span> sec
+					</div>
+				</div>
+				<div class="col-md-4 text-right hidden-sm hidden-xs">
 					<button class="btn btn-orange margin-15-tb btn-scroll">Enroll Now >></button>
 				</div>
 			</div>
@@ -1021,6 +1051,37 @@ $(function() {
 });	
 </script>
 <!-- End Vidio Modal -->
+
+
+<!-- Timer -->
+<script src="../js/jquery.countdown.min.js"></script>
+<script>
+$(function() {
+	var seconds = <?php echo strtotime('12:00am tomorrow', $now) - $now; ?>
+	// start timer
+   $('#timer').countdown({
+	 date: +(new Date) + seconds * 1000, // convert seconds to miliseconds seconds
+	 render: function(data) {
+		 var days = this.leadingZeros(data.days, 2);
+		 var hours = this.leadingZeros(data.hours, 2);
+		 var minutes = this.leadingZeros(data.min, 2);
+		 var seconds = this.leadingZeros(data.sec, 2);
+		 $('.days').html('<span>'+days.substring(0,1)+'</span>'+'<span>'+days.substring(1)+'</span>');
+		 $('.hours').html('<span>'+hours.substring(0,1)+'</span>'+'<span>'+hours.substring(1)+'</span>');
+		 $('.min').html('<span>'+minutes.substring(0,1)+'</span>'+'<span>'+minutes.substring(1)+'</span>');
+		 $('.sec').html('<span>'+seconds.substring(0,1)+'</span>'+'<span>'+seconds.substring(1)+'</span>');
+	 },
+	 onEnd: function(data) {
+		window.location = './expired/';
+	 }
+	});
+
+   // show timer
+   $('#timerContainer').removeClass('hidden');
+	
+});	
+</script>
+<!-- End Timer -->
 <?php
 // include tracking code
 include($includePath.'share-plugin.php');
