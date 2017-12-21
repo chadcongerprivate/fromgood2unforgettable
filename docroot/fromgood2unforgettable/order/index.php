@@ -145,6 +145,11 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				<div class="col-md-10 col-md-offset-1">
 					<h2 class="text-center purple">Here's what's included in this 13-week program … so you can easily get started today:</h2>
 					<div class="p-stack">
+						<h3>A <span class="red">FREE General Admission Ticket</span> To My Speak &amp; Write Event!</h3>
+						<h4>$997 Value</h4>
+						<p>When you purchase Speak For Ultimate Impact & Profit you will get a FREE General Admission Ticket to THE Premier Conference for Speakers Authors & Coaches, Speak & Write. <em>*Valid one calendar year post purchase*</em></p>
+					</div>
+					<div class="p-stack">
 						<h3>Immediate access to the “What You Need to Succeed” introductory video</h3>
 						<h4>$297 Value</h4>
 						<p>which sets up the course. Often called the “Wikipedia of Speak for Ultimate Impact and Profit,” this video gives you answers to those “What do I have to do to really make it as a speaker?” moments so you can build a solid foundation and winning platform as a speaker.</p>
@@ -289,7 +294,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Total Value: $8,797
+					<h2>Total Value: $9,794
 </h2>
 					<h3><strong>Your Investment:
 						</strong>
@@ -811,6 +816,8 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 							<h2 class="purple">You're Getting</h2>
 
 							<ul class="num-list2">
+								<li>A FREE General Admission Ticket To My Speak &amp; Write Event! <span class="val">$997 Value</span>
+								</li>
 								<li>Immediate access to the “What You Need to Succeed” introductory video <span class="val">$297 Value</span>
 								</li>
 								<li>13 video training modules <span class="val">$2,700 Value </span>
