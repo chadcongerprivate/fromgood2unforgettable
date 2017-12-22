@@ -24,8 +24,8 @@ include('../include/webinar-include.php');
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="style.css?v=3" rel="stylesheet">
-	<link href="order-form.css" rel="stylesheet">
+	<link href="style.css?v=4" rel="stylesheet">
+	<link href="order-form.css?v=1" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,6 +42,9 @@ include($includePath.'tracking-code.php');
 
 <body>
 
+<!-- Exit Trigger -->
+<div class="exit-trigger"></div>
+<!-- End Exit Trigger -->
 
 	<!-- Start Section -->
 	<header>
@@ -934,6 +937,9 @@ by choosing PayPal’s Credit option.
 <!-- End Video Modal -->
 	
 
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
@@ -1025,7 +1031,7 @@ by choosing PayPal’s Credit option.
 <script>
 var firstExit = true;
 $(function() {
-	$('body').mouseleave(
+	$('.exit-trigger').mouseleave(
 		function(){
 			if(firstExit){
 				firstExit = false;
@@ -1040,7 +1046,6 @@ $(function() {
 
 <!-- Video Modal -->
 <script>
-var firstExit = true;
 $(function() {
 	$('.show-video').click(
 		function(){

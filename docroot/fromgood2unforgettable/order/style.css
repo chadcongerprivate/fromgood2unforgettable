@@ -683,3 +683,11 @@ ul.num-list2 li::before{
 	text-align: center;
 	margin-top: 20px;
 }
+.exit-trigger{
+	position: absolute;
+	height: 20px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	z-index: 999;
+}
