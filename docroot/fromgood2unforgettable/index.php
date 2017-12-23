@@ -318,7 +318,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 					<p>Tune in to discover:</p>
 					<ul class="num-list">
 						<li><strong>4 key techniques</strong> for crafting an unforgettable message</li>
-						<li><strong>A step-by-step process</strong> for booking speaking engagements and asking for referrals</li>
+						<li><strong>A step-by-Step process</strong> for booking speaking engagements and asking for referrals</li>
 						<li><strong>Scripts</strong> for having dignified conversations about your speaker fee</li>
 						<li><strong>How to hook your audience</strong> so they become fans – and then paying students</li>
 					</ul>

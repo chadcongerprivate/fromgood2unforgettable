@@ -41,8 +41,7 @@ include($includePath.'tracking-code.php');
 
 <body>
 	<div class="left-col">
-		<header><?=$webinarName?>
-		</header>
+		<header>&ldquo;From Good To Unforgettable&rdquo; <span class="word-wrap">with Lisa Nichols</span></header>
 		<div id="video-container">
 			<div id="event-stream">
 			</div>
