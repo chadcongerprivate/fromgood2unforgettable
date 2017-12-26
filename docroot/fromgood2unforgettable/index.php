@@ -1,5 +1,8 @@
 <?php
 include( 'include/webinar-include.php' );
+
+// set timezone to inf time for form
+date_default_timezone_set($infTimeZone);
 ?>
 <!DOCTYPE html>
 <html lang="en">

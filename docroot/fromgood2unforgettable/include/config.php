@@ -36,6 +36,7 @@ $dateCookieName    = 'sfuipDate';
 
 // timezone information
 $defaultTimeZone   = 'America/Los_Angeles'; // find supported timezones here: http://php.net/manual/en/timezones.php
+$infTimeZone       = 'America/New_York'; // timezone infusionsoft uses
 $infTimezoneField  = 'inf_custom_Timezone0'; // this is the name of the field as it appears in your registration webform
 $playInUserTZ      = array(); // array of timezones to play in their own timezones at the same time as the default timezone
 
