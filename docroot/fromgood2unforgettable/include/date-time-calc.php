@@ -64,7 +64,10 @@ if($unixStartTime){
 			$ended = true;
 		}
 	}
-
+	
+	// Set timezone to user timezone to display in their timezone on page
+	date_default_timezone_set($timezone);
+	
 	// event date variables for use on pages
 	$startTime   = date('g:ia', $unixStartTime); // Example: 9:00am
 	$suffix      = date('S', $unixStartTime);    // Examples: st, nd, rd
