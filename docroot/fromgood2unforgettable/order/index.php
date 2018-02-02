@@ -228,7 +228,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 
 				</div>
 				<div class="col-md-6 slide-right-on-scroll">
-					<h2 class="orange">Plus A Special Bonus Gift…
+					<h2 class="orange">Your Special Bonus Gift…
 </h2>
 					<img src="../images/order/banner.png" class="img-responsive">
 
