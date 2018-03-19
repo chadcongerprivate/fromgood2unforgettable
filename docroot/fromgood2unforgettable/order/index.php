@@ -789,6 +789,13 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                        <label for="CreditCard0VerificationCode">Credit Card CVC</label>
+                          <input name="CreditCard0VerificationCode" type="text" class="form-control" id="CreditCard0VerificationCode" placeholder="Credit Card CVC" data-error="CVC is required." required/>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
 								</div>
 								<div class="row">
 									<div class="col-md-12 padding-10-t"><img class="lock" src="../images/order/lock.svg"><em>Secure Checkout System</em>
