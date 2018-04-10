@@ -1,5 +1,13 @@
 <?php
 include('../include/webinar-include.php');
+
+$countDownSec = strtotime('12:00am tomorrow', $now) - $now;
+$affPromo = strtotime('12:00am April 18 2018', $now);
+
+if($now < $affPromo){
+	$countDownSec = $affPromo - $now;
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -1076,7 +1084,7 @@ $(function() {
 <script src="../js/jquery.countdown.min.js"></script>
 <script>
 $(function() {
-	var seconds = <?php echo strtotime('12:00am tomorrow', $now) - $now; ?>
+	var seconds = <?=$countDownSec?>
 	// start timer
    $('#timer').countdown({
 	 date: +(new Date) + seconds * 1000, // convert seconds to miliseconds seconds
