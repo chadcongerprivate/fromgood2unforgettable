@@ -644,7 +644,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 												<option value="Papua New Guinea">Papua New Guinea</option>
 												<option value="Paraguay">Paraguay</option>
 												<option value="Peru">Peru</option>
-												<option value="Philippines">Philippines</option>
+												<option value="Philippines (the)">Philippines (the)</option>
 												<option value="Pitcairn">Pitcairn</option>
 												<option value="Poland">Poland</option>
 												<option value="Portugal">Portugal</option>
