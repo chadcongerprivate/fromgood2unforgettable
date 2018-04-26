@@ -313,7 +313,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					<h3>Get started today for <span class="orange">3 easy payments of just $197</span>
 					</h3>
 					<h3>or <span class="orange">one quick payment of just $497</span>, saving you an additional $94</h3>
-					<div class="paypalInfo">
+					<div class="paypalInfo hidden">
 					<h3>or Pay ZERO today with a BILL-ME-LATER Option,<br>
 						powered by PayPal Credit.</h3><br>
 					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
@@ -368,10 +368,10 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 <input id="PlanCount_B" value="3" name="PlanCount_B" type="hidden" />
                     <strong>Three Monthly Payments of $197</strong></label></div>
 								</div>
-								
+					<!--		
 				If you would like to use PayPal or PayPal Credit, click the button below:<br>
 <a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
-								
+								-->
 								<div class="row">
 									<div class="col-md-12 padding-10-t"><img class="lock" src="../images/order/lock.svg"><em>Secure Checkout System</em>
 									</div>
