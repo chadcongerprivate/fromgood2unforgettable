@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#chat-container{
+	color:#414141;
+	text-align: left;
+}
+#chat-header{
+	background-color:#f1f5f8;
+	border-bottom:2px solid #10bbda;
+	padding:10px;
+}
+#comment-container{
+	background-color:#FFF;
+	overflow-y:scroll;
+    overflow-x: hidden;
+	height:500px;
+}
+
+.comment{
+	padding:20px 10px;
+	border-bottom:1px solid #EEE;
+	text-align: left !important;
+}
+
+.comment .username{
+	display:block;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#send-comment{
+	margin-top:10px;
+}
+#chosen-username{
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.ng-chat-logo img{
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin-right: 10px;
+}
+.ng-chat-comment{
+	line-height: 36px;
+}
+.button-spacer{
+	height:10px;
+}
+.username,
+.comment-body{
+	    font-size: 16px;
+}
