@@ -13,8 +13,8 @@ $videoType         = 'vimeo'; // youTube, vimeo or html5
 $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
-$videoId             = '215547436'; // youTube or vimeo video id, leave blank if using html5
-$videoIdReplay       = '244923795'; //'244923795';
+$videoId             = '220867396'; // youTube or vimeo video id, leave blank if using html5
+$videoIdReplay       = '220867396'; //'244923795';
 $videoIdSummary      = '209415407';
 $preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
 $eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
