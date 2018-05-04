@@ -1050,7 +1050,7 @@ $(function() {
 		function(){
 			if(firstExit){
 				firstExit = false;
-				$('#modal').modal({show:true});
+				//$('#modal').modal({show:true});
 			}
 		}
 	);
