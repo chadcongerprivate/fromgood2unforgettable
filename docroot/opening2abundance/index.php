@@ -67,11 +67,11 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-8">
 					<div id="infoBox" class="black-trans-bg">
-						<h1>
-      			How to Create <em>Impact</em> and <em>Profit</em> as a Professional Speaker With Lisa Nichols </h1>
+						<h1 class="text-capitalize">
+      			How to accomplish unfathomable goals and tap into your limitless potential</h1>
 					
 						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact”
+							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
 						</div>
 						<p>Join Lisa Nichols for This FREE Speaker Training … and Discover How to Soar Past Being a Good Speaker … to Being UNFORGETTABLE!
 						</p>
@@ -141,13 +141,13 @@ include($includePath.'tracking-code.php');
 					<p>If you want to join the top 10% of speakers who break the six-figure mark (or the 1% who earn $1 million or more) ... <u>register now</u> for <em><strong>From Good to Unforgettable.</strong></em><strong></strong>
 					</p>
 					<p>During this 90-minute online training, you’ll discover my “behind the black curtain” secrets for creating a high-impact message, booking more paid speaking engagements and earning a great living as a professional speaker.</p>
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
-						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
-						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
-						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
 							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
@@ -276,13 +276,13 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-push-6">
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
-						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
-						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
-						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
