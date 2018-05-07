@@ -52,11 +52,11 @@ $timeTags          = array( // this is required only if using date above (this i
 );
 
 // event information
-$webinarName       = 'From Good To Unforgettable';
+$webinarName       = 'Opening to Abundance';
 $autoChat          = true;
-$shareTitle        = 'Speak For Ultimate Impact & Profit';
+$shareTitle        = 'Opening to Abundance';
 $shareImage        = $domainPrefix.$domainName.$path.'images/share.jpg';
-$shareDescription  = 'How to Create Impact and Profit as a Professional Speaker With Lisa Nichols';
+$shareDescription  = 'How to cultivate an abundant mindset by adopting the traits of abundant thinkers';
 $pagesToAddToSim   = array(
 					// array('Nurture 1', 'https://www.example.com/nurtur1/', array('contactId')), // name, link, array of qs paramaters to merge into email
 );
@@ -89,14 +89,14 @@ $visualElements    = array(
 /* event tags (use the line below to create in Infusionsoft)
 Registered,SMS Reminders,Attended,Saw CTA,Clicked CTA
 */
-$groupCategoryId    = 169;
-$tagRegistered      = 4907;
-$tagSMSReminder     = 4909;
-$tagAttended        = 4911;
-$tagAttendedReplay  = 4949;
-$tagAttendedSummary = 4965;
-$tagSawCta          = 4913;
-$tagClickedCta      = 4915;
+$groupCategoryId    = 177;
+$tagRegistered      = 5269;
+$tagSMSReminder     = 5279;
+$tagAttended        = 5281;
+$tagAttendedReplay  = 5309;
+$tagAttendedSummary = 5311;
+$tagSawCta          = 5285;
+$tagClickedCta      = 5287;
 
 /* timing tags (use the line below to create in Infusionsoft - delete any that you don't want first)
 Stayed 10min,Stayed 15min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 45min,Stayed 50min,Stayed 60min,Stayed 70min,Stayed 80min,Stayed 90min,Stayed 120min,Stayed 180min,Stayed 240min,Stayed 300min,Stayed 360min,Stayed 420min,Stayed 480min

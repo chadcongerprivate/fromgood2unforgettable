@@ -52,7 +52,7 @@ include($includePath.'tracking-code.php');
 
 <body>
 	<div class="left-col">
-		<header>&ldquo;From Good To Unforgettable&rdquo; <span class="word-wrap">with Lisa Nichols</span></header>
+		<header>&ldquo;Opening to Abundance&rdquo; <span class="word-wrap">with Lisa Nichols</span></header>
 		<div id="video-container">
 			<div id="event-stream">
 			</div>
