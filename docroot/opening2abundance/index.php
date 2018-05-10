@@ -150,7 +150,7 @@ include($includePath.'tracking-code.php');
 						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -286,7 +286,7 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {

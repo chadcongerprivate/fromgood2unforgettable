@@ -45,7 +45,7 @@ $liveDate          = false; // If this is a live webinar that will turn evergree
 $secTilCutOffReg   = 60; // When to stop showing a registration date (example: -60 would be 1 minute BEFORE it starts. 60 would be 1 minute AFTER it starts)
 $secTilConRedirect = 60 * 30; // Seconds before start time to start redirecting confirmation page directly to staging
 $dateTimeType      = 'text'; // dateTime (infusionsoft dateTime field), text (RECOMENDED - Infuisonsoft text field stored in unix format), date (Infuisonsoft date field)
-$infApiDateField   = 'SFUIPUnixDate'; // this is where you are storing the date in Infusionsoft
+$infApiDateField   = 'ALPUnixDate'; // this is where you are storing the date in Infusionsoft
 $timeTags          = array( // this is required only if using date above (this is not as reliable)
 			         //array(124, '10:00am'), // tagid, time (time intervals do not work with this because registration time is unkown)
 			         //array(242, '4:00am'),
