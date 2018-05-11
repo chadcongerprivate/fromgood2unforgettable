@@ -26,6 +26,9 @@ button{
 .margin-15-tb{
 	margin: 15px 0px;
 }
+.word-wrap{
+	display: inline-block;
+}
 header{
 	position: fixed;
 	width: 100%;

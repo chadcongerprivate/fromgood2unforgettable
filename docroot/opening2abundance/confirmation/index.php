@@ -96,8 +96,8 @@ include($includePath.'tracking-code.php');
               </div>
       <button id="sms-submit" class="btn btn-orange btn-orange-lg btn-block">Send Me Text Reminders!</button>
       </div>
-						<h1>From Good to UNFORGETTABLE						</h1>
-						<h3>How to Create Impact and Profit as a Professional Speaker </h3>
+						<h1>Opening To Abundance</h1>
+						<h3>How To Accomplish Unfathomable Goals And Tap Into Your Limitless Potential</h3>
 						<p>Featuring in-demand motivational speaker and <span class="nyt">New York Times</span> best-selling author <span class="purple">Lisa Nichols</span>
 						</p>
 						<p>We start promptly so be sure to dial in a few minutes early!</p>
@@ -134,18 +134,12 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-10 col-md-offset-1">
 					<div class="spacer-40"></div>
 					<h2>ALTERNATIVE FACEBOOK POSTS:</h2>
-					<p>
-						Tired of only getting free speaking engagements? Lisa Nichols is going to share 5 forms of non-monetary currency we can use to turn free gigs to high-profit events. Sign up for the free training here:
-						<a href="<?=$shareLink?>" target="_blank">
-							<?=$shareLink?>
-						</a>
-					</p>
-					<p>
-						Want to be more than a good speaker – and become unforgettable? So do I! That’s why I signed up for this free training webinar with Lisa Nichols. She’s an amazing speaker – I can’t wait to learn her secrets!
-						<a href="<?=$shareLink?>" target="_blank">
-							<?=$shareLink?>
-						</a>
-					</p>
+					<p>How To Accomplish Unfathomable Goals And Tap Into Your Limitless Potential! <a href="<?=$shareLink?>" target="_blank">
+					<?=$shareLink?>
+					</a> </p>
+					<p> Learn exactly how to realign, reset and reenergize your mindset to live the Abundant Life you deserve! <a href="<?=$shareLink?>" target="_blank">
+						<?=$shareLink?>
+					</a> </p>
 				</div>
 			</div>
 		</div>
