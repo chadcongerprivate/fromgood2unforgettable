@@ -67,13 +67,13 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-8">
 					<div id="infoBox" class="black-trans-bg">
-						<h1>
-      			How to Create <em>Impact</em> and <em>Profit</em> as a Professional Speaker With Lisa Nichols </h1>
+						<h1 class="text-capitalize">
+      			How to accomplish unfathomable goals and tap into your limitless potential</h1>
 					
 						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact”
+							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
 						</div>
-						<p>Join Lisa Nichols for This FREE Speaker Training … and Discover How to Soar Past Being a Good Speaker … to Being UNFORGETTABLE!
+						<p>Join Lisa Nichols for This FREE &ldquo;Opening Abundance&rdquo; Training … and Discover How to Turn Your Dreams of an Abundant Life Into a REALITY!
 						</p>
 						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
 					</div>
@@ -91,10 +91,9 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">WANT TO MAKE A MUCH BIGGER IMPACT WITH YOUR SPEAKING – AND EARN A FANTASTIC LIVING DOING WHAT YOU LOVE?</h2>
-					<p class="text-center">It all boils down to your ability to become unforgettable. Unforgettable speakers get hired. They connect with their audiences. They leave their fans hungering for more.
-					</p>
-					<h3 class="text-center orange">... And they get paid – a lot – to share their message.</h3>
+					<h2 class="text-center purple">WANT TO the learn the most important lessons and strategies I used to transform my life into something breathtaking, prosperous and compelling?</h2>
+					<p class="text-center">I am going to help you lay a foundation … one that will open you to begin living a more abundant life immediately, without waiting to achieve a level of financial success first.</p>
+					<h3 class="text-center orange">These are strategies you can implement no matter where <span class="word-wrap">you’re starting.</span></h3>
 				</div>
 			</div>
 		</div>
@@ -111,46 +110,45 @@ include($includePath.'tracking-code.php');
 					<div class="row">
 						<div class="col-sm-6">
 							<i class="fa fa-key" aria-hidden="true"></i>
-							<h4>4 KEY TECHNIQUES</h4>
-							<p><strong>4 key techniques</strong> for crafting a message that leaves the audience wanting more of you – and more of whatever you’re offering (My audience-connection formula – just 1 of the “secret sauce” techniques I’ll give you – is the magic ingredient to helping your audience understand that you’re one of them – and cementing their loyalty) </p>
+							<h4 class="text-uppercase">abundant mindseT</h4>
+							<p>How to <strong>cultivate an abundant mindset</strong> by adopting the traits of abundant thinkers. Abundance is more of a mindset than it is your actual circumstances. And when you have an abundant mindset, <strong>you’ll attract, recognize and act on the opportunities</strong> to <strong>create the external circumstances you want.</strong></p>
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
-							<i class="fa fa-list" aria-hidden="true"></i>
-							<h4>STEP-BY-STEP</h4>
-							<p>A <strong>step-by-step process</strong> for booking speaking engagements and asking for referrals … plus <strong>5 forms of non-monetary currency</strong> that transform free speaking gigs into high-profit opportunities (I’ll give you a <strong>word-for-word booking script</strong> and reveal exactly what to say – and when – to turn 1 speaking gig into 3 or more) </p>
+							<i class="fa fa-money" aria-hidden="true"></i>
+							<h4 class="text-uppercase">your money blueprint</h4>
+							<p>You’ll discover what your money blueprint is and how it is influencing the way you make money, what you think about money, how you spend money, and <strong>how you react when money flows into your life.</strong> Money is a major component of an abundant life, so let’s get clear on how your past is affecting your money blueprint – so that you can make different choices moving forward.</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-sm-6">
-							<i class="fa fa-money" aria-hidden="true"></i>
-							<h4>GET PAID WHAT YOU'RE WORTH</h4>
-							<p>How to <strong>get paid what you’re worth</strong> by having dignified conversations about money … and the 2 main ways to rapidly build your income (I’ll also show you how to <strong>break the cycle of speaking for free</strong> … and calculate <strong>how much to lower your speaking fee</strong> when a client can’t afford it)</p>
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+							<h4 class="text-uppercase">transform relationships</h4>
+							<p>You’ll also discover how <strong>abundance can transform relationships for the better </strong>… and how to leverage your relationships to increase your abundance.</p>
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
 							<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-							<h4>REAL REASON</h4>
-							<p>The <strong>real reason</strong> why less than 10 percent of speakers generate a 6-figure income … and why less than 1 percent break the 7-figure mark (I’ll reveal how to <strong>turn your fans into students</strong> who hunger for the learning opportunities you provide … and how to determine if speaking should be your career or merely a hobby)</p>
+							<h4 class="text-uppercase">divine assignment</h4>
+							<p>Finally, you’ll be primed to open yourself up to experience <strong>greater abundance in all areas of your life</strong> … so you can live your divine assignment and <strong>create the life that’s perfect for you.</strong></p>
 						</div>
 					</div>
 
 				</div>
 				<div class="col-md-5 right-col">
-					<p>If you want to join the top 10% of speakers who break the six-figure mark (or the 1% who earn $1 million or more) ... <u>register now</u> for <em><strong>From Good to Unforgettable.</strong></em><strong></strong>
-					</p>
-					<p>During this 90-minute online training, you’ll discover my “behind the black curtain” secrets for creating a high-impact message, booking more paid speaking engagements and earning a great living as a professional speaker.</p>
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+					<p>If you want to learn the same strategies that have <em><strong>helped thousands of my students transform their lives from average to extraordinary</strong></em> by tapping into the incredible abundance that is available to each and every one of us.</p>
+					<p>During this 90-minute online training, I’m going to share the most important step you can take starting today to begin turning your dreams of an abundant life into a reality.</p>
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
-						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
-						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
-						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -178,7 +176,7 @@ include($includePath.'tracking-code.php');
 						<p class="text-center">We guarantee 100% privacy. Your Information will not be shared.
 						</p>
 					</form>
-					<p>You’ll also get to participate in a <strong>process that will give you clarity</strong> about your next best steps for <strong>creating the life and speaking business that’s right for YOU.</strong> (Not everyone should be a professional speaker – and if you go down this path, creating harmony in your life is essential for your health, revenue and sanity.)</p>
+					<p>You and you alone are the creator of your abundant life and once you recognize this fact, <em><strong>you can bring to yourself the things that you need to bring, so that you can have the future that you want to have.</strong></em><strong></strong></p>
 				</div>
 			</div>
 		</div>
@@ -264,29 +262,28 @@ include($includePath.'tracking-code.php');
 		<div class="modal-content">
 		  <div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<h2 class="modal-title text-center">From Good to UNFORGETTABLE</h2>
+			<h2 class="modal-title text-center">Opening To Abundance</h2>
 		  </div>
 		  <div class="modal-body">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center subhead"><strong class="orange">REVEALED!  Why Most Speakers Never Break the 6-Figure Mark</strong><br>
-– and What to Do Differently to Earn a Great Living AND Have a Massive Impact
-Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Speaker Training...</p>
+					<p class="text-center subhead"><strong class="orange">MASTER YOUR MINDSET & AMPLIFY YOUR LIFE!</strong><br>
+In this FREE Virtual Training, you’ll learn exactly how to realign, reset and reenergize your mindset to live the Abundant Life you deserve.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-push-6">
-					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
-						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
-						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
 						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
-						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
-						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
-						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
 						<input type="hidden" name="<?=$infTimezoneField?>" value="<?=$timezone?>">
 						<h2>Sign Up Now</h2>
 						<div class="form-group form-group-lg">
-							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>
 								<?php
 								foreach ( $availableDates as $unix ) {
@@ -317,13 +314,13 @@ Get Proven Scripts and Step-by-Step Processes During Lisa Nichols’ New Free Sp
 					<div class="spacer-40 visible-xs"></div>
 					</div>
 				<div class="col-md-6 col-md-pull-6">
-					<h3>How to Create Impact and Profit as a Professional Speaker</h3>
+					<h3>Accomplish Unfathomable Goals And Tap Into Your Limitless Potential</h3>
 					<p>Tune in to discover:</p>
 					<ul class="num-list">
-						<li><strong>4 key techniques</strong> for crafting an unforgettable message</li>
-						<li><strong>A step-by-Step process</strong> for booking speaking engagements and asking for referrals</li>
-						<li><strong>Scripts</strong> for having dignified conversations about your speaker fee</li>
-						<li><strong>How to hook your audience</strong> so they become fans – and then paying students</li>
+						<li><strong>How to cultivate an abundant mindset</strong> by adopting the traits of abundant thinkers.</li>
+						<li><strong>Your money blueprint</strong> and how it is influencing the way you make money, what you think about money, how you spend money</li>
+						<li><strong>Abundance transforms relationships</strong> for the better and how to leverage your relationships to increase your abundance</li>
+						<li><strong>How to open yourself up</strong> to experience greater abundance in all areas of your life</li>
 					</ul>
 				</div>
 			</div>
