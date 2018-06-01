@@ -17,7 +17,7 @@ if($now < $affPromo){
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Speak for Ultimate Impact and Profit | Order</title>
+	<title>The Abundant Life Online Program | Order</title>
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">
@@ -107,42 +107,32 @@ include($includePath.'tracking-code.php');
 					<div id="infoBox" class="white-trans-bg">
 						<h1>
       			<span class="orange"><i style="font-size: 30px;" class="fa fa-check orange" aria-hidden="true"></i>
-Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
+Yes, Lisa! I’m ready to begin living my abundant life right now – without waiting to first create substantial financial wealth.</span></h1>
 					
-<h4><a href="#" class=" btn-scroll">Please give me instant access</a> to your <em><strong>Speak for Ultimate Impact and Profit.</strong></em></h4>
+<h4><a href="#" class=" btn-scroll">Please enroll me in</a> <em>The Abundant Life Online Program.</em></h4>
 
-						<div class="white-text-box">
-							Speak for Ultimate Impact and Profit is a step-by-step system for transforming yourself from a good speaker to an unforgettable speaker – and building the CEO muscle needed to create a thriving, growing, profitable speaking business.
+						<div class="white-text-box" style="font-weight: 400;	">
+							<strong><em>The Abundant Life Online Program</em></strong> is a step-by-step personal empowerment training program that allows you to live life on your own terms … and experience abundance in your self-development, spirituality, relationships, and finances.
 						</div>
 						<p class="orange"><strong>You’ll discover how to:</strong>
 						</p>
 						<ul class="num-list">
-							<li>Easily find and get hired to speak by organizations whose missions can be furthered by your message.
-							</li>
-							<li>Make a much bigger impact with your message while you are traveling the country - or world - serving the people you meet in a much deeper way.
-							</li>
-							<li>Quickly phase out free speaking engagements that get you applause, but no clients.
-							</li>
-							<li>Feel comfortable and confident asking for your full fee – and referrals to other potential clients.
-							</li>
-							<li>Create a balanced, thriving business that supports the lifestyle you desire without having to “try harder” to do it.
-							</li>
-							<li>Teach you proven, in-depth techniques to up-level your speeches from good to unforgettable.
-							</li>
-							<li>Build a solid foundation for a sustainable speaking business, so you can deliver your message and still have a life.
-							</li>
-							<li>Massively increase the number of speaking engagements and referrals you receive.
-							</li>
-							<li>Expand your personal capacity by developing the mindset of a world-class speaker.
-							</li>
-							<li>And much more!
-							</li>
+							<li>Realize your greatest potential and play full out while encountering more opportunities for advancement </li>
+							<li>Harmoniously grow your health, wealth, relationships and spirit so you can transform each area of your life (without sacrificing the others) </li>
+							<li>Trade an “either, or” approach to life for a “yes, and also” outlook </li>
+							<li>Adopt an abundant mindset and say goodbye to your limiting beliefs around scarcity, jealousy, and lack that have been holding you back from fulfilling your true purpose </li>
+							<li>Dramatically increase your financial wealth so that you can pay for the nicer things in life … from a beautiful home, luxury car, fun vacation and college for your kids </li>
+							<li>Live your purpose and calling … while you’re also earning a great living </li>
+							<li>Put an end to anxiety, frustration, and fear... </li>
+							<li>Stop hiding your light because it makes other people uncomfortable …  </li>
+							<li>Stop settling for less than what you want because you’ve never experienced anything else… </li>
+							<li>And much more!</li>
 						</ul>
 						<button class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block">Enroll Now >></button>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="../images/registration/lisa-standing.png" alt="Lisa Nichols">
+					<img class="img-overlap img-responsive" src="../images/order/lisa-standing3.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>
@@ -154,74 +144,73 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">Here's what's included in this 13-week program … so you can easily get started today:</h2>
+					<h2 class="text-center purple">Here's what's included in this 12-week program … so you can easily get started today:</h2>
 					<div class="p-stack">
-						<h3>A <span class="red">FREE General Admission Ticket</span> To My Speak &amp; Write Event!</h3>
-						<h4>$997 Value</h4>
-						<p>When you purchase Speak For Ultimate Impact & Profit you will get a FREE General Admission Ticket to THE Premier Conference for Speakers Authors & Coaches, Speak & Write. <em>*Valid one calendar year post purchase*</em></p>
-					</div>
-					<div class="p-stack">
-						<h3>Immediate access to the “What You Need to Succeed” introductory video</h3>
+						<h3>Immediate access to the “Definition of Abundance” introductory video</h3>
 						<h4>$297 Value</h4>
-						<p>which sets up the course. Often called the “Wikipedia of Speak for Ultimate Impact and Profit,” this video gives you answers to those “What do I have to do to really make it as a speaker?” moments so you can build a solid foundation and winning platform as a speaker.</p>
+						<p>Often called the “Wikipedia of <em>The Abundant Life Online Program,”</em> this video gives you answers to “How do I overcome my past to create my abundant future?” moments so you can unlock greater abundance in all areas of your life.</p>
 					</div>
 					<div class="p-stack">
-						<h3>13 additional video training modules</h3>
+						<h3>11 additional video training modules</h3>
 						<h4>$2,700 Value</h4>
-						<p>which walk you through the process for building your business foundation on cement, not sinking sand.</p>
 						<div class="topics">
 							<p class="text-center"><strong>Topics include:
 						</strong>
 							</p>
 							<ul class="num-list2">
-								<li>The 4 types of speakers – and which one you are </li>
-								<li>The difference between “task” and “maintenance” … and how paying attention to both helps you double your impact in a room </li>
-								<li>Developing the foundation for your core message </li>
-								<li>5 steps to produce powerful messages </li>
-								<li>How to elevate the impact of your message </li>
-								<li>The Dip Theory … and how to use it to get your audience to stick to you like glue </li>
-								<li>The “Me, We, You” Audience Connection formula – an invisible technique that makes your audience feel like part of your tribe </li>
-								<li>Feeding your audience … so they want more of you – and more of your content </li>
-								<li>How to use the SNAAP effect to make every networking experience 5 times more effective </li>
-								<li>The secret to multiplying your speaking gigs x 3 by satisfying your current clients, while you're simultaneously engaging your next clients </li>
-								<li>Proven strategies for growing your database organically – without relying on expensive, time-intensive tools like pay-per-click advertising </li>
-								<li>Getting yourself booked and building a sustainable business model </li>
-								<li>Developing the mindset of a world-class speaker and growing your business by expanding your mental and emotional capacity </li>
-								<li>The distinct difference between telling a great story and showing a great story – and how you can easily master the art of story </li>
-								<p>&nbsp;</p>
+									<li>The difference between scarcity and abundance</li>
+									<li>The 4 key areas of life where abundance will appear – if you let it</li>
+									<li>How to rid your mind of limiting beliefs</li>
+									<li>Learning to trust your judgment and intuition again</li>
+									<li>Loving yourself … and figuring out what you really want</li>
+									<li>Coming to peace with any unresolved feelings about religion</li>
+									<li>Cultivating a deeper connection with yourself – and your spiritual Source</li>
+									<li>Questions to ask about your relationships</li>
+									<li>How rich people think differently about money</li>
+									<li>Deliberately creating a new relationship with money</li>
+									<li>Exploring the contrast between scarcity and abundance</li>
+									<li>Activating your new definition of abundance</li>
+									<li>And much more</li>
 							</ul>
 						</div>
 					</div>
 					<div class="p-stack">
-						<h3>Downloadable worksheets for each module</h3>
+						<h3>Downloadable worksheets for each module – more than 100 pages of action-based learning</h3>
 						<h4>$1,000 Value</h4>
-						<p>which will help you deepen your mastery of the content and begin to apply the lessons to your speeches and speaking business</p>
+						<p>These workbooks will help turn your new knowledge into measurable results.</p>
+					</div>
+					
+					<h2 class="text-center red">Plus 3 Special Bonus Gifts…</h2>
+					
+					<div class="p-stack">
+						<h3><span class="red">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
+						<h4>$16,200 Value</h4>
+						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with yours truly.</p>
+						<p dir="ltr">Each month you&rsquo;ll have the opportunity to join me LIVE via ZOOM for an exclusive group coaching call to ask my team and I any questions you may have about your transformational journey.</p>
+						<p dir="ltr">When I say I believe in you and I love you, it&rsquo;s because I do… &nbsp;and that&rsquo;s exactly why in this personal development program I wanted to make sure that you get the personal touch that is needed for you to achieve 360 degree abundance and become the best version of yourself.					</p>
 					</div>
 					<div class="p-stack">
-						<h3>Formula Frameworks...</h3>
-						<h4>$500 Value</h4>
-						<p>two resources to help speed and ease the process of creating your unforgettable message. You’ll get the Powerful Message Producer, which provides the framework for delivering a powerful message … and an outline for using the “Me-We-You” formula to connect with your audience.</p>
+						<h3><span class="red">BONUS #2 -</span> A private FB group</h3>
+						<h4>$597 Value</h4>
+						<p>Get crystal clear on what success and prosperity look like for you. Too often, we adopt other people’s visions of success for ourselves. But to experience true wealth, you have to know what matters to you.</p>
 					</div>
 					<div class="p-stack">
-						<h3>Time-Proven, Fill-in-the-Blank Scripts …</h3>
-						<h4>$2,000 Value</h4>
-						<p>The Dip Theory Script … the “Book me now” Script to secure more speaking engagements … a script for creating a stronger SNAAP message to use when networking … and the “Are You My Student?” script to help find new clients in your audience.</p>
+						<h3><span class="red">BONUS #3 -</span> A FREE ABUNDANT LIFE PROGRAM FOR A FRIEND OR FAMILY MEMBER</h3>
+						<h4>$1,997 Value</h4>
+						<p dir="ltr">I truly believe that <strong>nobody should grow alone</strong>, so if you are willing to be radical, take action and join my digital campus within <strong>the next 7 days</strong> you will be able to gift a friend or family member the program for FREE! </p>
+						<p dir="ltr">All of the bonuses have a total value of over $7,294. And they&rsquo;re all yours today for FREE just for taking <strong class="red">immediate action right now.</strong></p>
 					</div>
-					<div class="p-stack">
-						<h3>“Do It Like a Pro” Checklists …</h3>
-						<h4>$300 Value</h4>
-						<p>my Platinum Video and Still Shot List to up-level your brand … and my checklist on how to set up and deliver a training.</p>
-					</div>
-					<div class="p-stack">
-						<h3>“Here’s How I Did It” Sample Agreements …</h3>
-						<h4>$2,000 Value</h4>
-						<p>including a sample speaker agreement and a sample joint venture partner agreement.</p>
-					</div>
-					<div class="p-stack">
-						<h3>“Birth Your Best-Selling Book” Resources …</h3>
-						<h4>$1,000 Value</h4>
-						<p>including a copy of the book proposal I used to get the Chicken Soup for the African American Soul contract … and my step-by-step guide to turning your books into best-sellers. </p>
-					</div>
+					
+					
+					
+					<div style="margin-top: 60px; color: #222; line-height: 1.8;">
+						<p><em>&ldquo;The Abundant Life program for me was a game changer! I was able to release my negative thought patterns and limiting beliefs and regain my self-esteem by assessing my life and following the road map that the Abundant Life Program laid out for me. My life has changed in every way imaginable. My relationships are better, finances, spirituality and self-empowerment.<br>
+						<br>
+	&ldquo;The biggest change, however, is that I was able to finally release the shackles of shame regarding my herpes status. I was able to tell my mother after 13 years of keeping it a secret! I have now formed the African American Herpes Alliance to help others bound by shame, anger, fear and resentment to step out of the shadows and reclaim their power. This program showed me that I was OK. Flaws and all.<br>
+	<br>
+	&ldquo;If you are ready for fundamental breakthroughs in EVERY area of your life, this is the program that will get you there. If you are tired of playing small and dimming your light, this is the program that teaches you how to shine bright like the diamond you are! We all know that we could be better, bigger and bolder. Abundant Life is the personal trainer for your mind, spirit and body.&rdquo;</em></p>
+						<p class="text-right"><em> ~ Linda Husser
+						</em></p></div>
 				</div>
 			</div>
 		</div>
@@ -235,27 +224,14 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				<div class="col-md-6">
 
 				</div>
-				<div class="col-md-6 slide-right-on-scroll">
-					<h2 class="orange">Your Special Bonus Gift…
-</h2>
-					<img src="../images/order/banner.png" class="img-responsive">
-
-					<p>A FREE ticket to <strong>Speak and Write to Make Millions <br>
-				(A $997 value)</strong>
-					</p>
-					<p>During this 3-day live event, you’ll join hundreds of aspiring and seasoned entrepreneurs from all around the world for THE premier conference for speakers and authors.
-					</p>
-
-					<ul class="num-list">
-						<li>Discover the exact, step-by-step system Lisa used to grow her speaking business into a multi-million-dollar brand.
-						</li>
-						<li>Receive the exact proposal that garnered Lisa the “Chicken Soup for the Soul” contract.
-						</li>
-						<li>Learn how Lisa leveraged joint venture partners to land a 7-figure book deal.
-						</li>
-						<li>Master the art of storytelling to reach and inspire thousands with your unique story and message.
-						</li>
-					</ul>
+				<div class="col-md-6 slide-right-on-scroll text-center">
+					<h1 class="orange">REGISTER TODAY AND SAVE!</h1>
+					<h2>Your Investment: <span style="opacity: .7; text-decoration: line-through">$997</span> $497</h2>
+					<h1 class="orange">Want To Pay As You Go?<br>
+					No Problem!</h1>
+					<h2>3 payments of $197</h2>
+					
+						<button class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block">Enroll Now >></button>
 				</div>
 			</div>
 		</div>
@@ -272,17 +248,12 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				<div class="col-md-9 slide-right-on-scroll">
 					<h2>My Unconditional Satisfaction Guarantee
 </h2>
-					<p>I wholeheartedly believe that <strong>Speak for Ultimate Impact and Profit</strong> will work for you. It’s the process that I used to transform myself from a good speaker to an unforgettable speaker … and to build a solid foundation on which I built a multi-million-dollar business as a speaker and author.
-					</p>
-					<p>After 30 full days of working with the material in <strong>Speak for Ultimate Impact and Profit:</strong>
-					</p>
+					<p>I wholeheartedly believe that <em><strong>The Abundant Life Online Program</strong></em> will work for you. It’s the process that I used to shift my mindset from scarcity and fear … to abundance and gratitude … and to make the climb from welfare to Wall Street. </p>
+					<p>If, after <span style="text-decoration: underline">30 full days of working with the material</span> in <em><strong>The Abundant Life Online Program:</strong></em></p>
 					<ul>
-						<li>If you don’t discover how to create a more impactful message in these 30 short days
-						</li>
-						<li>If you don’t learn practical ways to grow your database, win more referrals and book more speaking gigs
-						</li>
-						<li>If you’re dissatisfied for any reason (even the way the course is designed)
-						</li>
+						<li>If you don’t discover how to enjoy life TODAY instead of constantly delaying your happiness and enjoyment … OR:</li>
+						<li>If you don’t develop a systemized approach to reaching your financial goals in your personal life and business … OR:</li>
+						<li> If you’re dissatisfied for any reason (even the way the course is designed) ... let me know, and I'll happily refund 100% of your financial investment into the program – no questions asked.</li>
 					</ul>
 					<p>... let me know, and I'll happily refund 100% of your financial investment into the program – no questions asked.
 					</p>
@@ -298,28 +269,51 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 	</div>
 	<!-- End Section -->
 
-
+	<!-- Start Section -->
+	<div id="included" class="section fade-on-scroll">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<h2 class="text-center purple">Here’s What Students Are Saying…</h2>
+					
+					
+					<div style="margin-top: 40px; color: #222; line-height: 1.8;">
+						<p><em>&ldquo;My life belongs to me now. &nbsp;I've always felt responsible for the world; as though everyone else mattered most. Since I've joined the program, I find abundance in everything I am and do in everything I do. Being last in my life's story is no longer an option.&rdquo;</em></p>
+						<p class="text-right" style="margin-bottom: 60px;"><em>~ Kinsha Em</em></p>
+						<p><em>&ldquo;What I learned today was that in order for my life to begin to look and feel like I want it to, it all starts with my mindset. I must shift my thinking and mindset in order to achieve greatness and all the things I desire to have. In order to play big and go for what it is my soul is here to do, I must master the ability to shift from negative self-talk to powerful self-talk. I must release my old hurts and anger with forgiveness. Forgiveness is what will free up my heart, mind and soul and I must be committed to being non-negotiable in my life. I must be willing to be inconvenienced now to have the breathtaking future I so long for!&rdquo;</em></p>
+						<p class="text-right" style="margin-bottom: 60px;"><em>~ Cielo Diaz</em></p>
+						<p><em>&ldquo;Stepping out of your comfort zone pays off even when you are so worried you may upset the apple cart with your actions and spoil a relationship. I feel empowered to keep trusting my instincts and being honest in my feedback. I feel really happy and positive - abundant actually!&rdquo;</em></p>
+						<p class="text-right" style="margin-bottom: 60px;"><em>~ Lesley Darling</em></p>
+						<p><em>&ldquo;This will be a program I go back thru regularly this year to immerse myself in a new way of thinking... to get it in my DNA. On one level I know this, but it's time for me to live it at a greater level. No one holds me back but myself.&rdquo;</em></p>
+						<p class="text-right" style="margin-bottom: 60px;"><em>~ Dailah Richardson</em></p>
+						<p><em>&ldquo;I learned that I must be my own leader. I must take responsibility over my words, my choices, my feelings, my imperfection and use it all to stand in my power.&rdquo;</em></p>
+						<p class="text-right"><em>~ Hila Marcus</em></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Section -->
 
 	<!-- Start Section -->
 	<div id="total-value" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Total Value: $9,794
-</h2>
+					<h2>Total Value: $22,791</h2>
 					<h3><strong>Your Investment:
 						</strong>
 					</h3>
-					<h3>Get started today for <span class="orange">3 easy payments of just $197</span>
+					<h3><span class="orange">Get started today for 3 easy payments of just $197</span>
 					</h3>
-					<h3>or <span class="orange">one quick payment of just $497</span>, saving you an additional $94</h3>
+					<h3>or one quick payment of just $497, saving you an additional $94</h3>
 					<div class="paypalInfo hidden">
 					<h3>or Pay ZERO today with a BILL-ME-LATER Option,<br>
 						powered by PayPal Credit.</h3><br>
 					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
 						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
 </p>
-				<p>With this $497 PayPal Credit option, you get complete and full access to Speak for Ultimate Impact and Profit plus the bonus ticket to Lisa’s Speak and Write to Make Millions live 3-day event. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
+				<p>With this $497 PayPal Credit option, you get complete and full access to <strong>The Abundant Life Online Program</strong>. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
 					<br>
 				</p>
 				<p><strong>IMPORTANT NOTE:</strong></p>
@@ -834,26 +828,17 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 							<h2 class="purple">You're Getting</h2>
 
 							<ul class="num-list2">
-								<li>A FREE General Admission Ticket To My Speak &amp; Write Event! <span class="val">$997 Value</span>
+								<li>Immediate access to the “Definition of Abundance” introductory video <span class="val">$297 Value</span>
 								</li>
-								<li>Immediate access to the “What You Need to Succeed” introductory video <span class="val">$297 Value</span>
+								<li>11 additional video training modules <span class="val">$2,700 Value</span>
 								</li>
-								<li>13 video training modules <span class="val">$2,700 Value </span>
+								<li>Downloadable worksheets for each module – more than 100 pages of action-based learning <span class="val">$1,000 Value </span>
 								</li>
-								<li>Downloadable worksheets for each module <span class="val">$1,000 Value </span>
+								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$16,200 Value </span>
 								</li>
-								<li>Formula Frameworks... <span class="val">$500 Value </span>
+								<li>BONUS #2 - A private FB group <span class="val">$597 Value </span>
 								</li>
-								<li>Time-Proven, Fill-in-the-Blank Scripts … <span class="val">$2,000 Value </span>
-								</li>
-								<li>“Do It Like a Pro” Checklists … <span class="val">$300 Value </span>
-								</li>
-								<li>“Here’s How I Did It” Sample Agreements … <span class="val">$2,000 Value </span>
-								</li>
-								<li>“Birth Your Best-Selling Book” Resources … <span class="val">$1,000 Value </span>
-								</li>
-								<li>A FREE ticket to Speak and Write to Make Millions <span class="val">$997 value</span>
-								</li>
+								<li>BONUS #3 - A free abundant life program for a friend or family member <span class="val">$1,997 Value </span></li>
 							</ul>
 						</div>
 
@@ -902,7 +887,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
    <div class="paypalInfo">
 	<div class="row">
 		<div class="col-md-2"><img src="../images/order/WAIT.jpg" alt="Wait" class="img-responsive"></div>
-		<div class="col-md-10"><h3 class="red text-center">Get Speak for Ultimate Impact and Profit with <u>ZERO Money Out of Your Pocket</u>, <span class="word-wrap">Right Now!</span></h3><br>
+		<div class="col-md-10"><h3 class="red text-center">Get The Abundant Life Online Program with <u>ZERO Money Out of Your Pocket</u>, <span class="word-wrap">Right Now!</span></h3><br>
 
 </div>
 	</div>
@@ -911,17 +896,17 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 </p>
    <p>Plus, with this option, you have <strong>no payments</strong> and 6 months to pay off your purchase, <strong>interest free.</strong>
 </p>
-   <p>When you invest in <em>Speak for Ultimate Impact and Profit</em> today, using PayPal Credit's bill-me-later option, you get complete and full access to the entire program, including all of the bonuses.
+   <p>When you invest in <em>The Abundant Life Online Program</em> today, using PayPal Credit's bill-me-later option, you get complete and full access to the entire program, including all of the bonuses.
 </p>
    
 		  <p class="text-center"><a class="btn btn-orange btn-orange-lg" href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">YES! I Want to Get Started With This Option</a></p><br>
-		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with Speak for Ultimate Impact and Profit today, with nothing out-of-pocket</a> 
+		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with The Abundant Life Online Program today, with nothing out-of-pocket</a> 
 by choosing PayPal’s Credit option.
 </p><br>
 					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
 						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
 </p>
-				<p>With this $497 PayPal Credit option, you get complete and full access to Speak for Ultimate Impact and Profit plus the bonus ticket to Lisa’s Speak and Write to Make Millions live 3-day event. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
+				<p>With this $497 PayPal Credit option, you get complete and full access to The Abundant Life Online Program. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
 					<br>
 				</p>
 				<p><strong>IMPORTANT NOTE:</strong></p>

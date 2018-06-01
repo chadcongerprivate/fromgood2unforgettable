@@ -47,27 +47,44 @@ header img{
 }
 #hero{
 	padding-top: 140px;
-	background-image: url(images/registration/hero-bg.png);
+	background-image: url(./images/order/skybacnd.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding-bottom: 30px;
 	text-align: center;
+	position: relative;
+}
+#hero::before{
+	opacity: .6;
+	content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	
+	
 }
 #hero h1{
 	color: white;
     text-shadow: 3px 3px #333;
     padding-bottom: 30px;
-    font-size: 33px;
+    font-size: 28px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin-top: 0px;
 	text-align: center;
+	line-height: 1.3;
 }
+
 #hero .img-overlap{
-	margin-top: -40px;
-	margin-left: -150px;
-	width: 585px;
-	height: auto;
+	margin-top: 0px;
+	/* margin-left: -100px; */
 }
 .black-trans-bg{
 	background: rgba(0, 0, 0, 0.3);
@@ -157,8 +174,7 @@ header img{
 		text-align: left;
 	}
 	#hero h1{
-		font-size: 55px;
-		text-align: left;
+		font-size: 40px;
 	}
 	.dark-grey-bg{
 		text-align: left;
@@ -214,7 +230,7 @@ h3{
 	    color: #ff8606;
 }
 #tune-in{
-	background-image: url(images/registration/lisa-suit.png);
+	background-image: url(images/registration/bckndglp.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -242,21 +258,15 @@ h3{
 	top:0px;
 	bottom:0px;
 	background: #323540;
-opacity: 0.90;
+opacity: 0.60;
 }
 @media (min-width: 992px) {
-	#tune-in::before{
-		width:57%;
-	}
 	#tune-in .left-col{
 		text-align: left;
 	}
 	#tune-in .right-col{
-		color: #000;
+		color: #FFF;
 		padding-left: 40px;
-	}
-	#tune-in .right-col strong{
-		color: #460a40;
 	}
 }
 #tune-in h2{
