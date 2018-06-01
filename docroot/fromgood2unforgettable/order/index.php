@@ -238,7 +238,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 				<div class="col-md-6 slide-right-on-scroll">
 					<h2 class="orange">Your Special Bonus Gift…
 </h2>
-					<img src="../images/order/banner.png" class="img-responsive">
+					<img src="../images/order/banner.png?v=1" class="img-responsive">
 
 					<p>A FREE ticket to <strong>Speak and Write to Make Millions <br>
 				(A $997 value)</strong>
