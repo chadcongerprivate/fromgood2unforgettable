@@ -1,12 +1,16 @@
 <?php
 include('../include/webinar-include.php');
 
-$countDownSec = strtotime('12:00am tomorrow', $now) - $now;
-$affPromo = strtotime('12:00am April 18 2018', $now);
+// bonuses expire at midnight, 7 days after webinar
+$bonusExpires = strtotime('+7 days', $unixStartTime);
+$bonusExpires = strtotime('12:00am tomorrow', $bonusExpires);
 
-if($now < $affPromo){
-	$countDownSec = $affPromo - $now;
+if($now == $bonusExpires || $now > $bonusExpires){
+	$bonusExpired = true;
+	$countDownSec = strtotime('12:00am tomorrow', $now) - $now;
 }
+
+
 
 ?>
 <!DOCTYPE html>

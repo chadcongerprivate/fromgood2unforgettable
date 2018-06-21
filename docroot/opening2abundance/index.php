@@ -66,9 +66,10 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<div id="infoBox" class="black-trans-bg">
+					<div id="infoBox" class="text-center">
 						<p class="text-capitalize text-left">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
-						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset – and Creating True Wealth in All Areas of Your Life</h1>
+						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
+						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
 					
 						<div class="dark-grey-bg">
 							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
@@ -78,7 +79,6 @@ include($includePath.'tracking-code.php');
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="images/order/lisa-standing.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">Do you want more from life?</h2>
+					<h2 class="text-center blue">Do you want more from life?</h2>
 					<div class="row">
 						<div class="col-md-3">
 					<img class="img-responsive" src="./images/registration/lisa-pointing.jpg" alt=""></div>
@@ -223,7 +223,7 @@ include($includePath.'tracking-code.php');
 					</p>
 				</div>
 				<div class="col-md-4 center-col">
-					<img class="img-responsive" src="images/registration/lisa-standing2.jpg" alt="">
+					<img class="img-responsive" src="images/order/lisa-standing3.png" alt="">
 				</div>
 				<div class="col-md-4 col-lg-3 right-col slide-right-on-scroll">
 					<i class="fa fa-rocket" aria-hidden="true"></i>
@@ -475,7 +475,7 @@ $(document).ready(function() {
 
 <?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 
