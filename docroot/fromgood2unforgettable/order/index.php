@@ -368,10 +368,10 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 <input id="PlanCount_B" value="3" name="PlanCount_B" type="hidden" />
                     <strong>Three Monthly Payments of $197</strong></label></div>
 								</div>
-					<!--		
+						
 				If you would like to use PayPal or PayPal Credit, click the button below:<br>
 <a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
-								-->
+								
 								<div class="row">
 									<div class="col-md-12 padding-10-t"><img class="lock" src="../images/order/lock.svg"><em>Secure Checkout System</em>
 									</div>
@@ -874,7 +874,7 @@ Yes, Lisa!</span> I’m ready to become an unforgettable speaker.</h1>
 					</a>
 				
 
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 					
 
@@ -1050,7 +1050,7 @@ $(function() {
 		function(){
 			if(firstExit){
 				firstExit = false;
-				//$('#modal').modal({show:true});
+				$('#modal').modal({show:true});
 			}
 		}
 	);
@@ -1111,7 +1111,7 @@ $(function() {
 <!-- End Timer -->
 <?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 
