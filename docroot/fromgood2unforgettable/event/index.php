@@ -208,7 +208,7 @@ $( function () {
 
 <?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 </html>

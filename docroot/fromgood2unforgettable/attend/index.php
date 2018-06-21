@@ -162,7 +162,7 @@ if($secTilStart <= 0){
 					<a id="learn">
 					</a>
 				
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 					
 						<a href="https://www.facebook.com/LisaNicholsFanPage"><i class="fa fa-facebook" aria-hidden="true"></i></a>

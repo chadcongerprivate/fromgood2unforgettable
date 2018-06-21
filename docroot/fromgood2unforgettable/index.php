@@ -242,7 +242,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-12">
 					<a id="learn">
 					</a>
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 						<a href="https://www.facebook.com/LisaNicholsFanPage"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="https://twitter.com/2motivate"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -469,7 +469,7 @@ $(document).ready(function() {
 
 <?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 
