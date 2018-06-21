@@ -1,7 +1,7 @@
 <?php
 
 $path              = '/opening2abundance/'; // (/ = root)
-$localPath         = '/mtm/docroot/opening2abundance/'; // leave blank if root
+$localPath         = '/mtm/opening2abundance/'; // leave blank if root
 $localHttpHost     = 'localhost:8888'; // use $_SERVER['HTTP_HOST'] on your local testing server if you're not sure
 
 // don't edit anything past this line

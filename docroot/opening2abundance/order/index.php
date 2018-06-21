@@ -184,7 +184,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					
 					<div class="p-stack">
 						<h3><span class="red">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
-						<h4>$16,200 Value</h4>
+						<h4>$2,200 Value</h4>
 						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with yours truly.</p>
 						<p dir="ltr">Each month you&rsquo;ll have the opportunity to join me LIVE via ZOOM for an exclusive group coaching call to ask my team and I any questions you may have about your transformational journey.</p>
 						<p dir="ltr">When I say I believe in you and I love you, it&rsquo;s because I do… &nbsp;and that&rsquo;s exactly why in this personal development program I wanted to make sure that you get the personal touch that is needed for you to achieve 360 degree abundance and become the best version of yourself.					</p>
@@ -300,7 +300,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Total Value: $22,791</h2>
+					<h2>Total Value: $6,791</h2>
 					<h3><strong>Your Investment:
 						</strong>
 					</h3>
@@ -834,7 +834,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 								</li>
 								<li>Downloadable worksheets for each module – more than 100 pages of action-based learning <span class="val">$1,000 Value </span>
 								</li>
-								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$16,200 Value </span>
+								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$2,200 Value </span>
 								</li>
 								<li>BONUS #2 - A private FB group <span class="val">$597 Value </span>
 								</li>
