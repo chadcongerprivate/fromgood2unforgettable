@@ -31,7 +31,7 @@ background: linear-gradient(135deg, rgba(225,255,255,1) 0%,rgba(225,255,255,0.94
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#80b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .guar{
-	background-image: url(../images/order/gbg.png);
+	background-image: url(../images/blue-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 	color: #FFF !important;
@@ -94,9 +94,9 @@ header img{
 }
 #hero{
 	padding-top: 140px;
-	background-image: url(../images/order/skybacnd.jpg);
+	background-image: url(../images/lisa-med.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: left top;
 	padding-bottom: 30px;
 	text-align: center;
 	position: relative;
@@ -143,16 +143,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .white-trans-bg .num-list li{
 	color: #000;
 }
+.green{
+	color: darkgreen !important;
+}
 .white-trans-bg .orange,
 .white-trans-bg .num-list li:before{
-	color: darkred !important;
+	color: darkgreen !important;
 }
 .white-trans-bg p {
 	text-shadow: none !important;
 }
-.white-trans-bg  h1{
+.white-trans-bg h1{
 	text-shadow: none !important;
-	color: darkred !important;
+	color: darkgreen !important;
 }
 .nyt{
 	color: #666;
@@ -315,13 +318,22 @@ h3{
 .purple{
 	color: #460a40;
 }
+.blue{
+	color: #254390;
+}
+.black{
+	color: #000;
+}
+.white{
+	color: #FFF;
+}
 .orange{
 	    color: #ff8606 !important;
 }
 #bonus{
-	background-image: url(../images/order/bonus-bg.jpg);
+	background-image: url(../images/lisa-blue.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	position: relative;
 	padding-bottom: 0px;
 	color: #FFF;
@@ -520,7 +532,7 @@ ul.num-list li::before{
 	font: normal normal normal 14px/1 FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-	color: #ff8606;
+	color: darkgreen;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;

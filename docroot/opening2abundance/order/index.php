@@ -110,7 +110,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-8">
 					<div id="infoBox" class="white-trans-bg">
 						<h1>
-      			<span class="orange"><i style="font-size: 30px;" class="fa fa-check orange" aria-hidden="true"></i>
+      			<i style="font-size: 30px;" class="fa fa-check darkgreen" aria-hidden="true"></i><span class="black">
 Yes, Lisa! I’m ready to begin living my abundant life right now – without waiting to first create substantial financial wealth.</span></h1>
 					
 <h4><a href="#" class=" btn-scroll">Please enroll me in</a> <em>The Abundant Life Online Program.</em></h4>
@@ -118,7 +118,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 						<div class="white-text-box" style="font-weight: 400;	">
 							<strong><em>The Abundant Life Online Program</em></strong> is a step-by-step personal empowerment training program that allows you to live life on your own terms … and experience abundance in your self-development, spirituality, relationships, and finances.
 						</div>
-						<p class="orange"><strong>You’ll discover how to:</strong>
+						<p class="blue"><strong>You’ll discover how to:</strong>
 						</p>
 						<ul class="num-list">
 							<li>Realize your greatest potential and play full out while encountering more opportunities for advancement </li>
@@ -136,7 +136,6 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap img-responsive" src="../images/order/lisa-standing3.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>
@@ -148,15 +147,15 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">Here's what's included in this 12-week program … so you can easily get started today:</h2>
+					<h2 class="text-center blue">Here's what's included in this 12-week program … so you can easily get started today:</h2>
 					<div class="p-stack">
 						<h3>Immediate access to the “Definition of Abundance” introductory video</h3>
-						<h4>$297 Value</h4>
+						
 						<p>Often called the “Wikipedia of <em>The Abundant Life Online Program,”</em> this video gives you answers to “How do I overcome my past to create my abundant future?” moments so you can unlock greater abundance in all areas of your life.</p>
 					</div>
 					<div class="p-stack">
 						<h3>11 additional video training modules</h3>
-						<h4>$2,700 Value</h4>
+						
 						<div class="topics">
 							<p class="text-center"><strong>Topics include:
 						</strong>
@@ -180,29 +179,29 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					</div>
 					<div class="p-stack">
 						<h3>Downloadable worksheets for each module – more than 100 pages of action-based learning</h3>
-						<h4>$1,000 Value</h4>
+						
 						<p>These workbooks will help turn your new knowledge into measurable results.</p>
 					</div>
 					
-					<h2 class="text-center red">Plus 3 Special Bonus Gifts…</h2>
+					<h2 class="text-center blue">Plus 3 Special Bonus Gifts…</h2>
 					
 					<div class="p-stack">
-						<h3><span class="red">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
+						<h3><span class="blue">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
 						<h4>$2,200 Value</h4>
 						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with yours truly.</p>
 						<p dir="ltr">Each month you&rsquo;ll have the opportunity to join me LIVE via ZOOM for an exclusive group coaching call to ask my team and I any questions you may have about your transformational journey.</p>
 						<p dir="ltr">When I say I believe in you and I love you, it&rsquo;s because I do… &nbsp;and that&rsquo;s exactly why in this personal development program I wanted to make sure that you get the personal touch that is needed for you to achieve 360 degree abundance and become the best version of yourself.					</p>
 					</div>
 					<div class="p-stack">
-						<h3><span class="red">BONUS #2 -</span> A private FB group</h3>
+						<h3><span class="blue">BONUS #2 -</span> A private FB group</h3>
 						<h4>$597 Value</h4>
 						<p>Get crystal clear on what success and prosperity look like for you. Too often, we adopt other people’s visions of success for ourselves. But to experience true wealth, you have to know what matters to you.</p>
 					</div>
 					<div class="p-stack">
-						<h3><span class="red">BONUS #3 -</span> A FREE ABUNDANT LIFE PROGRAM FOR A FRIEND OR FAMILY MEMBER</h3>
+						<h3><span class="blue">BONUS #3 -</span> A FREE ABUNDANT LIFE PROGRAM FOR A FRIEND OR FAMILY MEMBER</h3>
 						<h4>$1,997 Value</h4>
 						<p dir="ltr">I truly believe that <strong>nobody should grow alone</strong>, so if you are willing to be radical, take action and join my digital campus within <strong>the next 7 days</strong> you will be able to gift a friend or family member the program for FREE! </p>
-						<p dir="ltr">All of the bonuses have a total value of over $7,294. And they&rsquo;re all yours today for FREE just for taking <strong class="red">immediate action right now.</strong></p>
+						<p dir="ltr">All of the bonuses have a total value of over $7,294. And they&rsquo;re all yours today for FREE just for taking <strong class="blue">immediate action right now.</strong></p>
 					</div>
 					
 					
@@ -225,9 +224,6 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 	<div class="section" id="bonus">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-
-				</div>
 				<div class="col-md-6 slide-right-on-scroll text-center">
 					<h1 class="orange">REGISTER TODAY AND SAVE!</h1>
 					<h2>Your Investment: <span style="opacity: .7; text-decoration: line-through">$997</span> $497</h2>
@@ -278,7 +274,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">Here’s What Students Are Saying…</h2>
+					<h2 class="text-center blue">Here’s What Students Are Saying…</h2>
 					
 					
 					<div style="margin-top: 40px; color: #222; line-height: 1.8;">
@@ -343,7 +339,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 col-lg-8">
-						<h2 class="purple">Check Out</h2>
+						<h2 class="blue">Check Out</h2>
 
 
 
@@ -829,7 +825,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					<div class="col-md-5 col-lg-4">
 						<h1>&nbsp;</h1>
 						<div class="order-summary">
-							<h2 class="purple">You're Getting</h2>
+							<h2 class="blue">You're Getting</h2>
 
 							<ul class="num-list2">
 								<li>Immediate access to the “Definition of Abundance” introductory video <span class="val">$297 Value</span>
@@ -863,7 +859,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					</a>
 				
 
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 					
 
