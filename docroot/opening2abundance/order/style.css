@@ -282,7 +282,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		
 }
 .btn-orange,.btn-orange:focus{
-	    border: 2px solid #72167c;
+	    border: 2px solid #254390;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -295,7 +295,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	    text-transform: uppercase;
 }
 .btn-orange:hover{
-    background: #72167c;
+    background: #254390;
 	color: #FFF;
 }
 .white-bg{
@@ -475,7 +475,7 @@ opacity: 0.90;
 #about i{
 	position: absolute;
 	left: 15px;
-	color: #72167c;
+	color: #254390;
 	font-size: 30px;
 }
 #about .center-col img{
@@ -612,8 +612,8 @@ ul.num-list2 li::before{
 .platform li a{
 	display: block;
 	background: transparent;
-	border: 1px solid #72167c;
-	color: #72167c;
+	border: 1px solid #254390;
+	color: #254390;
 	padding-top: 7px;
 	height: 90px;
 	width: 90px;
@@ -624,7 +624,7 @@ ul.num-list2 li::before{
 	-moz-transition: 0.5s;
 }
 .platform li a:hover{
-	background-color: #72167c;
+	background-color: #254390;
 	color: #FFF;
 }
 

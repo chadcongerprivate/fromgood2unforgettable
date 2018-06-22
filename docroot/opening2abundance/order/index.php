@@ -828,11 +828,11 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 							<h2 class="blue">You're Getting</h2>
 
 							<ul class="num-list2">
-								<li>Immediate access to the “Definition of Abundance” introductory video <span class="val">$297 Value</span>
+								<li>Immediate access to the “Definition of Abundance” introductory video 
 								</li>
-								<li>11 additional video training modules <span class="val">$2,700 Value</span>
+								<li>11 additional video training modules 
 								</li>
-								<li>Downloadable worksheets for each module – more than 100 pages of action-based learning <span class="val">$1,000 Value </span>
+								<li>Downloadable worksheets for each module – more than 100 pages of action-based learning 
 								</li>
 								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$2,200 Value </span>
 								</li>
