@@ -26,7 +26,7 @@ $videoLengthSec      = 36; // if this is over even by 1 decimal point, the event
 $calRunTimeMin       = 90; // number of minutes to use as end time for calender
 $summaryLengthHours  = 0;
 $summaryLengthMin    = 56;
-$summaryLengthSec    = 31; // if this is over even by 1 decimal point, the event will not end
+$summaryLengthSec    = 30.8; // if this is over even by 1 decimal point, the event will not end
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';
