@@ -91,9 +91,15 @@ include($includePath.'tracking-code.php');
 							</div>
 				</div>
 				<div class="col-md-4 col-xs-6 visible-xs">
+				  <?php
+					if($bonuses){
+				?>
 					  <div class="timer-simple">
 						  This Offer Expires In:<br><span class="hours"><span>0</span><span>0</span> </span> hours, <span class="min"><span>0</span><span>0</span>  </span> min, <span class="sec"><span>0</span><span>0</span>  </span> sec
 					</div>
+				<?php
+					}
+				?>
 				</div>
 				<div class="col-md-4 text-right hidden-sm hidden-xs">
 					<button class="btn btn-orange margin-15-tb btn-scroll">Enroll Now >></button>
