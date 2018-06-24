@@ -338,13 +338,20 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 	</div>
 	<!-- End Section -->
 <form id="orderForm" action="https://wqy87770.infusionsoft.com/AddForms/processFormSecure.jsp" method='Post'>
-		<input id="infusion_xid" value="405e123e1b0dcac499aaa1602116e04c" name="infusion_xid" type="hidden" />
-<input id="infusion_type" value="CustomFormSale" name="infusion_type" type="hidden" />
-<input id="infusion_name" value="Speak for Ultimate Impact and Profit" name="infusion_name" type="hidden" />
-<input id="CAttempt" name="CAttempt" type="hidden" />
+	<input name="infusion_xid" value="50da801e1fd751a8de20bed93cd1ee31" type="hidden" id="infusion_xid" />
+<input name="infusion_type" value="CustomFormSale" type="hidden" id="infusion_type" />
+<input name="infusion_name" value="Abundant Life Course" type="hidden" id="infusion_name" />
+<input name="CAttempt" type="hidden" id="CAttempt" />
 	<input id="NotLegacy" value="true" name="NotLegacy" type="hidden" />
-	<input id="ProductId" value="929" name="ProductId" type="hidden" />
+<input name="ProductId" value="783" type="hidden" id="ProductId" />
 	
+	<?php
+	if($bonuses){
+	?>
+		<input class="hidden" type="checkbox" name="Checkbox0" value="8601" checked>
+	<?php
+	}
+	?>
 		<!-- Start Section -->
 		<div class="section padding-40-t">
 			<div class="container">
