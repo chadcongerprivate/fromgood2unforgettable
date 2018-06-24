@@ -13,6 +13,8 @@ if($unixStartTime){
 	$unixCtaTime     = secInVidToUnix($ctaVidShow);
 	$unixEndEvent    = $unixPreRollTime + $runTimeSeconds;
 	$unixCalEnd      = strtotime("+ $calRunTimeMin minutes", $unixStartTime);
+	$unixBonusExpire = strtotime('+7 days', $unixStartTime);
+	$unixBonusExpire = strtotime('12:00am tomorrow', $unixBonusExpire);
 	
 	// calculate unix timestamps for visual elements
 	$visualElementsUnix = array();
@@ -53,6 +55,7 @@ if($unixStartTime){
 	$secSinceCta         = noNegatives($unixCtaTime - $now);
 	$secTilEndEvent      = noNegatives($unixEndEvent - $now);
 	$secSinceEndEvent    = noNegatives($now - $unixEndEvent);
+	$secTilBonusExpire   = noNegatives($unixBonusExpire - $now);
 	
 	// Save selected date
 	$expire =  time()+60*60*24*90; // 90 days

@@ -1,13 +1,13 @@
 <?php
 include('../include/webinar-include.php');
 
-// bonuses expire at midnight, 7 days after webinar
-$bonusExpires = strtotime('+7 days', $unixStartTime);
-$bonusExpires = strtotime('12:00am tomorrow', $bonusExpires);
 
-if($now == $bonusExpires || $now > $bonusExpires){
-	$bonusExpired = true;
-	$countDownSec = strtotime('12:00am tomorrow', $now) - $now;
+if($secTilBonusExpire > 0){
+	$bonuses = true;
+	$countDownSec = $secTilBonusExpire;
+}else{
+	$bonuses = false;
+	$countDownSec = 0;
 }
 
 
@@ -182,7 +182,9 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 						
 						<p>These workbooks will help turn your new knowledge into measurable results.</p>
 					</div>
-					
+					<?php
+					if($bonuses){
+					?>
 					<h2 class="text-center blue">Plus 3 Special Bonus Gifts…</h2>
 					
 					<div class="p-stack">
@@ -203,7 +205,9 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 						<p dir="ltr">I truly believe that <strong>nobody should grow alone</strong>, so if you are willing to be radical, take action and join my digital campus within <strong>the next 7 days</strong> you will be able to gift a friend or family member the program for FREE! </p>
 						<p dir="ltr">All of the bonuses have a total value of over $7,294. And they&rsquo;re all yours today for FREE just for taking <strong class="blue">immediate action right now.</strong></p>
 					</div>
-					
+					<?php
+					}
+					?>
 					
 					
 					<div style="margin-top: 60px; color: #222; line-height: 1.8;">
@@ -300,7 +304,14 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Total Value: $6,791</h2>
+				<?php
+					if($bonuses){
+						$value = '$6,791';
+					}else{
+						$value = '$1,997';
+					}
+					?>
+					<h2>Total Value: <?=$value?></h2>
 					<h3><strong>Your Investment:
 						</strong>
 					</h3>
@@ -834,11 +845,17 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 								</li>
 								<li>Downloadable worksheets for each module – more than 100 pages of action-based learning 
 								</li>
+								<?php
+								if($bonuses){
+								?>
 								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$2,200 Value </span>
 								</li>
 								<li>BONUS #2 - A private FB group <span class="val">$597 Value </span>
 								</li>
 								<li>BONUS #3 - A free abundant life program for a friend or family member <span class="val">$1,997 Value </span></li>
+								<?php
+								}
+								?>
 							</ul>
 						</div>
 
@@ -868,7 +885,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 						<a href="https://www.linkedin.com/company-beta/3675653/?pathWildcard=3675653"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					</div>
 					<div class="copyright">
-						Copyright © 2010-2017 Motivating The Masses. All Rights Reserved.
+						Copyright © 2010-<?=date('Y')?> Motivating The Masses. All Rights Reserved.
 					</div>
 					<a href="https://www.motivatingthemasses.com/privacy-terms-of-use" target="_blank" class="privacy">Privacy &amp; Terms of Use</a>
 				</div>
@@ -1064,7 +1081,9 @@ $(function() {
 </script>
 <!-- End Vidio Modal -->
 
-
+<?php
+if($bonuses){
+?>
 <!-- Timer -->
 <script src="../js/jquery.countdown.min.js"></script>
 <script>
@@ -1084,7 +1103,7 @@ $(function() {
 		 $('.sec').html('<span>'+seconds.substring(0,1)+'</span>'+'<span>'+seconds.substring(1)+'</span>');
 	 },
 	 onEnd: function(data) {
-		window.location = './expired/';
+		window.location.reload();
 	 }
 	});
 
@@ -1095,8 +1114,13 @@ $(function() {
 </script>
 <!-- End Timer -->
 <?php
+}
+?>
+
+
+<?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 
