@@ -169,7 +169,7 @@ if($secTilStart <= 0){
 						<a href="https://www.linkedin.com/company-beta/3675653/?pathWildcard=3675653"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					</div>
 					<div class="copyright">
-						Copyright © 2010-2017 Motivating The Masses. All Rights Reserved.
+						Copyright © 2010-<?=date('Y')?> Motivating The Masses. All Rights Reserved.
 					</div>
 					<a class="privacy" href="https://www.motivatingthemasses.com/privacy-terms-of-use">Privacy &amp; Terms of Use</a>
 				</div>

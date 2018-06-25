@@ -313,6 +313,7 @@ function getPageState($unix){
 	global $unixStartTime;
 	global $unixEndEvent;
 	global $unixPreRollTime;
+	global $unixBonusExpire;
 	
 	$pageStates =  array();
 
@@ -336,6 +337,11 @@ function getPageState($unix){
 		0                => 'Redirects to staging',
 		$unixStartTime   => 'Plays event',
 		$unixEndEvent    => 'Event ended'
+	);
+
+	$pageStates['order'] = array(
+		0                => 'No action',
+		$unixBonusExpire => 'Bonuses expire'
 	);
 
 	if($ctaVidShow){
@@ -362,8 +368,8 @@ function getPageState($unix){
 		}
 	}
 	
-	return $currentPageStates;
 	
+	return $currentPageStates;
 }
 
 function addToSchedule($unix, $desc){
@@ -381,7 +387,8 @@ function addToSchedule($unix, $desc){
 												'Registration'        => $pageStates['registration'],
 												'Confirmation'        => $pageStates['confirmation'],
 												'Staging'             => $pageStates['staging'],
-												'Event'               => $pageStates['event']
+												'Event'               => $pageStates['event'],
+												'Order'               => $pageStates['order']
 												)
 		);
 	}
@@ -399,7 +406,8 @@ function addToSchedule($unix, $desc){
 												'Registration'        => $pageStates['registration'],
 												'Confirmation'        => $pageStates['confirmation'],
 												'Staging'             => $pageStates['staging'],
-												'Event'               => $pageStates['event']
+												'Event'               => $pageStates['event'],
+												'Order'               => $pageStates['order']
 												)
 		);
 	}

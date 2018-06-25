@@ -60,6 +60,9 @@ if($ctaVidShow){
 // end time
 addToSchedule($unixEndEvent, 'Event Ends');
 
+// bonus expiration
+addToSchedule($unixBonusExpire, 'Bonuses expire');
+
 
 // sort schedule in order by time
 ksort($schedule);
@@ -105,21 +108,25 @@ foreach($schedule as $k => $v){
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-md-3">
+      <div class="col-md-2 col-md-offset-1">
         <h4><a href="../../?t=<?=date('g:i:sa+M+d+Y', $k)?>&tz=<?=$timezone?>&webId=<?=$unixStartTime?>" target="_blank">Registration</a></h4>
         <p><?=$v['actions']['Registration']?></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h4><a href="../../confirmation/?t=<?=date('g:i:sa+M+d+Y', $k)?>&tz=<?=$timezone?>&webId=<?=$unixStartTime?>" target="_blank">Confirmation</a></h4>
         <p><?=$v['actions']['Confirmation']?></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h4><a href="../../attend/?t=<?=date('g:i:sa+M+d+Y', $k)?>&tz=<?=$timezone?>&webId=<?=$unixStartTime?>" target="_blank">Staging</a></h4>
         <p><?=$v['actions']['Staging']?></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h4><a href="../../event/?t=<?=date('g:i:sa+M+d+Y', $k)?>&tz=<?=$timezone?>&webId=<?=$unixStartTime?>" target="_blank">Event</a></h4>
         <p><?=$v['actions']['Event']?></p>
+      </div>
+      <div class="col-md-2">
+        <h4><a href="../../order/?t=<?=date('g:i:sa+M+d+Y', $k)?>&tz=<?=$timezone?>&webId=<?=$unixStartTime?>" target="_blank">Order</a></h4>
+        <p><?=$v['actions']['Order']?></p>
       </div>
     </div>
     

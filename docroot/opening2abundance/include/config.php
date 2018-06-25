@@ -13,20 +13,20 @@ $videoType         = 'vimeo'; // youTube, vimeo or html5
 $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
-$videoId             = '220867396'; // youTube or vimeo video id, leave blank if using html5
-$videoIdReplay       = '220867396'; //'244923795';
+$videoId             = '276103536';//'220867396'; // youTube or vimeo video id, leave blank if using html5
+$videoIdReplay       = '276103536'; //'244923795';
 $videoIdSummary      = '209415407';
 $preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
 $eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
 $ctaVidShow          = 20 * 60; // seconds in video where main CTA should show (set false if you aren't using a main cta)
 $ctaVidShowSummary   = 0; // seconds in video where main CTA should show (set false if you aren't using a main cta)
 $videoLengthHours    = 1;
-$videoLengthMin      = 45;
-$videoLengthSec      = 25; // if this is over even by 1 decimal point, the event will not end
+$videoLengthMin      = 47;
+$videoLengthSec      = 36; // if this is over even by 1 decimal point, the event will not end
 $calRunTimeMin       = 90; // number of minutes to use as end time for calender
 $summaryLengthHours  = 0;
 $summaryLengthMin    = 56;
-$summaryLengthSec    = 31; // if this is over even by 1 decimal point, the event will not end
+$summaryLengthSec    = 30.8; // if this is over even by 1 decimal point, the event will not end
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';

@@ -31,7 +31,7 @@ background: linear-gradient(135deg, rgba(225,255,255,1) 0%,rgba(225,255,255,0.94
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#80b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .guar{
-	background-image: url(../images/order/gbg.png);
+	background-image: url(../images/blue-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 	color: #FFF !important;
@@ -94,11 +94,29 @@ header img{
 }
 #hero{
 	padding-top: 140px;
-	background-image: url(../images/registration/hero-bg.png);
+	background-image: url(../images/lisa-med.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: left top;
 	padding-bottom: 30px;
 	text-align: center;
+	position: relative;
+	
+}
+#hero::before{
+	opacity: .6;
+	content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	
+	
 }
 #hero h1{
 	color: white;
@@ -111,10 +129,8 @@ header img{
 	text-align: center;
 }
 #hero .img-overlap{
-	margin-top: -40px;
-	margin-left: -150px;
-	width: 585px;
-	height: auto;
+	margin-top: 0px;
+	/* margin-left: -100px; */
 }
 .black-trans-bg{
 	background: rgba(0, 0, 0, 0.8);
@@ -127,16 +143,19 @@ header img{
 .white-trans-bg .num-list li{
 	color: #000;
 }
+.green{
+	color: darkgreen !important;
+}
 .white-trans-bg .orange,
 .white-trans-bg .num-list li:before{
-	color: darkred !important;
+	color: darkgreen !important;
 }
 .white-trans-bg p {
 	text-shadow: none !important;
 }
-.white-trans-bg  h1{
+.white-trans-bg h1{
 	text-shadow: none !important;
-	color: darkred !important;
+	color: darkgreen !important;
 }
 .nyt{
 	color: #666;
@@ -263,7 +282,7 @@ header img{
 		
 }
 .btn-orange,.btn-orange:focus{
-	    border: 2px solid #72167c;
+	    border: 2px solid #254390;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -276,7 +295,7 @@ header img{
 	    text-transform: uppercase;
 }
 .btn-orange:hover{
-    background: #72167c;
+    background: #254390;
 	color: #FFF;
 }
 .white-bg{
@@ -299,13 +318,22 @@ h3{
 .purple{
 	color: #460a40;
 }
+.blue{
+	color: #254390 !important;
+}
+.black{
+	color: #000;
+}
+.white{
+	color: #FFF;
+}
 .orange{
 	    color: #ff8606 !important;
 }
 #bonus{
-	background-image: url(../images/order/bonus-bg.jpg);
+	background-image: url(../images/lisa-blue.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	position: relative;
 	padding-bottom: 0px;
 	color: #FFF;
@@ -447,7 +475,7 @@ opacity: 0.90;
 #about i{
 	position: absolute;
 	left: 15px;
-	color: #72167c;
+	color: #254390;
 	font-size: 30px;
 }
 #about .center-col img{
@@ -504,7 +532,7 @@ ul.num-list li::before{
 	font: normal normal normal 14px/1 FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-	color: #ff8606;
+	color: darkgreen;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
@@ -584,8 +612,8 @@ ul.num-list2 li::before{
 .platform li a{
 	display: block;
 	background: transparent;
-	border: 1px solid #72167c;
-	color: #72167c;
+	border: 1px solid #254390;
+	color: #254390;
 	padding-top: 7px;
 	height: 90px;
 	width: 90px;
@@ -596,7 +624,7 @@ ul.num-list2 li::before{
 	-moz-transition: 0.5s;
 }
 .platform li a:hover{
-	background-color: #72167c;
+	background-color: #254390;
 	color: #FFF;
 }
 

@@ -6,7 +6,60 @@ body,html{
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif; 
 	color: #898989;
-	font-size: 20px;
+	font-size: 18px;
+}
+.embed-responsive{
+	margin-top: 60px;
+}
+.red{
+	color: darkred;
+}
+.img-responsive{
+	margin: 0px auto;
+}
+#total-value{
+	background: #22242b;
+	color: #FFF;
+	text-align: center;
+}
+#total-value h2{
+	color: #ff8606;
+	font-size: 40px;
+}
+#included{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100&1+0,0.5+54,0.5+75,0.5+100;Blue+Pipe+%232 */
+background: -moz-linear-gradient(-45deg, rgba(225,255,255,1) 0%, rgba(225,255,255,0.94) 7%, rgba(253,255,255,0.89) 12%, rgba(230,248,253,0.72) 30%, rgba(200,238,251,0.5) 54%, rgba(190,228,248,0.5) 75%, rgba(177,216,245,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(225,255,255,1) 0%,rgba(225,255,255,0.94) 7%,rgba(253,255,255,0.89) 12%,rgba(230,248,253,0.72) 30%,rgba(200,238,251,0.5) 54%,rgba(190,228,248,0.5) 75%,rgba(177,216,245,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(225,255,255,1) 0%,rgba(225,255,255,0.94) 7%,rgba(253,255,255,0.89) 12%,rgba(230,248,253,0.72) 30%,rgba(200,238,251,0.5) 54%,rgba(190,228,248,0.5) 75%,rgba(177,216,245,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#80b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.guar{
+	background-image: url(../images/blue-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: #FFF !important;
+	font-size: 16px;
+	padding-bottom: 0px !important;
+}
+.guar h2{
+	color: #FFF;
+}
+.topics{
+	padding: 30px;
+	background-color: rgba(0,0,0,.1);margin-top: 20px;
+}
+.p-stack{
+	background-color: rgba(0,0,0,.1);
+	padding: 30px;
+	color: #000;
+	margin-bottom: 30px;
+}
+.p-stack h3{
+	font-family: 'Open Sans', sans-serif; 
+	margin-top: 0px;
+}
+.p-stack h4{
+	color:#ff8606;
 }
 button{
 	outline: none !important;
@@ -26,9 +79,6 @@ button{
 .margin-15-tb{
 	margin: 15px 0px;
 }
-.word-wrap{
-	display: inline-block;
-}
 header{
 	position: fixed;
 	width: 100%;
@@ -47,49 +97,68 @@ header img{
 }
 #hero{
 	padding-top: 140px;
-	background-image: url(./images/lisa-med.jpg);
+	background-image: url(../images/lisa-med.jpg);
 	background-size: cover;
 	background-position: left top;
 	padding-bottom: 30px;
 	text-align: center;
 	position: relative;
+	
 }
 #hero::before{
-	opacity: .8;
+	opacity: .6;
 	content: '';
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+18,0.5+100 */
-background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 18%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 18%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
-
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	
+	
 }
 #hero h1{
 	color: white;
     text-shadow: 3px 3px #000;
-    padding-bottom: 0px;
-    font-size: 28px;
+    padding-bottom: 10px;
+    font-size: 23px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin-top: 0px;
 	text-align: center;
-	line-height: 1.3;
-}
-.text-500{
-	font-weight: 500;
 }
 #hero .img-overlap{
 	margin-top: 0px;
 	/* margin-left: -100px; */
 }
 .black-trans-bg{
-	background: rgba(0, 0, 0, 0.3);
-	padding: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	padding:20px;
+}
+.white-trans-bg{
+	background: rgba(255, 255, 255, 1);
+	padding:20px;
+}
+.white-trans-bg .num-list li{
+	color: #000;
+}
+.green{
+	color: darkgreen !important;
+}
+.white-trans-bg .orange,
+.white-trans-bg .num-list li:before{
+	color: darkgreen !important;
+}
+.white-trans-bg p {
+	text-shadow: none !important;
+}
+.white-trans-bg h1{
+	text-shadow: none !important;
+	color: darkgreen !important;
 }
 .nyt{
 	color: #666;
@@ -103,7 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	font-size: 18px;
 }
 #hero #confirmationBox h1{
-	text-align: left;
+	text-align: center;
 	color: #ff8606;
 	text-shadow: none;
 	font-weight: 700;
@@ -120,35 +189,54 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	color: #333;
 	font-size: 25px;
 }
-#confirmationBox p, #confirmationBox li{
+#confirmationBox p{
 	color: #666;
 	text-shadow: 0 0 0 none;
-	text-align: left;
-}
-#confirmationBox li{
-	margin-bottom: 10px;
+	text-align: center;
 }
 @media (min-width: 992px) {
-	
+	.black-trans-bg, .white-trans-bg{
+	padding:40px 60px;
+	}
 
 	#confirmationBox{
 		padding:40px 60px;
+		text-align: center;
 	}
 		#confirmationBox h1{
 		text-align: center;
 	}
 	#hero #confirmationBox p{
+		text-align: center;
 	}
 }
 .dark-grey-bg{
 	color: #fff;
     text-shadow: 1px 1px #333;
-    font-size: 20px;
+	font-size: 15px;
 	padding: 1em;
-	    background:rgba(0,0,0,.6);
+	    background: #333;
 	text-align: center;
 }
 #hero .dark-grey-bg{
+    border-radius: 6px;
+}
+#hero h4{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 1.4;
+	color: #000;
+	font-size: 20px;
+}
+.white-text-box{
+	color: #000;
+	font-size: 15px;
+	padding: 1em;
+	   background: #eee;
+	text-align: center;
+	font-weight: 600;
+}
+#hero .white-text-box{
     border-radius: 6px;
 }
 #hero #infoBox p{
@@ -165,7 +253,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	margin-top: 20px;
 	margin-right: 15px;
 }
-
+.btn-orange-lg.btn-orange-lg-big-text{
+	font-size: 23px !important;
+}
 .spacer-40{
 	height: 40px;
 }
@@ -175,7 +265,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		text-align: left;
 	}
 	#hero h1{
-		font-size: 40px;
+		font-size: 30px;
+		text-align: left;
 	}
 	.dark-grey-bg{
 		text-align: left;
@@ -189,7 +280,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		margin-right: 15px;
 		font-size: 14px;
 		font-weight: 500;
-		margin-top: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 		
 }
@@ -209,6 +301,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .btn-orange:hover{
     background: #254390;
 	color: #FFF;
+	border-color: #FFF;
+}
+.white-bg{
+	background: #FFF;
 }
 h2{
 	font-size: 26px;
@@ -230,91 +326,99 @@ h3{
 .blue{
 	color: #254390;
 }
+.black{
+	color: #000;
+}
 .white{
 	color: #FFF;
 }
 .orange{
-	    color: #ff8606;
+	    color: #ff8606 !important;
 }
-#tune-in{
-	background-image: url(images/lisa-stripe.jpg);
+#bonus{
+	background-image: url(../images/lisa-blue.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	position: relative;
 	padding-bottom: 0px;
-}
-#tune-in .left-col{
 	color: #FFF;
-	text-align: center;
+	padding: 100px 0px !important;
 }
-#tune-in .right-col{
-		color: #fff;
+#bonus p, #bonus li{
+	font-size: 18px !important;
+	line-height: 1.3 !important;
 }
-#tune-in .right-col p{
-	padding-bottom: 20px;
+#bonus p{
+	margin-bottom: 30px;
 }
-#tune-in row{
-	position: relative;
-	z-index: 1;
-}
-#tune-in::before{
+
+#bonus::before{
 	content: '';
 	position: absolute;
 	width:100%;
-	left: 0px;
+	right: 0px;
 	top:0px;
 	bottom:0px;
-	background: #000;
-opacity: 0.70;
+	background:rgba(0,0,0,.8);
+opacity: 0.90;
+}
+#bonus img{
+	margin-bottom: 30px;
 }
 @media (min-width: 992px) {
-	#tune-in .left-col{
+	#bonus::before{
+		width:100%;
+	}
+	#bonus .left-col{
 		text-align: left;
 	}
-	#tune-in .right-col{
-		color: #FFF;
+	#bonus .right-col{
+		color: #000;
 		padding-left: 40px;
 	}
+	#bonus .right-col strong{
+		color: #460a40;
+	}
 }
-#tune-in h2{
+#bonus h2{
 	font-size: 34px;
 	color: #FFF;
 }
-#tune-in h4{
+#bonus h4{
 	font-size: 20px;
 	color: #FFF;
 	margin-bottom: 40px;
 	font-weight: 700;
 }
-#tune-in i{
+#bonus i{
 	color: #ff8606;
 	font-size: 35px;
 	margin-bottom: 20px;
 }
-#tune-in strong{
+#bonus strong{
 	color: #ff8606;
 }
-#tune-in p{
+#bonus p{
 	line-height: 1.8;
 	font-size: 14px;
 }
-#tune-in .row{
+#bonus .row{
 	margin-bottom: 40px;
 }
-#tune-in form{
+#bonus form{
 	background: #FFF;
 	padding: 15px;
 	margin-bottom: 40px;
 	font-size: 13px;
 }
-#tune-in form p{
+#bonus form p{
 	margin-top: 20px;
 	margin-bottom: 0px;
 	padding-bottom: 0px !important;
 	font-size: 12px;
 	color: #61676A;
 }
-#tune-in form h2{
+#bonus form h2{
 	text-align: center;
 	color: #000;
 	margin-top: 0px;
@@ -415,69 +519,7 @@ footer a.privacy{
 footer a.privacy::hover{
 	text-decoration: underline;
 }
-.modal-backdrop{
-	background-color: #FFF;
-	opacity: .7;
-}
-.modal-header {
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
-    background-color: #777;
-	background-image: url(./images/registration/pattern.png);
-	background-repeat: repeat;
-}
-.modal-title{
-	padding-bottom: 0px;
-}
-.modal-body{
-	background-image: url(./images/registration/bg.jpg);
-	background-size: cover;
-	background-position: center center;
-	color: #FFF !important;
-	position: relative;
-	font-size: 16px;
-}
-.modal h2, .modal h3{
-	color: #FFF;
-    text-shadow: 3px 3px #000;
-}
-.modal-body form{
-	text-align: center;
-	background-color: rgba(255,255,255,.2);
-    padding: 20px;
-}
-.modal-body .subhead{
-	margin-bottom: 15px;
-}
-.modal-body h3{
-	   font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    margin-top: 0px;
-    font-size: 20px;
-    line-height: 1.3;
-}
-.modal-body form h2{
-	    margin-top: 0px;
-    color: #FFF;
-    /* margin-bottom: 10px; */
-    padding-bottom: 5px;
-}
-.modal-body form p{
-	    margin-top: 15px;
-	font-size: 12px;
-	color: #CCC;
-}
-.modal-body::before{
-	content: '';
-	position: absolute;
-	background-color: rgba(0,0,0,.7);
-	background-image: url(./images/registration/pattern.png);
-	background-repeat: repeat;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-}
+
 ul.num-list{
 	padding: 0px;
 }
@@ -487,13 +529,15 @@ ul.num-list li{
 	position: relative;
 	padding-left: 40px;
 	margin-bottom: 15px;
+	font-size: 15px;
+	color: #FFF;
 }
 ul.num-list li::before{
 	content: "\f046";
 	font: normal normal normal 14px/1 FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-	color: #ff8606;
+	color: darkgreen;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
@@ -505,6 +549,45 @@ ul.num-list li::before{
 	font-size: 28px;
 }
 .num-list strong{
+	display: block;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+ul.num-list2{
+	padding: 0px;
+}
+ul.num-list2 span.val{
+	color: #ff8606;
+	display: block;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+ul.num-list2 li{
+	list-style: none;
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #000;
+}
+ul.num-list2 li::before{
+	content: "\f046";
+	font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	color: darkgreen;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 28px;
+}
+.num-list2 strong{
 	display: block;
 	font-size: 18px;
 	text-transform: capitalize;
@@ -550,57 +633,24 @@ ul.num-list li::before{
 	color: #FFF;
 }
 
-.timer-black {
-	text-align: center;
-}
-.timer-black .time-box {
-	display: inline-block;
-	color: #FFF;
-	line-height: 1;
-}
-.timer-black .time-no {
-	margin: 0px 5px;
-}
-.timer-black .time-no span {
-	display: inline-block;
-	text-align: center;
-	width: 35px;
-	height: 60px;
-	line-height: 60px;
-	font-size: 36px;
-	border-radius: 5px;
-	background-color: #1a1a1a;
-}
-.timer-black .time-no span:first-child {
-	border-right: 1px solid #FFF;
-}
-.timer-black .time-no span:last-child {
-	border-left: 1px solid #FFF;
-}
-.timer-black .time-desc {
-	font-size: 15px;
-	text-transform: uppercase;
-	margin-top: 5px;
-	margin-bottom: 25px;
-	color: #5c5c60;
-	font-weight: 600;
-}
-
-#sms-register{
-	background: #CCC;
-	border-radius: 10px;
-	padding: 20px;
-	margin: 20px 0px;
+.paypalInfo{
+	background-color: rgba(255,255,255,1);
+	padding: 30px;
+	margin-top: 20px;
 	color: #000;
+	border-radius: 15px;
+	padding-bottom: 40px;
+	
 }
-#sms-register h2{
-	font-size: 23px;
-	line-height: 1.3;
+.paypalInfo img.btn-paypal {
+	width: 300px;
+	height: auto;
+	}
+.btn-paypal-form{
+	width: 200px;
+	height: auto;
+	margin: 15px 0px;
 }
-#sms-register .btn{
-	margin-top: 0px;
-}
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -614,4 +664,63 @@ ul.num-list li::before{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+#timerContainer p{
+	color: #FFF;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.timer-black, .timer-black p {
+	text-align: center;
+	color: #FFF;
+}
+.timer-black .time-box {
+	display: inline-block;
+	line-height: 1;
+}
+.timer-black .time-no {
+	margin: 0px 5px;
+}
+.time-no span{
+	
+	background: #FFF;
+	color: darkred;
+	border-radius: 2px;
+}
+.timer-black .time-no span {
+	display: inline-block;
+	text-align: center;
+	width: 25px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 26px;
+}
+.timer-black .time-no span:first-child {
+	margin-right: 1px;
+}
+.timer-black .time-no span:last-child {
+	margin-left: 1px;
+}
+.timer-black .time-desc {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.timer-simple{
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+}
+.exit-trigger{
+	position: absolute;
+	height: 20px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	z-index: 999;
 }
