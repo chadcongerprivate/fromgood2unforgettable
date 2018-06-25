@@ -74,13 +74,13 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-8">
 					<div id="confirmationBox">
-						<h2>Congratulations, Your Seat Is Reserved!</h2>
+						<h2 class="blue">Congratulations, Your Seat Is Reserved!</h2>
 						<p><?=$fullDate1?> <?=$timezoneAbr?></p>
 						<p><em>(All details are in an email coming to your inbox right now. If you don’t receive your message in the next 10 minutes, please check your spam folder.)</em>
 						</p>
 						
       	<div id="sms-register">
-     		<h2>Enter Your Mobile Number Below To Get Text Reminders About This Event</h2>
+     		<h2 class="blue">Enter Your Mobile Number Below To Get Text Reminders About This Event</h2>
       		<?php
 			if($email !== '' || $contactId != ''){
 				$class   = ' hidden';
@@ -96,18 +96,17 @@ include($includePath.'tracking-code.php');
               </div>
       <button id="sms-submit" class="btn btn-orange btn-orange-lg btn-block">Send Me Text Reminders!</button>
       </div>
-						<h1>Opening To Abundance</h1>
+						<h1 style="text-align: center !important;">Opening To Abundance</h1>
 						<h3>How To Accomplish Unfathomable Goals And Tap Into Your Limitless Potential</h3>
-						<p>Featuring in-demand motivational speaker and <span class="nyt">New York Times</span> best-selling author <span class="purple">Lisa Nichols</span>
+						<p>Featuring in-demand motivational speaker and <span class="nyt">New York Times</span> best-selling author <span class="blue">Lisa Nichols</span>
 						</p>
 						<p>We start promptly so be sure to dial in a few minutes early!</p>
-						<p><span class="purple">Duration:</span> 90 minutes <br>
-							<span class="purple">Cost to Attend:</span> Zero!</p>
+						<p><span class="blue">Duration:</span> 90 minutes <br>
+							<span class="blue">Cost to Attend:</span> Zero!</p>
 						<?=addToCalBtn()?>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="../images/registration/lisa-standing.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>
@@ -119,7 +118,7 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">SPREAD THE WORD!</h2>
+					<h2 class="text-center blue">SPREAD THE WORD!</h2>
 					<p class="text-center">Have a friend who would be interested? Invite them to join you for this FREE webinar training:</p>
 					<ul class="platform text-center">
 						<li><a href="<?=$twitterShareLink?>" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
