@@ -1,5 +1,5 @@
 <?php
-include('../include/webinar-include.php');
+include('../../include/webinar-include.php');
 
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ include('../include/webinar-include.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>The Abundant Life Online Program | Video</title>
+	<title>The Abundant Life Online Program | Video 2</title>
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">
@@ -24,8 +24,8 @@ include('../include/webinar-include.php');
 
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/animate.css" rel="stylesheet">
-	<link href="style.css?v=4" rel="stylesheet">
+	<link href="../../css/animate.css" rel="stylesheet">
+	<link href="../style.css?v=4" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,12 +51,12 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-xs-6">
-					<img src="../images/registration/logo.png">
+					<img src="../../images/registration/logo.png">
 				</div>
 				<div class="col-md-4 col-sm-6 hidden-xs">
 				</div>
 				<div class="col-md-4 text-right hidden-sm hidden-xs">
-					<a class="btn btn-orange margin-15-tb btn-scroll" href="../order/?<?=$_SERVER['QUERY_STRING']?>" target="_blank">Enroll Now >></a>
+					<a class="btn btn-orange margin-15-tb btn-scroll" href="../../order/?<?=$_SERVER['QUERY_STRING']?>" target="_blank">Enroll Now >></a>
 				</div>
 			</div>
 		</div>
@@ -74,10 +74,10 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://player.vimeo.com/video/276129094?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="https://player.vimeo.com/video/276137649?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						
 					</div>
-					<a class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block margin-30-b" href="../order/?<?=$_SERVER['QUERY_STRING']?>" target="_blank">Enroll Now &gt;&gt;</a>
+					<a class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block margin-30-b" href="../../order/?<?=$_SERVER['QUERY_STRING']?>" target="_blank">Enroll Now &gt;&gt;</a>
 				</div>
 			</div>
 		</div>
@@ -92,7 +92,7 @@ include($includePath.'tracking-code.php');
 					<h2 class="text-center blue">Leave a comment below…</h2>
 					
 					
-					<div class="fb-comments" data-order-by="reverse_time" data-href="http://webinars.motivatingthemasses.com/opening2abundance/video/" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
+					<div class="fb-comments" data-order-by="reverse_time" data-href="http://webinars.motivatingthemasses.com/opening2abundance/video/part-2/" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
 				</div>
 			</div>
 		</div>
