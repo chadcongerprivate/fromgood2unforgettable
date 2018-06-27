@@ -915,9 +915,8 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
    <div class="paypalInfo">
 	<div class="row">
-		<div class="col-md-12"><h3 class="blue text-center">
-		<span class="wait blue">Wait!</span>
-		Get The Abundant Life Online Program with <u>ZERO Money Out of Your Pocket</u>, <span class="word-wrap">Right Now!</span></h3><br>
+		<div class="col-md-2"><img src="../images/order/WAIT.jpg" alt="Wait" class="img-responsive"></div>
+		<div class="col-md-10"><h3 class="red text-center">Get The Abundant Life Online Program with <u>ZERO Money Out of Your Pocket</u>, <span class="word-wrap">Right Now!</span></h3><br>
 
 </div>
 	</div>
@@ -932,10 +931,8 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 		  <p class="text-center"><a class="btn btn-orange btn-orange-lg" href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">YES! I Want to Get Started With This Option</a></p><br>
 		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with The Abundant Life Online Program today, with nothing out-of-pocket</a> 
 by choosing PayPal’s Credit option.
-</p><!--<br>
+</p><br>
 					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
-						
-						
 						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
 </p>
 				<p>With this $497 PayPal Credit option, you get complete and full access to The Abundant Life Online Program. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
@@ -945,8 +942,6 @@ by choosing PayPal’s Credit option.
 				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
 				<p>Need Assistance? Call us at (760) 931-9400</p>
 				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
-				
-				-->
 					</div>
     </div>
   </div>
