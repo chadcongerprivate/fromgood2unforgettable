@@ -24,6 +24,7 @@ if($secTilRedirectCon <= 0){
 	<title>
 		<?=$webinarName?>| Confirmation
 	</title>
+<link rel="shortcut icon" href="https://webinars.motivatingthemasses.com/favicon.png">
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">

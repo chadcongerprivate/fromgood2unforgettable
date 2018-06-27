@@ -15,6 +15,7 @@ date_default_timezone_set($infTimeZone);
 	<title>
 		<?=$webinarName?>
 	</title>
+<link rel="shortcut icon" href="https://webinars.motivatingthemasses.com/favicon.png">
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">
