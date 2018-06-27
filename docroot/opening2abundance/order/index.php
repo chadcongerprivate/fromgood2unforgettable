@@ -197,9 +197,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					<div class="p-stack">
 						<h3><span class="blue">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
 						<h4>$2,200 Value</h4>
-						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with yours truly.</p>
-						<p dir="ltr">Each month you&rsquo;ll have the opportunity to join me LIVE via ZOOM for an exclusive group coaching call to ask my team and I any questions you may have about your transformational journey.</p>
-						<p dir="ltr">When I say I believe in you and I love you, it&rsquo;s because I do… &nbsp;and that&rsquo;s exactly why in this personal development program I wanted to make sure that you get the personal touch that is needed for you to achieve 360 degree abundance and become the best version of yourself.					</p>
+						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with a MTM master facilitator. Each month you’ll have the opportunity to join my team LIVE via ZOOM for an exclusive group coaching call to ask any questions you may have about your transformational journey.</p>
 					</div>
 					<div class="p-stack">
 						<h3><span class="blue">BONUS #2 -</span> A private FB group</h3>
