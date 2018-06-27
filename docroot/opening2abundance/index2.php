@@ -30,7 +30,7 @@ date_default_timezone_set($infTimeZone);
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./css/animate.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="style.css?v=2" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +48,7 @@ include($includePath.'tracking-code.php');
 
 
 	<!-- Start Section -->
-	<header>
+	<header class="header2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -63,24 +63,23 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="hero">
+	<div class="section" id="hero2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<div id="infoBox" class="black-trans-bg">
-						<h1 class="text-capitalize">
-      			How to accomplish unfathomable goals and tap into your limitless potential</h1>
+					<div id="infoBox" class="text-center">
+						<p class="text-capitalize">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
+						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
+						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
 					
 						<div class="dark-grey-bg">
 							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
 						</div>
-						<p>Join Lisa Nichols for This FREE &ldquo;Opening Abundance&rdquo; Training … and Discover How to Turn Your Dreams of an Abundant Life Into a REALITY!
-						</p>
+						<p>Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
 						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="images/registration/lisa-standing.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>
@@ -92,9 +91,18 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center purple">WANT TO the learn the most important lessons and strategies I used to transform my life into something breathtaking, prosperous and compelling?</h2>
-					<p class="text-center">I am going to help you lay a foundation … one that will open you to begin living a more abundant life immediately, without waiting to achieve a level of financial success first.</p>
-					<h3 class="text-center orange">These are strategies you can implement no matter where <span class="word-wrap">you’re starting.</span></h3>
+					<h2 class="text-center blue">Do you want more from life?</h2>
+					<div class="row">
+						<div class="col-md-3">
+					<img class="img-responsive" src="./images/registration/lisa-pointing.jpg" alt=""></div>
+						<div class="col-md-9">	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
+					<p dir="ltr">It can all be yours … anything you dream of and desire. </p>
+					<p dir="ltr">In fact, it&rsquo;s meant to be yours. Abundance in all areas of life is your birthright.</p>
+					<p dir="ltr">Yet most people grow up and still live with scarcity- and fear-based mindsets. They&rsquo;ve lost their connection to their natural state of abundance. </p>
+					<p dir="ltr">If you want to turn your dreams of abundant life into a reality, you need to cultivate to an abundance mindset. Lisa Nichols will teach you how to it during this 90-minute online training.
+					</p></div>
+					</div>
+				
 				</div>
 			</div>
 		</div>
@@ -102,7 +110,7 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="tune-in">
+	<div class="section med-flip" id="tune-in">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 left-col slide-left-on-scroll">
@@ -110,34 +118,35 @@ include($includePath.'tracking-code.php');
 
 					<div class="row">
 						<div class="col-sm-6">
-							<i class="fa fa-key" aria-hidden="true"></i>
-							<h4 class="text-uppercase">abundant mindseT</h4>
-							<p>How to <strong>cultivate an abundant mindset</strong> by adopting the traits of abundant thinkers. Abundance is more of a mindset than it is your actual circumstances. And when you have an abundant mindset, <strong>you’ll attract, recognize and act on the opportunities</strong> to <strong>create the external circumstances you want.</strong></p>
+							<i class="fa fa-list-ol" aria-hidden="true"></i>
+							<h4 class="text-uppercase">The top 3 myths</h4>
+							<p>The <strong>top 3 myths</strong> that prevent most people from ever experiencing true abundance – and how break free from their limiting power <em>(Once your eyes are opened, you’ll know that whether you live in abundance or scarcity is your choice.) </em></p>
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
-							<i class="fa fa-money" aria-hidden="true"></i>
-							<h4 class="text-uppercase">your money blueprint</h4>
-							<p>You’ll discover what your money blueprint is and how it is influencing the way you make money, what you think about money, how you spend money, and <strong>how you react when money flows into your life.</strong> Money is a major component of an abundant life, so let’s get clear on how your past is affecting your money blueprint – so that you can make different choices moving forward.</p>
+							<i class="fa fa-key" aria-hidden="true"></i>
+							<h4 class="text-uppercase">9 key attributes</h4>
+							<p><strong>9 key attributes of abundant thinkers</strong> … and how adopting them will help you connect to the natural abundance that’s available to you in every minute <em>(Abundance is more of a mindset than it is your actual circumstances. When you have an abundant mindset, you’ll attract, recognize and act on the opportunities to create the external circumstances you want.)</em></p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-sm-6">
 							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-							<h4 class="text-uppercase">transform relationships</h4>
-							<p>You’ll also discover how <strong>abundance can transform relationships for the better </strong>… and how to leverage your relationships to increase your abundance.</p>
+							<h4 class="text-uppercase">The 5 influencers</h4>
+							<p>The <strong>5 influencers that created your current money blueprint </strong>… and how they’re affecting the way you make money, what you think about money, how you spend money, and how you react when money flows into your life.<em> (Money is a major component of an abundant life. Once you know how your past is affecting your money blueprint … you can make different choices moving forward.)</em></p>
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
-							<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-							<h4 class="text-uppercase">divine assignment</h4>
-							<p>Finally, you’ll be primed to open yourself up to experience <strong>greater abundance in all areas of your life</strong> … so you can live your divine assignment and <strong>create the life that’s perfect for you.</strong></p>
+							<i class="fa fa-users" aria-hidden="true"></i>
+							<h4 class="text-uppercase">3 types of relationships</h4>
+							<p>The <strong>3 types of relationships</strong> you’ll experience in a lifetime … and how to leverage them to increase your abundance <em>(I’ll also share a secret tip for dramatically reducing the conflict you experience in 80 percent of your relationships.) </em></p>
 						</div>
 					</div>
 
 				</div>
 				<div class="col-md-5 right-col">
+					<p>You’ll also get to participate in a process that will open you to greater abundance immediately … so you can live your divine assignment and create the life that’s perfect for you.</p>
 					<p>If you want to learn the same strategies that have <em><strong>helped thousands of my students transform their lives from average to extraordinary</strong></em> by tapping into the incredible abundance that is available to each and every one of us.</p>
 					<p>During this 90-minute online training, I’m going to share the most important step you can take starting today to begin turning your dreams of an abundant life into a reality.</p>
 					<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
@@ -215,7 +224,7 @@ include($includePath.'tracking-code.php');
 					</p>
 				</div>
 				<div class="col-md-4 center-col">
-					<img class="img-responsive" src="images/registration/lisa-pockets.png" alt="">
+					<img class="img-responsive" src="images/order/lisa-standing3.png" alt="">
 				</div>
 				<div class="col-md-4 col-lg-3 right-col slide-right-on-scroll">
 					<i class="fa fa-rocket" aria-hidden="true"></i>
@@ -241,7 +250,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-12">
 					<a id="learn">
 					</a>
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 						<a href="https://www.facebook.com/LisaNicholsFanPage"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="https://twitter.com/2motivate"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -467,7 +476,7 @@ $(document).ready(function() {
 
 <?php
 // include tracking code
-include($includePath.'share-plugin.php');
+//include($includePath.'share-plugin.php');
 ?>
 </body>
 

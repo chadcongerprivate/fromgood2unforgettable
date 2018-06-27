@@ -15,6 +15,7 @@ date_default_timezone_set($infTimeZone);
 	<title>
 		<?=$webinarName?>
 	</title>
+<link rel="shortcut icon" href="https://webinars.motivatingthemasses.com/favicon.png">
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">
@@ -117,13 +118,13 @@ include($includePath.'tracking-code.php');
 
 					<div class="row">
 						<div class="col-sm-6">
-							<i class="fa fa-key" aria-hidden="true"></i>
+							<i class="fa fa-list-ol" aria-hidden="true"></i>
 							<h4 class="text-uppercase">The top 3 myths</h4>
 							<p>The <strong>top 3 myths</strong> that prevent most people from ever experiencing true abundance – and how break free from their limiting power <em>(Once your eyes are opened, you’ll know that whether you live in abundance or scarcity is your choice.) </em></p>
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
-							<i class="fa fa-money" aria-hidden="true"></i>
+							<i class="fa fa-key" aria-hidden="true"></i>
 							<h4 class="text-uppercase">9 key attributes</h4>
 							<p><strong>9 key attributes of abundant thinkers</strong> … and how adopting them will help you connect to the natural abundance that’s available to you in every minute <em>(Abundance is more of a mindset than it is your actual circumstances. When you have an abundant mindset, you’ll attract, recognize and act on the opportunities to create the external circumstances you want.)</em></p>
 						</div>
@@ -137,7 +138,7 @@ include($includePath.'tracking-code.php');
 						</div>
 						<div class="col-sm-6">
 							<div class="spacer-40 visible-xs"></div>
-							<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+							<i class="fa fa-users" aria-hidden="true"></i>
 							<h4 class="text-uppercase">3 types of relationships</h4>
 							<p>The <strong>3 types of relationships</strong> you’ll experience in a lifetime … and how to leverage them to increase your abundance <em>(I’ll also share a secret tip for dramatically reducing the conflict you experience in 80 percent of your relationships.) </em></p>
 						</div>
@@ -249,7 +250,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-12">
 					<a id="learn">
 					</a>
-					<div class="social-holder"><a id="learn">
+					<div class="social-holder hidden"><a id="learn">
 						</a>
 						<a href="https://www.facebook.com/LisaNicholsFanPage"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="https://twitter.com/2motivate"><i class="fa fa-twitter" aria-hidden="true"></i></a>

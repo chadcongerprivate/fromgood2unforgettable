@@ -75,6 +75,7 @@ ksort($schedule);
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Webinar Simulator</title>
+<link rel="shortcut icon" href="https://webinars.motivatingthemasses.com/favicon.png">
 	
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <link href="../../css/simulator.css" rel="stylesheet">

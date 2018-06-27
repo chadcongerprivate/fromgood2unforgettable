@@ -1,12 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,500,700|Dancing+Script:700');
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 body,html{
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif; 
 	color: #898989;
 	font-size: 18px;
+}
+.wait{
+	font-family: 'Dancing Script', cursive;
+	    display: block;
+    font-size: 70px;
+    margin-top: -30px;
+    text-transform: capitalize;
 }
 .red{
 	color: darkred;

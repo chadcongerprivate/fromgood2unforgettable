@@ -36,14 +36,37 @@ header{
     transition: 0.5s;
 	padding: 15px 0px;
 }
-header.dark-grey-header{
+header.header2{
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+    transition: 0.5s;
+	padding: 15px 0px;
+	background: rgba(0,0,0,.3);
+}
+header.dark-grey-header,header2.dark-grey-header{
 	background-color: #22242b;
 	padding: 0px !important;
 }
-header img{
+header img,header2 img{
 	height: 73px;
 	width:auto;
 	margin-bottom: 5px;
+}
+#hero2 #infoBox{
+	padding: 20px !important;
+	background: rgba(0,0,0,.4) !important;
+}
+
+#hero2 #infoBox h1,
+#hero2 #infoBox h2,
+#hero2 #infoBox h3,
+#hero2 #infoBox p{
+	color: #FFF;
+}
+
+#hero2 .dark-grey-bg{
+	margin-bottom: 20px;
 }
 #hero{
 	padding-top: 140px;
@@ -69,7 +92,32 @@ background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 18%,rgba(0
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 
 }
-#hero h1{
+#hero2{
+	padding-top: 140px;
+	background-image: url(./images/lisa-stripe.jpg);
+	background-size: cover;
+	background-position: left top;
+	padding-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+#hero2::before{
+	opacity: .3;
+	content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+18,0.5+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 18%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 18%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+
+}
+#hero h1,
+#hero2 h1{
 	color: white;
     text-shadow: 3px 3px #000;
     padding-bottom: 0px;
@@ -174,7 +222,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	#hero{
 		text-align: left;
 	}
-	#hero h1{
+	#hero h1,
+#hero2 h1{
 		font-size: 40px;
 	}
 	.dark-grey-bg{
@@ -228,7 +277,7 @@ h3{
 	color: #460a40;
 }
 .blue{
-	color: #254390;
+	color: #254390 !important;
 }
 .white{
 	color: #FFF;
@@ -242,6 +291,9 @@ h3{
 	background-position: center center;
 	position: relative;
 	padding-bottom: 0px;
+}
+#tune-in.med-flip{
+	background-image: url(images/lisa-med-flip.jpg) !important;
 }
 #tune-in .left-col{
 	color: #FFF;
