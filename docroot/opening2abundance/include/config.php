@@ -31,7 +31,7 @@ $summaryLengthSec    = 30.8; // if this is over even by 1 decimal point, the eve
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';
 $domainPrefix      = 'https://webinars.';
-$ctaLink           = 'http://abundancenowonline.com/abundance-now-online-course/';//$domainPrefix.$domainName.$path.'order/';
+$ctaLink           = 'http://webinars.motivatingthemasses.com/opening2abundance/order/';//$domainPrefix.$domainName.$path.'order/';
 $dateCookieName    = 'sfuipDate';
 
 // timezone information

@@ -317,7 +317,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					}
 					?>
 					<h2>Total Value: <?=$value?></h2>
-					<h3><strong>Your Investment:
+					<h3><strong>Your Investment:<br><span style="text-decoration: line-through; font-size: 45px;">$997</span>
 						</strong>
 					</h3>
 					<h3><span class="orange">Get started today for 3 easy payments of just $197</span>
