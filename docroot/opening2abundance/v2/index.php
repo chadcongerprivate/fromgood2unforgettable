@@ -1,5 +1,5 @@
 <?php
-include( 'include/webinar-include.php' );
+include( '../include/webinar-include.php' );
 
 // set timezone to inf time for form
 date_default_timezone_set($infTimeZone);
@@ -29,8 +29,8 @@ date_default_timezone_set($infTimeZone);
 
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="./css/animate.css" rel="stylesheet">
-	<link href="style.css?v=4" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
+	<link href="../style.css?v=4" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +52,7 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="images/registration/logo.png">
+					<img src="../images/registration/logo.png">
 				</div>
 				<div class="col-md-6 text-right hidden-sm hidden-xs">
 					<button class="btn btn-orange margin-15-tb" data-toggle="modal" data-target="#regModal">Sign Up Now!</button>
@@ -69,12 +69,13 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-8">
 					<div id="infoBox" class="text-center">
 						<p class="text-capitalize text-left">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
-						<h1 class="text-capitalize text-center">Learn Exactly How To Develop An Abundant Mindset</h1>
-						<h2 class="text-capitalize text-center white text-500">– And Open To True Abundance In All Areas Of Your Life</h2>
+						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
+						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
 					
 						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I'll Show You The Formula I Used to Move from Public Assistance To Multi-Million Dollar Enterprise.”
+							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
 						</div>
+						<p>Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
 						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
 					</div>
 				</div>
@@ -93,7 +94,7 @@ include($includePath.'tracking-code.php');
 					<h2 class="text-center blue">Do you want more from life?</h2>
 					<div class="row">
 						<div class="col-md-3">
-					<img class="img-responsive" src="./images/registration/lisa-pointing.jpg" alt=""></div>
+					<img class="img-responsive" src="../images/registration/lisa-pointing.jpg" alt=""></div>
 						<div class="col-md-9">	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
 					<p dir="ltr">It can all be yours … anything you dream of and desire. </p>
 					<p dir="ltr">In fact, it&rsquo;s meant to be yours. Abundance in all areas of life is your birthright.</p>
@@ -223,7 +224,7 @@ include($includePath.'tracking-code.php');
 					</p>
 				</div>
 				<div class="col-md-4 center-col">
-					<img class="img-responsive" src="images/order/lisa-standing3.png" alt="">
+					<img class="img-responsive" src="../images/order/lisa-standing3.png" alt="">
 				</div>
 				<div class="col-md-4 col-lg-3 right-col slide-right-on-scroll">
 					<i class="fa fa-rocket" aria-hidden="true"></i>
@@ -386,7 +387,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	</script>
 
 	<!-- Form  -->
-	<script src="./js/validator.js"></script>
+	<script src="../js/validator.js"></script>
 	<script>
 		$( document ).ready( function () {
 
@@ -432,7 +433,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	<!-- End Form -->
 	
 	<!-- Timezone Detect -->
-	<script src="./js/timezone-detect-jstz.js"></script>
+	<script src="../js/timezone-detect-jstz.js"></script>
 	<script>
 		$( document ).ready( function () {
 			var tzInfo = jstz.determine();
@@ -453,7 +454,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 
 
 
-	<script src="./js/viewportchecker.js"></script>
+	<script src="../js/viewportchecker.js"></script>
 <script>
 
 // Now to add the functions once viewport is active

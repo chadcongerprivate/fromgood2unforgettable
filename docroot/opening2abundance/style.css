@@ -288,7 +288,7 @@ h3{
 #tune-in{
 	background-image: url(images/lisa-stripe.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	position: relative;
 	padding-bottom: 0px;
 }
