@@ -69,12 +69,13 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-8">
 					<div id="infoBox" class="text-center">
 						<p class="text-capitalize text-left">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
-						<h1 class="text-capitalize text-center">Learn Exactly How To Develop An Abundant Mindset</h1>
-						<h2 class="text-capitalize text-center white text-500">– And Open To True Abundance In All Areas Of Your Life</h2>
+						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
+						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
 					
 						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I'll Show You The Formula I Used to Move from Public Assistance To Multi-Million Dollar Enterprise.”
+							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
 						</div>
+						<p>Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
 						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
 					</div>
 				</div>
