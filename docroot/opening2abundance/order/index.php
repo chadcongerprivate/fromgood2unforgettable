@@ -326,7 +326,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					<div class="paypalInfo hidden">
 					<h3>or Pay ZERO today with a BILL-ME-LATER Option,<br>
 						powered by PayPal Credit.</h3><br>
-					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
+					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
 						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
 </p>
 				<p>With this $497 PayPal Credit option, you get complete and full access to <strong>The Abundant Life Online Program</strong>. You pay nothing today. You have no payments and zero interest for 6 months. See terms at PayPal during checkout for complete details. Our 30-day money-back guarantee applies, as well. By choosing this option, PayPal will pay us today, and PayPal will give you 6 months to pay off your purchase, interest free.<br>
@@ -335,7 +335,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 				<p><strong>IMPORTANT NOTE:</strong></p>
 				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
 				<p>Need Assistance? Call us at (760) 931-9400</p>
-				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
+				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
 					</div>
 				</div>
 			</div>
@@ -387,7 +387,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 								</div>
 					<!--		
 				If you would like to use PayPal or PayPal Credit, click the button below:<br>
-<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
+<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive btn-paypal-form" border="0"></a>
 								-->
 								<div class="row">
 									<div class="col-md-12 padding-10-t"><img class="lock" src="../images/order/lock.svg"><em>Secure Checkout System</em>
@@ -929,11 +929,11 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
    <p>When you invest in <em>The Abundant Life Online Program</em> today, using PayPal Credit's bill-me-later option, you get complete and full access to the entire program, including all of the bonuses.
 </p>
    
-		  <p class="text-center"><a class="btn btn-orange btn-orange-lg" href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">YES! I Want to Get Started With This Option</a></p><br>
-		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with The Abundant Life Online Program today, with nothing out-of-pocket</a> 
+		  <p class="text-center"><a class="btn btn-orange btn-orange-lg" href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank">YES! I Want to Get Started With This Option</a></p><br>
+		  <p><a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank">Click here to get started with The Abundant Life Online Program today, with nothing out-of-pocket</a> 
 by choosing PayPal’s Credit option.
 </p><!--<br>
-					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
+					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
 						
 						
 						<p><strong>NEW! 6 Months, No Payments, Zero Interest</strong>
@@ -944,7 +944,7 @@ by choosing PayPal’s Credit option.
 				<p><strong>IMPORTANT NOTE:</strong></p>
 				<p>To access the PayPal Option during check out, you may need to log into PayPal first, or create a PayPal Account - that occurs on the next page. <a href="javascript:void()" class="show-video">See Help Demo Video Here</a> or</p>
 				<p>Need Assistance? Call us at (760) 931-9400</p>
-				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=929&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
+				<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-checkout.png" alt="PayPal Checkout" class="img-responsive img-responsive-center btn-paypal" border="0"></a>
 				
 				-->
 					</div>
