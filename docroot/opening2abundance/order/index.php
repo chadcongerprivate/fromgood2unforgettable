@@ -323,7 +323,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					<h3><span class="orange">Get started today for 3 easy payments of just $197</span>
 					</h3>
 					<h3>or one quick payment of just $497, saving you an additional $94</h3>
-					<div class="paypalInfo hidden">
+					<div class="paypalInfo">
 					<h3>or Pay ZERO today with a BILL-ME-LATER Option,<br>
 						powered by PayPal Credit.</h3><br>
 					<a href="https://wqy87770.infusionsoft.com/app/manageCart/processBundle?checkoutMethod=singleStep&productId=783&productQuantity=1&styleThemeId=131" target="_blank"><img src="../images/order/paypal-credit.gif" alt="PayPal Credit" class="img-responsive img-responsive-center"></a><br>
