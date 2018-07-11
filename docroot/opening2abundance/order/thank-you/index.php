@@ -64,13 +64,12 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-8">
 					<div id="confirmationBox">
 						<h2 class="text-center">Congratulations!</h2>
-						<p>I’m thrilled that you’re saying “YES!” to learning how to craft an unforgettable message and earn more money with your speaking. </p>
-						<p>So many people struggle to turn their passion for speaking and creating an impact into a profitable business that harmonizes with their desired lifestyle.</p>
-						<p>But you’ve just jumped quite a bit closer by making the savvy decision to invest in <em>Speak for Ultimate Impact and Profit.</em></p>
+						<p>I’m thrilled that you’re saying “YES!” to learning how to live and abundant life!</p>
+						<p>So many people struggle with developing an abundant mindset and living harmonizes with their desired lifestyle.</p>
+						<p>But you’ve just jumped quite a bit closer by making the savvy decision to invest in my <em>Abundant Life Program.</em></p>
 						<p>I’ve worked hard – really hard – for more than 20 years to build the systems and resources you’ll discover in this program.</p>
 						<p>Open your heart and mind, follow along and complete the simple assignments I give you – and I promise …</p>
-						<p>Your life will transform.</p>
-						<p>In just a moment, I’ll begin walking you through the 13-week <em>Speak for Ultimate Impact and Profit</em> program… where you’ll discover my step-by-step formula for transforming yourself into an unforgettable speaker – and building a rock-solid foundation for your speaking business.</p>
+						<p>Your life will transform.						</p>
 						<p><strong>Do these two easy things right now so you can get started:</strong></p>
 						<ol>
 							<li>Check your email now for access instructions and your personalized log-in information. </li>
@@ -83,7 +82,6 @@ include($includePath.'tracking-code.php');
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="../../images/registration/lisa-standing.png" alt="Lisa Nichols">
 				</div>
 			</div>
 		</div>

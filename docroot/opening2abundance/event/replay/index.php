@@ -42,7 +42,7 @@ include($includePath.'tracking-code.php');
 
 <body>
 	<div class="left-col">
-		<header>&ldquo;From Good To Unforgettable&rdquo; <span class="word-wrap">with Lisa Nichols</span></header>
+		<header>&ldquo;Opening to Abundance&rdquo; <span class="word-wrap">with Lisa Nichols</span></header>
 		<div id="video-container">
 			<div id="event-stream">
 			</div>
@@ -58,7 +58,7 @@ If you require support or have a question please email <a href="mailto:support@m
 	</div>
 		<div class="post-cta hidden">
 			<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta cta">Add to Cart</a>
-			<p style="margin-top: 10px;"><strong><a href="<?=$ctaLink?>" target="_blank">YES! YES! Lisa! I’m ready to become an <span class="word-wrap">unforgettable speaker!</span></a></strong></p>
+			<p style="margin-top: 10px;"><strong><a href="<?=$ctaLink?>" target="_blank">YES! YES! Lisa! I’m ready to live an <span class="word-wrap">Abundant Life!</span></a></strong></p>
 			
 		</div></div>
 		</div>
@@ -84,7 +84,7 @@ If you require support or have a question please email <a href="mailto:support@m
 				<div class="cta-tab">Learn More</div>
 				<div class="cta-toggle"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 				<div class="cta-content">
-					<h2>YES! YES! Lisa! I’m ready to become an unforgettable speaker!</h2>
+					<h2>YES! YES! Lisa! I’m ready to live an Abundant Life!</h2>
 					<a href="<?=$ctaLink?>" target="_blank"><img class="img-responsive img-responsive-center" src="../../images/presenter.jpg"></a><br>
 				</div>
 				<a href="<?=$ctaLink?>" target="_blank" class="btn btn-block btn-cta">Add to Cart</a>

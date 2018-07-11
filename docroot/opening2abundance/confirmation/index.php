@@ -96,6 +96,8 @@ include($includePath.'tracking-code.php');
                 <input class="form-control" name="inf_field_Phone1" id="inf_field_Phone1" type="text" placeholder="Enter Your Mobile Number..." />
               </div>
       <button id="sms-submit" class="btn btn-orange btn-orange-lg btn-block">Send Me Text Reminders!</button>
+      <p style="text-align: center; margin-top: 10px; font-size: 12px;">*You will receive a text notification/reminder prior to your virtual training. Message & Data rates may apply depending on your carrier or service.*
+</p>
       </div>
 						<h1 style="text-align: center !important;">Opening To Abundance</h1>
 						<h3>How To Accomplish Unfathomable Goals And Tap Into Your Limitless Potential</h3>
