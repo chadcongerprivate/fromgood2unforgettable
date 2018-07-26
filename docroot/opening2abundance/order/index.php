@@ -860,7 +860,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 								<?php
 								if($bonuses){
 								?>
-								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$2,200 Value </span>
+								<li>BONUS #1 - Six Monthly Coaching Calls with an MTM Master Facilitator <span class="val">$2,200 Value </span>
 								</li>
 								<li>BONUS #2 - A private FB group <span class="val">$597 Value </span>
 								</li>
