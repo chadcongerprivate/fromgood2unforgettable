@@ -66,17 +66,17 @@ if(!isset($dateOverride)){
 $earliestDate      = false; // false (no earliest date), Use text to describe (Examples 'tomorrow 12:00am', '+3 days 12:00am')
 $maxDates          = 3;
 $excludeDates      = array('12-25'); // format MM-DD (Christmas Example: 12-25)
-$earliestTime      = '11:00am'; // earliest time to play intervals (15min, 30min, hour)
-$lastestTime       = '10:00pm'; // latest time to play intervals (15min, 30min, hour)
+$earliestTime      = '8:00am'; // earliest time to play intervals (15min, 30min, hour)
+$lastestTime       = '9:00pm'; // latest time to play intervals (15min, 30min, hour)
 $playDates         = array(
 					 array(), // leave blank
-					 array('6:00pm'), // Monday
-					 array('6:00pm'), // Tuesday
-					 array('6:00pm'), // Wednesday
-					 array('6:00pm'), // Thursday
-					 array('3:00pm'), // Friday
-					 array('9:00am'), // Saturday
-					 array('9:00am') // Sunday
+					 array('15min','6:00pm'), // Monday
+					 array('15min','6:00pm'), // Tuesday
+					 array('15min','6:00pm'), // Wednesday
+					 array('15min','6:00pm'), // Thursday
+					 array('15min','3:00pm'), // Friday
+					 array('15min','9:00am'), // Saturday
+					 array('15min','9:00am') // Sunday
 );
 }
 // showing/hiding elements on event page (seconds in video, css selector, showing, description of event for testing simulator), tagId if showed/showing
