@@ -64,7 +64,7 @@ $pagesToAddToSim   = array(
 // event date informaion (The following time intervals may be used: 15min, 30min, hour)
 if(!isset($dateOverride)){
 $earliestDate      = false; // false (no earliest date), Use text to describe (Examples 'tomorrow 12:00am', '+3 days 12:00am')
-$maxDates          = 3;
+$maxDates          = 4;
 $excludeDates      = array('12-25'); // format MM-DD (Christmas Example: 12-25)
 $earliestTime      = '8:00am'; // earliest time to play intervals (15min, 30min, hour)
 $lastestTime       = '9:00pm'; // latest time to play intervals (15min, 30min, hour)
