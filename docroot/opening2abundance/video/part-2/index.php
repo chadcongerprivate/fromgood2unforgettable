@@ -75,7 +75,7 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://player.vimeo.com/video/276137649?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="https://player.vimeo.com/video/280245248?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						
 					</div>
 					<a class="btn btn-orange btn-orange-lg btn-orange-lg-big-text btn-scroll btn-block margin-30-b" href="../../order/?<?=$_SERVER['QUERY_STRING']?>" target="_blank">Enroll Now &gt;&gt;</a>

@@ -1,9 +1,5 @@
 <?php
-header('Location: ./register/?'.$_SERVER['QUERY_STRING']);
-exit();
-
-
-include( 'include/webinar-include.php' );
+include( '../include/webinar-include.php' );
 
 // set timezone to inf time for form
 date_default_timezone_set($infTimeZone);
@@ -33,8 +29,8 @@ date_default_timezone_set($infTimeZone);
 
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="./css/animate.css" rel="stylesheet">
-	<link href="style.css?v=3" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
+	<link href="../style.css?v=3" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +52,7 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="images/registration/logo.png">
+					<img src="../images/registration/logo.png">
 				</div>
 				<div class="col-md-6 text-right hidden-sm hidden-xs">
 					<button class="btn btn-orange margin-15-tb" data-toggle="modal" data-target="#regModal">Sign Up Now!</button>
@@ -97,7 +93,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<div class="col-md-3">
-					<img class="img-responsive" style="margin: 0px auto" src="./images/lisa-stripe-trans.png" alt=""></div>
+					<img class="img-responsive" style="margin: 0px auto" src="../images/lisa-stripe-trans.png" alt=""></div>
 						<div class="col-md-9">
 					<h2 class="blue">Do you want more from life?</h2>	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
 					<p dir="ltr">It can all be yours … anything you dream of and desire. </p>
@@ -228,7 +224,7 @@ include($includePath.'tracking-code.php');
 					</p>
 				</div>
 				<div class="col-md-4 center-col">
-					<img class="img-responsive" src="images/order/lisa-standing3.png" alt="">
+					<img class="img-responsive" src="../images/order/lisa-standing3.png" alt="">
 				</div>
 				<div class="col-md-4 col-lg-3 right-col slide-right-on-scroll">
 					<i class="fa fa-rocket" aria-hidden="true"></i>
@@ -391,7 +387,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	</script>
 
 	<!-- Form  -->
-	<script src="./js/validator.js"></script>
+	<script src="../js/validator.js"></script>
 	<script>
 		$( document ).ready( function () {
 
@@ -437,7 +433,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	<!-- End Form -->
 	
 	<!-- Timezone Detect -->
-	<script src="./js/timezone-detect-jstz.js"></script>
+	<script src="../js/timezone-detect-jstz.js"></script>
 	<script>
 		$( document ).ready( function () {
 			var tzInfo = jstz.determine();
@@ -445,7 +441,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 			// update tz on form
 			$('input[name=inf_custom_Timezone0]').val(tz);
     		
-			$.get('./ajax/available-dates/?tz='+tz,
+			$.get('../ajax/available-dates/?tz='+tz,
 				 	function(options){
 						$('.time-select').html(options);
 					}
@@ -458,7 +454,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 
 
 
-	<script src="./js/viewportchecker.js"></script>
+	<script src="../js/viewportchecker.js"></script>
 <script>
 
 // Now to add the functions once viewport is active

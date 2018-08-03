@@ -195,7 +195,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 					<h2 class="text-center blue">Plus 3 Special Bonus Gifts…</h2>
 					
 					<div class="p-stack">
-						<h3><span class="blue">BONUS #1 -</span> Six Monthly Coaching Calls with Lisa</h3>
+						<h3><span class="blue">BONUS #1 -</span> Six Monthly Coaching Calls with an MTM Master Facilitator</h3>
 						<h4>$2,200 Value</h4>
 						<p dir="ltr">Yes that’s right I said 6, hour long monthly coaching calls on ZOOM with a MTM master facilitator. Each month you’ll have the opportunity to join my team LIVE via ZOOM for an exclusive group coaching call to ask any questions you may have about your transformational journey.</p>
 					</div>
@@ -860,7 +860,7 @@ Yes, Lisa! I’m ready to begin living my abundant life right now – without wa
 								<?php
 								if($bonuses){
 								?>
-								<li>BONUS #1 - Six Monthly Coaching Calls with Lisa <span class="val">$2,200 Value </span>
+								<li>BONUS #1 - Six Monthly Coaching Calls with an MTM Master Facilitator <span class="val">$2,200 Value </span>
 								</li>
 								<li>BONUS #2 - A private FB group <span class="val">$597 Value </span>
 								</li>

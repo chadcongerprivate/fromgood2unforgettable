@@ -91,11 +91,11 @@ include($includePath.'tracking-code.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2 class="text-center blue">Do you want more from life?</h2>
 					<div class="row">
 						<div class="col-md-3">
-					<img class="img-responsive" src="./images/registration/lisa-pointing.jpg" alt=""></div>
-						<div class="col-md-9">	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
+					<img class="img-responsive" style="margin: 0px auto" src="./images/lisa-stripe-trans.png" alt=""></div>
+						<div class="col-md-9">
+					<h2 class="blue">Do you want more from life?</h2>	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
 					<p dir="ltr">It can all be yours … anything you dream of and desire. </p>
 					<p dir="ltr">In fact, it&rsquo;s meant to be yours. Abundance in all areas of life is your birthright.</p>
 					<p dir="ltr">Yet most people grow up and still live with scarcity- and fear-based mindsets. They&rsquo;ve lost their connection to their natural state of abundance. </p>

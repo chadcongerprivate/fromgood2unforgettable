@@ -13,8 +13,8 @@ $videoType         = 'vimeo'; // youTube, vimeo or html5
 $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
-$videoId             = '276103536';//'220867396'; // youTube or vimeo video id, leave blank if using html5
-$videoIdReplay       = '276103536'; //'244923795';
+$videoId             = '280228433';//'220867396'; // youTube or vimeo video id, leave blank if using html5
+$videoIdReplay       = '280982095'; //'244923795';
 $videoIdSummary      = '209415407';
 $preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
 $eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
@@ -66,17 +66,17 @@ if(!isset($dateOverride)){
 $earliestDate      = false; // false (no earliest date), Use text to describe (Examples 'tomorrow 12:00am', '+3 days 12:00am')
 $maxDates          = 3;
 $excludeDates      = array('12-25'); // format MM-DD (Christmas Example: 12-25)
-$earliestTime      = '11:00am'; // earliest time to play intervals (15min, 30min, hour)
-$lastestTime       = '10:00pm'; // latest time to play intervals (15min, 30min, hour)
+$earliestTime      = '8:00am'; // earliest time to play intervals (15min, 30min, hour)
+$lastestTime       = '9:00pm'; // latest time to play intervals (15min, 30min, hour)
 $playDates         = array(
 					 array(), // leave blank
-					 array('6:00pm'), // Monday
-					 array('6:00pm'), // Tuesday
-					 array('6:00pm'), // Wednesday
-					 array('6:00pm'), // Thursday
-					 array('3:00pm'), // Friday
-					 array('9:00am'), // Saturday
-					 array('9:00am') // Sunday
+					 array('15min','6:00pm'), // Monday
+					 array('15min','6:00pm'), // Tuesday
+					 array('15min','6:00pm'), // Wednesday
+					 array('15min','6:00pm'), // Thursday
+					 array('15min','3:00pm'), // Friday
+					 array('15min','9:00am'), // Saturday
+					 array('15min','9:00am') // Sunday
 );
 }
 // showing/hiding elements on event page (seconds in video, css selector, showing, description of event for testing simulator), tagId if showed/showing
