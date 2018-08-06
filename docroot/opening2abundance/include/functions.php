@@ -73,6 +73,7 @@ function getAvailableDates(){
 	global $lastestTime;
 	global $excludeDates;
 	global $earliestDate;
+	global $intervalOnlyToday;
 	
 	if($earliestDate){
 		$compareDate = strtotime('Today '.$earliestDate, $now);
@@ -83,6 +84,7 @@ function getAvailableDates(){
 	$earliestUnix = strtotime('Today '.$earliestTime, $compareDate);
 	$lastestUnix  = strtotime('Today '.$lastestTime, $compareDate);
 	$cuttoff      = $now + $secTilCutOffReg;
+	$dayOfWeek    = date('N', $now);
 	
 	$daysOfWeek = array(
 		1 => 'Monday',
@@ -138,7 +140,10 @@ function getAvailableDates(){
 					$unixDate      = strtotime($textDay.' '.$time, $compareDate);
 					
 					if($unixDate > $cuttoff){
-						$availableDates[] = $unixDate;
+						// date won't get added if only using intervals today and day is today
+						if($intervalOnlyToday AND $dayOfWeek != $day){
+							$availableDates[] = $unixDate;
+						}
 					}
 				break;
 			}
