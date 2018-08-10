@@ -48,7 +48,7 @@ include($includePath.'tracking-code.php');
 
 
 	<!-- Start Section -->
-	<header class="header2">
+	<header class="header2 hidden">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -63,20 +63,63 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="hero2">
+	<div class="section" id="hero3">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
 					<div id="infoBox" class="text-center">
-						<p class="text-capitalize">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
-						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
-						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
-					
-						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
+					<img src="../images/Abundance-title.png" class="img-responsive img-responsive-center">
+						<p class="with-lisa">with Lisa Nichols</p>
+						<p class="ready-to">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
+						<h1 class="blue-heading">Discover a 3-Step Process for Shifting to an Abundance Mindset <br>
+						– and Creating True Wealth in All Areas of Your Life</h1>
+						
+						
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+						<p class="join-lisa">Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
+							</div>
 						</div>
-						<p>Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
-						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								
+						<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
+						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
+						<h2 class="sign-up">Sign Up Now</h2>
+						<div class="form-group form-group-lg">
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+								<option value="">Select a time...</option>
+								<?php
+								foreach ( $availableDates as $unix ) {
+									$text = date( 'l, F jS \a\t g:ia', $unix );
+									$tzAbr = date('T', $unix);
+									
+									echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';
+									
+								}
+								?>
+							</select>
+							<div class="help-block with-errors"></div>
+
+						</div>
+
+						<div class="form-group form-group-lg">
+							<input name="inf_field_FirstName" type="text" class="form-control" id="inf_field_FirstName" placeholder="Enter Your First Name Here..." data-error="First name is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="form-group form-group-lg">
+							<input name="inf_field_Email" type="email" class="form-control" id="inf_field_Email" placeholder="Enter Your Email Address Here..." data-error="Valid email is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<button class="btn btn-block btn-register">Yes! Reserve My Spot in This Free Event!</button>
+					</form>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">

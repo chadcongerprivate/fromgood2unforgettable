@@ -2,6 +2,93 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,500,700');
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+
+
+#hero3{
+	/* padding-top: 140px; */
+	padding-top: 40px;
+	background-image: url(./images/lisa-blue3-cropped.jpg);
+	background-size: cover;
+	background-position: right top;
+	padding-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+#hero3 #infoBox{
+	background: rgba(243,243,215, 1);
+	padding: 30px;
+}
+
+@media (min-width: 992px) {
+	
+	#hero3 #infoBox{
+		background: rgba(243,243,215, .8);
+		padding: 30px;
+	}
+}
+#hero3 .btn-register{
+	text-transform: none;
+	font-size: 18px;
+	line-height: 1.3;
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 0px;
+}
+#hero3 input,#hero3 select{
+	
+	border: 0px;
+	border-radius: 0px;
+}
+/*
+with-lisa
+ready-to
+blue-heading
+join-lisa
+*/
+
+.with-lisa{
+	color: #0040ce;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 22px;
+}
+.ready-to{
+	color: #4e003c;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 20px;
+}
+.blue-heading{
+	color: #0040ce;
+	font-size: 22px;
+	line-height: 1.3;
+	border-top: 1px solid #4e003c;
+	border-bottom: 1px solid #4e003c;
+	padding: 20px 0px;
+	margin-bottom: 15px;
+}
+.join-lisa{
+	color: #4e003c;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.sign-up{
+	color: #ff8606;
+	text-transform: capitalize;
+	font-size: 22px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.img-responsive-center{
+	display: block;
+	margin: 0px auto;
+}
 body,html{
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif; 
@@ -482,7 +569,7 @@ footer a.privacy::hover{
 	padding-bottom: 0px;
 }
 .modal-body{
-	background-image: url(./images/registration/bg.jpg);
+	background-image: url(./images/lisa-stript-hands.jpg);
 	background-size: cover;
 	background-position: center center;
 	color: #FFF !important;
