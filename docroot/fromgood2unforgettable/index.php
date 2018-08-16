@@ -15,6 +15,7 @@ date_default_timezone_set($infTimeZone);
 	<title>
 		<?=$webinarName?>
 	</title>
+<link rel="shortcut icon" href="https://webinars.motivatingthemasses.com/favicon.png">
 
 	<!-- Start Page Description Meta Tags -->
 	<meta name="description" content="<?=$shareDescription?>">
@@ -29,7 +30,7 @@ date_default_timezone_set($infTimeZone);
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./css/animate.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="style.css?v=5" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,7 @@ include($includePath.'tracking-code.php');
 
 
 	<!-- Start Section -->
-	<header>
+	<header class="hidden">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -62,24 +63,70 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="hero">
+	<div class="section" id="hero2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
-					<div id="infoBox" class="black-trans-bg">
-						<h1>
-      			How to Create <em>Impact</em> and <em>Profit</em> as a Professional Speaker With Lisa Nichols </h1>
+				<div class="col-md-10 col-md-offset-1">
+					<img class="img-responsive img-responsive-center" src="./images/registration/banner.png" alt="">
+						<h1>“Give Me 90 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact” </h1>
 					
-						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact”
-						</div>
-						<p>Join Lisa Nichols for This FREE Speaker Training … and Discover How to Soar Past Being a Good Speaker … to Being UNFORGETTABLE!
-						</p>
-						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
-					</div>
+						
+					
+					
+					
 				</div>
-				<div class="col-md-4 hidden-sm hidden-xs">
-					<img class="img-overlap" src="images/registration/lisa-standing.png" alt="Lisa Nichols">
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+					<img class="img-responsive" src="images/registration/lisa-standing.png" alt="Lisa Nichols">
+					
+				</div>
+				<div class="col-md-8"><p class="join-lisa">Join Lisa Nichols for This FREE Speaker Training … and Discover How to Soar Past Being a Good Speaker … to Being UNFORGETTABLE!
+						</p>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/5d2c6b0181e5ce3f6a541f26e3de10ef" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="5d2c6b0181e5ce3f6a541f26e3de10ef" />
+						<input name="inf_form_name" type="hidden" value="Speak For Ultimate &#a;Impact & Profit -  Registration" />
+						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
+						<input class="mergeDate" type="hidden" name="inf_custom_SFUIPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_SFUIPDateTime" value="<?=date('H:i', $availableDates[0])?>">
+						<h2>Register Now</h2>
+						<div class="form-group form-group-lg">
+							<select name="inf_custom_SFUIPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+								<option value="">Select a time...</option>
+								<?php
+								foreach ( $availableDates as $unix ) {
+									$text = date( 'l, F jS \a\t g:ia', $unix );
+									$tzAbr = date('T', $unix);
+									
+									echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';
+									
+								}
+								?>
+							</select>
+							<div class="help-block with-errors"></div>
+
+						</div>
+
+						<div class="form-group form-group-lg">
+							<input name="inf_field_FirstName" type="text" class="form-control" id="inf_field_FirstName" placeholder="Enter Your First Name Here..." data-error="First name is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="form-group form-group-lg">
+							<input name="inf_field_Email" type="email" class="form-control" id="inf_field_Email" placeholder="Enter Your Email Address Here..." data-error="Valid email is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<button class="btn btn-block btn-register">Yes! Reserve my spot in this free event!</button>
+						
+					</form>
+							
+						</div>
+					</div>
+					
+					
 				</div>
 			</div>
 		</div>
