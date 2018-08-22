@@ -30,7 +30,7 @@ date_default_timezone_set($infTimeZone);
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/animate.css" rel="stylesheet">
-	<link href="../style.css?v=5" rel="stylesheet">
+	<link href="../style.css?v=6" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,8 +69,8 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-8">
 					<div id="infoBox" class="text-center">
 					<img src="../images/Abundance-title.png" class="img-responsive img-responsive-center">
-						<p class="with-lisa">with Lisa Nichols</p>
-						<p class="ready-to">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
+						<p class="with-lisa hidden">with Lisa Nichols</p>
+						<p class="ready-to hidden">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
 						<h1 class="blue-heading">Discover a 3-Step Process for Shifting to an Abundance Mindset <br>
 						– and Creating True Wealth in All Areas of Your Life</h1>
 						
@@ -90,7 +90,7 @@ include($includePath.'tracking-code.php');
 						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
 						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
 						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
-						<h2 class="sign-up">Sign Up Now</h2>
+						<h2 class="sign-up">Register Now!</h2>
 						<div class="form-group form-group-lg">
 							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
 								<option value="">Select a time...</option>

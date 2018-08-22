@@ -29,8 +29,8 @@ date_default_timezone_set($infTimeZone);
 
 	<meta name="theme-color" content="#81b15f">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="./css/animate.css" rel="stylesheet">
-	<link href="style.css?v=4" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="style.css?v=6" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +48,7 @@ include($includePath.'tracking-code.php');
 
 
 	<!-- Start Section -->
-	<header>
+	<header class="header2 hidden">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -63,20 +63,63 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="hero">
+	<div class="section" id="hero3">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
 					<div id="infoBox" class="text-center">
-						<p class="text-capitalize text-left">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
-						<h1 class="text-capitalize text-center">Discover a 3-Step Process for Shifting to an Abundance Mindset </h1>
-						<h2 class="text-capitalize text-center white text-500">– and Creating True Wealth in All Areas of Your Life</h2>
-					
-						<div class="dark-grey-bg">
-							“Give Me 90 Minutes – and I'll Show You How I Transformed My Life from Public Assistance for My Family to Leading a Multi-Million Dollar Enterprise”
+					<img src="images/Abundance-title.png" class="img-responsive img-responsive-center">
+						<p class="with-lisa hidden">with Lisa Nichols</p>
+						<p class="ready-to hidden">Ready to Move Beyond Scarcity or “Just Getting By”? </p>
+						<h1 class="blue-heading">Discover a 3-Step Process for Shifting to an Abundance Mindset <br>
+						– and Creating True Wealth in All Areas of Your Life</h1>
+						
+						
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+						<p class="join-lisa">Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
+							</div>
 						</div>
-						<p>Join Lisa Nichols As She Reveals the Foundational Process She Used to Move from Welfare to Wall Street</p>
-						<button class="btn btn-orange btn-orange-lg" data-toggle="modal" data-target="#regModal">Sign Up Now!</button><button class="btn btn-scroll btn-orange btn-orange-lg hidden">Learn More</button>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								
+						<form accept-charset="UTF-8" action="https://wqy87770.infusionsoft.com/app/form/process/0f85e4ed91bfc73c7d2524303e2ff30c" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="0f85e4ed91bfc73c7d2524303e2ff30c" />
+						<input name="inf_form_name" type="hidden" value="Abundant Life OnD -  Registration" />
+						<input name="infusionsoft_version" type="hidden" value="1.68.0.179" />
+						<input class="mergeDate" type="hidden" name="inf_custom_ALPMergeDate" value="<?=date('l, F jS \a\t g:ia', $availableDates[0])?>">
+						<input class="selectedDate" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('m-d-Y', $availableDates[0])?>">
+						<input class="selectedTime" type="hidden" name="inf_custom_ALPDateTime0" value="<?=date('H:i', $availableDates[0])?>">
+						<h2 class="sign-up">Register Now!</h2>
+						<div class="form-group form-group-lg">
+							<select name="inf_custom_ALPUnixDate" class="form-control time-select selectedDateTime" data-error="Date is required." required>
+								<option value="">Select a time...</option>
+								<?php
+								foreach ( $availableDates as $unix ) {
+									$text = date( 'l, F jS \a\t g:ia', $unix );
+									$tzAbr = date('T', $unix);
+									
+									echo '<option data-date="'.date('m-d-Y', $unix).'" data-time="'.date('H:i', $unix).'" value="'.$unix.'">'.$text.' ('.$tzAbr.')</option>';
+									
+								}
+								?>
+							</select>
+							<div class="help-block with-errors"></div>
+
+						</div>
+
+						<div class="form-group form-group-lg">
+							<input name="inf_field_FirstName" type="text" class="form-control" id="inf_field_FirstName" placeholder="Enter Your First Name Here..." data-error="First name is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="form-group form-group-lg">
+							<input name="inf_field_Email" type="email" class="form-control" id="inf_field_Email" placeholder="Enter Your Email Address Here..." data-error="Valid email is required." required>
+							<div class="help-block with-errors"></div>
+						</div>
+						<button class="btn btn-block btn-register">Yes! Reserve My Spot in This Free Event!</button>
+					</form>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
@@ -93,7 +136,7 @@ include($includePath.'tracking-code.php');
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<div class="col-md-3">
-					<img class="img-responsive" style="margin: 0px auto" src="./images/lisa-stripe-trans.png" alt=""></div>
+					<img class="img-responsive" style="margin: 0px auto" src="images/lisa-stripe-trans.png" alt=""></div>
 						<div class="col-md-9">
 					<h2 class="blue">Do you want more from life?</h2>	<p dir="ltr">More money. More love. More adventure. More health. More spiritual connection. More acceptance of yourself.</p>
 					<p dir="ltr">It can all be yours … anything you dream of and desire. </p>
@@ -110,7 +153,7 @@ include($includePath.'tracking-code.php');
 	<!-- End Section -->
 
 	<!-- Start Section -->
-	<div class="section" id="tune-in">
+	<div class="section med-flip" id="tune-in">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 left-col slide-left-on-scroll">
@@ -387,7 +430,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	</script>
 
 	<!-- Form  -->
-	<script src="./js/validator.js"></script>
+	<script src="js/validator.js"></script>
 	<script>
 		$( document ).ready( function () {
 
@@ -433,7 +476,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 	<!-- End Form -->
 	
 	<!-- Timezone Detect -->
-	<script src="./js/timezone-detect-jstz.js"></script>
+	<script src="js/timezone-detect-jstz.js"></script>
 	<script>
 		$( document ).ready( function () {
 			var tzInfo = jstz.determine();
@@ -454,7 +497,7 @@ In this FREE Virtual Training, you’ll learn exactly how to realign, reset and 
 
 
 
-	<script src="./js/viewportchecker.js"></script>
+	<script src="js/viewportchecker.js"></script>
 <script>
 
 // Now to add the functions once viewport is active
