@@ -13,26 +13,21 @@ $videoType         = 'vimeo'; // youTube, vimeo or html5
 $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
-$videoId             = '270147766'; // youTube or vimeo video id, leave blank if using html5
-$videoIdReplay       = '280989910'; //'244923795';
-$videoIdSummary      = '209415407';
+$videoId             = '8b822ef004'; // youTube or vimeo video id, leave blank if using html5
+$videoIdReplay       = 'e9ace6e242'; //'244923795';
 $preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
 $eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
-$ctaVidShow          = 20 * 60; // seconds in video where main CTA should show (set false if you aren't using a main cta)
-$ctaVidShowSummary   = 0; // seconds in video where main CTA should show (set false if you aren't using a main cta)
-$videoLengthHours    = 1;
-$videoLengthMin      = 45;
-$videoLengthSec      = 12; // if this is over even by 1 decimal point, the event will not end
-$calRunTimeMin       = 90; // number of minutes to use as end time for calender
-$summaryLengthHours  = 0;
-$summaryLengthMin    = 56;
-$summaryLengthSec    = 31; // if this is over even by 1 decimal point, the event will not end
+$ctaVidShow          = 38 * 60 + 10; // seconds in video where main CTA should show (set false if you aren't using a main cta)
+$videoLengthHours    = 0;
+$videoLengthMin      = 57;
+$videoLengthSec      = 28; // if this is over even by 1 decimal point, the event will not end
+$calRunTimeMin       = 60; // number of minutes to use as end time for calender
 
 // path information (YOU MUST ALSO SET SOME PATH INFORMATION AT THE TOP OF THE webinar-include.php file)
 $domainName        = 'motivatingthemasses.com';
 $domainPrefix      = 'https://webinars.';
 $ctaLink           = $domainPrefix.$domainName.$path.'order/';
-$dateCookieName    = 'sfuipDate';
+$dateCookieName    = 'suipSummaryDate';
 
 // timezone information
 $defaultTimeZone   = 'America/Los_Angeles'; // find supported timezones here: http://php.net/manual/en/timezones.php
@@ -90,14 +85,13 @@ $visualElements    = array(
 /* event tags (use the line below to create in Infusionsoft)
 Registered,SMS Reminders,Attended,Saw CTA,Clicked CTA
 */
-$groupCategoryId    = 169;
-$tagRegistered      = 4907;
-$tagSMSReminder     = 4909;
-$tagAttended        = 4911;
-$tagAttendedReplay  = 4949;
-$tagAttendedSummary = 4965;
-$tagSawCta          = 4913;
-$tagClickedCta      = 4915;
+$groupCategoryId    = 182;
+$tagRegistered      = 5644;
+$tagSMSReminder     = 5646;
+$tagAttended        = 5648;
+$tagAttendedReplay  = 5654;
+$tagSawCta          = 5650;
+$tagClickedCta      = 5652;
 
 /* timing tags (use the line below to create in Infusionsoft - delete any that you don't want first)
 Stayed 10min,Stayed 15min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 45min,Stayed 50min,Stayed 60min,Stayed 70min,Stayed 80min,Stayed 90min,Stayed 120min,Stayed 180min,Stayed 240min,Stayed 300min,Stayed 360min,Stayed 420min,Stayed 480min
@@ -106,36 +100,28 @@ Stayed 10min,Stayed 15min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 45min,St
 Stayed 10min,Stayed 20min,Stayed 30min,Stayed 40min,Stayed 50min,Stayed 60min,Stayed 70min,Stayed 80min,Stayed 90min,Stayed 100min,Stayed 120min,Stayed 180min,Stayed 240min,Stayed 300min,Stayed 360min,Stayed 420min,Stayed 480min
 */
 $tagsTiming        = array( // minutes stayed => tagId
-						10   => 4917,
-						20   => 4919,
-						30   => 4921,
-						40   => 4923,
-						50   => 4925,
-						60   => 4927,
-						70   => 4929,
-						80   => 4931,
-						90   => 4933,
-						100  => 4935,
-						110  => 4937,
+						10   => 5656,
+						20   => 5658,
+						30   => 5660,
+						40   => 5662,
+						50   => 5664,
+						60   => 5666,
+						70   => 5668,
+						80   => 5670,
+						90   => 5672,
+						100  => 5674,
+						110  => 5676,
 						);
 $tagsTimingReplay  = array( // minutes stayed => tagId
-						15   => 4951,
-						30   => 4953,
-						45   => 4955,
-						60   => 4957,
-						75   => 4959,
-						90   => 4961,
-						105  => 4963,
+						15   => 5678,
+						30   => 5680,
+						45   => 5682,
+						60   => 5684,
+						75   => 5686,
+						90   => 5688,
+						105  => 5690,
 						);
-$tagsTimingSummary = array( // minutes stayed => tagId
-						15   => 4967,
-						30   => 4969,
-						45   => 4971,
-						60   => 4973,
-						75   => 4975,
-						90   => 4977,
-						105  => 4979,
-						);
+
 // segment tags (tag based on which sements they saw the begining of)
 $tagsSegments     = array( // seconds in video => tagId
 						//15  => 5
