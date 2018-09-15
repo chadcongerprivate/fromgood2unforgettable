@@ -14,7 +14,7 @@ $videoLinksHTML    = array( // paths to videos for html embed
 						//array('https://d2s041pl4mm20g.cloudfront.net/WebbyNoCarlCompressed.mp4', 'video/mp4') // path, type https://www.pathToVideo.com/video.mp4
 					); 
 $videoId             = '8b822ef004'; // youTube or vimeo video id, leave blank if using html5
-$videoIdReplay       = 'e9ace6e242'; //'244923795';
+$videoIdReplay       = '290041740'; //'244923795';
 $preRollVidStart     = 0; // seconds in video where pre-roll should start (IF THERE IS NO PRE-ROLL THIS SHOULD MATCH $eventVidStart below)
 $eventVidStart       = 0; // seconds in video where event starts (where it should be at the start time)
 $ctaVidShow          = 38 * 60 + 10; // seconds in video where main CTA should show (set false if you aren't using a main cta)
