@@ -48,7 +48,7 @@ $timeTags          = array( // this is required only if using date above (this i
 
 // event information
 $webinarName       = 'From Good To Unforgettable';
-$autoChat          = true;
+$autoChat          = false;
 $shareTitle        = 'Speak For Ultimate Impact & Profit';
 $shareImage        = $domainPrefix.$domainName.$path.'images/share.jpg';
 $shareDescription  = 'How to Create Impact and Profit as a Professional Speaker With Lisa Nichols';
