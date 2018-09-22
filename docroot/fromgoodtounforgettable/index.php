@@ -68,7 +68,7 @@ include($includePath.'tracking-code.php');
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<img class="img-responsive img-responsive-center" src="./images/registration/banner.png" alt="">
-						<h1>“Give Me 90 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact” </h1>
+						<h1>“Give Me 60 Minutes – and I’ll Give You My Time-Proven Secrets, Processes and Scripts for Getting Booked, Getting Paid – and Creating a Massive Impact” </h1>
 					
 						
 					
