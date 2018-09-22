@@ -137,6 +137,15 @@ autoChatUrl = '<?=$autoChatUrl?>';
 <script src="../js/auto-chat.js"></script>
 <!-- End Auto Chat Functions -->
 <?php
+}else{ // add blank stretchChat funtion to call on page resize
+?>
+<script>
+function stretchChat(){
+	return true;
+}
+</script>
+
+<?php
 }
 ?>
 
